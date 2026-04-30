@@ -50,7 +50,8 @@
       "artifactFormat": "zip",
       "artifactSizeBytes": 1045501058,
       "manifestUrl": "./packs/enginarchy/manifest.json",
-      "iconUrl": null,
+      "iconUrl": "./packs/enginarchy/icon.png",
+      "logoUrl": "./packs/enginarchy/logo.png",
       "heroImageUrl": "./packs/enginarchy/hero.png",
       "featured": false
     }
