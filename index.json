@@ -52,6 +52,7 @@
       "manifestUrl": "./packs/enginarchy/manifest.json",
       "iconUrl": "./packs/enginarchy/icon.png",
       "logoUrl": "./packs/enginarchy/logo.png",
+      "thumbnailUrl": "./packs/enginarchy/hero-thumbnail.png",
       "heroImageUrl": "./packs/enginarchy/hero.png",
       "featured": false
     }
