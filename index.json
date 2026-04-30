@@ -3,23 +3,6 @@
   "updatedAt": "2026-04-30T00:00:00.000Z",
   "packs": [
     {
-      "id": "vanilla-plus",
-      "slug": "vanilla-plus",
-      "title": "Vanilla Plus",
-      "summary": "Лёгкая дружеская сборка с улучшениями качества жизни.",
-      "minecraftVersion": "1.20.1",
-      "loaderType": "forge",
-      "loaderVersion": "47.4.0",
-      "latestReleaseId": "vp-1.0.0",
-      "releaseVersion": "1.0.0",
-      "releaseChannel": "stable",
-      "artifactFormat": "manifest-files",
-      "manifestUrl": "./packs/vanilla-plus/manifest.json",
-      "iconUrl": "./packs/vanilla-plus/icon.png",
-      "heroImageUrl": "./packs/vanilla-plus/hero.png",
-      "featured": true
-    },
-    {
       "id": "industrial-era",
       "slug": "industrial-era",
       "title": "NeoForge Clean",
