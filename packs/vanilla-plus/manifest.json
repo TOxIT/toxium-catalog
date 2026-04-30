@@ -1,97 +1,97 @@
 {
-"schemaVersion": 1,
-"pack": {
-"id": "vanilla-plus",
-"slug": "vanilla-plus",
-"title": "Vanilla Plus"
-},
-"release": {
-"id": "vp-1.0.0",
-"version": "1.0.0",
-"publishedAt": "2026-04-08T18:00:00.000Z"
-},
-"distribution": {
-"channel": "stable",
-"format": "manifest-files",
-"requiresLauncherVersion": ">=0.1.0"
-},
-"minecraft": {
-"version": "1.20.1"
-},
-"loader": {
-"type": "forge",
-"version": "47.4.0"
-},
-"java": {
-"majorVersion": 17,
-"runtimeKey": "temurin-17-windows-x64"
-},
-"loaderPreparation": {
-"strategy": "custom-metadata-pipeline",
-"versionJsonPath": "metadata/forge-1.20.1-47.4.0/version.json",
-"mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
-"argumentsProfile": "forge-1.20.1"
-},
-"launchPreparation": {
-"metadataFiles": [
-"metadata/forge-1.20.1-47.4.0/version.json"
-],
-"librariesDir": "libraries",
-"assetsDir": "assets",
-"javaExecutable": "java",
-"recommendedJvmArgs": [
-"-Xms1G",
-"-Xmx4G"
-],
-"recommendedGameArgs": [
-"--version",
-"forge-1.20.1-47.4.0"
-]
-},
-"preserveRules": {
-"paths": [
-"saves/**",
-"screenshots/**",
-"logs/**",
-"crash-reports/**",
-"options.txt",
-"servers.dat",
-"optionsof.txt"
-]
-},
-"deleteRules": {
-"removeManagedFilesMissingInManifest": true
-},
-"features": {
-"offlineAllowed": true,
-"skinIntegration": {
-"provider": "ely-by",
-"authProvider": "ely-by",
-"mode": "optional",
-"requiresAuthlibInjector": true
-}
-},
-"files": [
-{
-"path": "mods/placeholder-qol-mod.jar",
-"category": "managed",
-"required": true
-},
-{
-"path": "config/placeholder-client.toml",
-"category": "managed",
-"required": true
-},
-{
-"path": "resourcepacks/README.txt",
-"category": "user-preserved",
-"required": false
-},
-{
-"path": "forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar",
-"category": "runtime-ref",
-"required": true,
-"downloadUrl": "[https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar)"
-}
-]
+  "schemaVersion": 1,
+  "pack": {
+    "id": "vanilla-plus",
+    "slug": "vanilla-plus",
+    "title": "Vanilla Plus"
+  },
+  "release": {
+    "id": "vp-1.0.0",
+    "version": "1.0.0",
+    "publishedAt": "2026-04-08T18:00:00.000Z"
+  },
+  "distribution": {
+    "channel": "stable",
+    "format": "manifest-files",
+    "requiresLauncherVersion": ">=0.1.0"
+  },
+  "minecraft": {
+    "version": "1.20.1"
+  },
+  "loader": {
+    "type": "forge",
+    "version": "47.4.0"
+  },
+  "java": {
+    "majorVersion": 17,
+    "runtimeKey": "temurin-17-windows-x64"
+  },
+  "loaderPreparation": {
+    "strategy": "custom-metadata-pipeline",
+    "versionJsonPath": "metadata/forge-1.20.1-47.4.0/version.json",
+    "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+    "argumentsProfile": "forge-1.20.1"
+  },
+  "launchPreparation": {
+    "metadataFiles": [
+      "metadata/forge-1.20.1-47.4.0/version.json"
+    ],
+    "librariesDir": "libraries",
+    "assetsDir": "assets",
+    "javaExecutable": "java",
+    "recommendedJvmArgs": [
+      "-Xms1G",
+      "-Xmx4G"
+    ],
+    "recommendedGameArgs": [
+      "--version",
+      "forge-1.20.1-47.4.0"
+    ]
+  },
+  "preserveRules": {
+    "paths": [
+      "saves/**",
+      "screenshots/**",
+      "logs/**",
+      "crash-reports/**",
+      "options.txt",
+      "servers.dat",
+      "optionsof.txt"
+    ]
+  },
+  "deleteRules": {
+    "removeManagedFilesMissingInManifest": true
+  },
+  "features": {
+    "offlineAllowed": true,
+    "skinIntegration": {
+      "provider": "ely-by",
+      "authProvider": "ely-by",
+      "mode": "optional",
+      "requiresAuthlibInjector": true
+    }
+  },
+  "files": [
+    {
+      "path": "mods/placeholder-qol-mod.jar",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/placeholder-client.toml",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "resourcepacks/README.txt",
+      "category": "user-preserved",
+      "required": false
+    },
+    {
+      "path": "forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar",
+      "category": "runtime-ref",
+      "required": true,
+      "downloadUrl": "[https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar)"
+    }
+  ]
 }

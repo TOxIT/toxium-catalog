@@ -1,82 +1,82 @@
 {
-"schemaVersion": 1,
-"pack": {
-"id": "industrial-era",
-"slug": "industrial-era",
-"title": "NeoForge Clean"
-},
-"release": {
-"id": "ie-1.0.0",
-"version": "1.0.0",
-"publishedAt": "2026-04-08T18:30:00.000Z"
-},
-"distribution": {
-"channel": "stable",
-"format": "manifest-files",
-"requiresLauncherVersion": ">=0.1.0"
-},
-"minecraft": {
-"version": "1.21.1"
-},
-"loader": {
-"type": "neoforge",
-"version": "21.1.225"
-},
-"java": {
-"majorVersion": 21,
-"runtimeKey": "temurin-21-windows-x64"
-},
-"loaderPreparation": {
-"strategy": "installer-client",
-"versionJsonPath": "versions/neoforge-21.1.225/neoforge-21.1.225.json",
-"mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
-"argumentsProfile": "neoforge-21.1.225"
-},
-"launchPreparation": {
-"metadataFiles": [
-"versions/neoforge-21.1.225/neoforge-21.1.225.json"
-],
-"librariesDir": "libraries",
-"assetsDir": "assets",
-"javaExecutable": "java",
-"recommendedJvmArgs": [
-"-Xms1G",
-"-Xmx4G"
-],
-"recommendedGameArgs": [
-"--version",
-"neoforge-21.1.225"
-]
-},
-"preserveRules": {
-"paths": [
-"saves/**",
-"screenshots/**",
-"logs/**",
-"crash-reports/**",
-"options.txt",
-"servers.dat",
-"optionsof.txt"
-]
-},
-"deleteRules": {
-"removeManagedFilesMissingInManifest": true
-},
-"features": {
-"offlineAllowed": true,
-"skinIntegration": {
-"provider": "ely-by",
-"authProvider": "ely-by",
-"mode": "optional",
-"requiresAuthlibInjector": true
-}
-},
-"files": [
-{
-"path": "neoforge/21.1.225/neoforge-21.1.225-installer.jar",
-"category": "runtime-ref",
-"required": true,
-"downloadUrl": "[https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.225/neoforge-21.1.225-installer.jar](https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.225/neoforge-21.1.225-installer.jar)"
-}
-]
+  "schemaVersion": 1,
+  "pack": {
+    "id": "industrial-era",
+    "slug": "industrial-era",
+    "title": "NeoForge Clean"
+  },
+  "release": {
+    "id": "ie-1.0.0",
+    "version": "1.0.0",
+    "publishedAt": "2026-04-08T18:30:00.000Z"
+  },
+  "distribution": {
+    "channel": "stable",
+    "format": "manifest-files",
+    "requiresLauncherVersion": ">=0.1.0"
+  },
+  "minecraft": {
+    "version": "1.21.1"
+  },
+  "loader": {
+    "type": "neoforge",
+    "version": "21.1.225"
+  },
+  "java": {
+    "majorVersion": 21,
+    "runtimeKey": "temurin-21-windows-x64"
+  },
+  "loaderPreparation": {
+    "strategy": "installer-client",
+    "versionJsonPath": "versions/neoforge-21.1.225/neoforge-21.1.225.json",
+    "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+    "argumentsProfile": "neoforge-21.1.225"
+  },
+  "launchPreparation": {
+    "metadataFiles": [
+      "versions/neoforge-21.1.225/neoforge-21.1.225.json"
+    ],
+    "librariesDir": "libraries",
+    "assetsDir": "assets",
+    "javaExecutable": "java",
+    "recommendedJvmArgs": [
+      "-Xms1G",
+      "-Xmx4G"
+    ],
+    "recommendedGameArgs": [
+      "--version",
+      "neoforge-21.1.225"
+    ]
+  },
+  "preserveRules": {
+    "paths": [
+      "saves/**",
+      "screenshots/**",
+      "logs/**",
+      "crash-reports/**",
+      "options.txt",
+      "servers.dat",
+      "optionsof.txt"
+    ]
+  },
+  "deleteRules": {
+    "removeManagedFilesMissingInManifest": true
+  },
+  "features": {
+    "offlineAllowed": true,
+    "skinIntegration": {
+      "provider": "ely-by",
+      "authProvider": "ely-by",
+      "mode": "optional",
+      "requiresAuthlibInjector": true
+    }
+  },
+  "files": [
+    {
+      "path": "neoforge/21.1.225/neoforge-21.1.225-installer.jar",
+      "category": "runtime-ref",
+      "required": true,
+      "downloadUrl": "[https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.225/neoforge-21.1.225-installer.jar](https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.225/neoforge-21.1.225-installer.jar)"
+    }
+  ]
 }
