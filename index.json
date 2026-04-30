@@ -1,0 +1,40 @@
+{
+"schemaVersion": 1,
+"updatedAt": "2026-04-30T00:00:00.000Z",
+"packs": [
+{
+"id": "vanilla-plus",
+"slug": "vanilla-plus",
+"title": "Vanilla Plus",
+"summary": "Лёгкая дружеская сборка с улучшениями качества жизни.",
+"minecraftVersion": "1.20.1",
+"loaderType": "forge",
+"loaderVersion": "47.4.0",
+"latestReleaseId": "vp-1.0.0",
+"releaseVersion": "1.0.0",
+"releaseChannel": "stable",
+"artifactFormat": "manifest-files",
+"manifestUrl": "./packs/vanilla-plus/manifest.json",
+"iconUrl": "./packs/vanilla-plus/icon.png",
+"heroImageUrl": "./packs/vanilla-plus/hero.png",
+"featured": true
+},
+{
+"id": "industrial-era",
+"slug": "industrial-era",
+"title": "NeoForge Clean",
+"summary": "Чистый Minecraft 1.21.1 через NeoForge без модов для проверки запуска.",
+"minecraftVersion": "1.21.1",
+"loaderType": "neoforge",
+"loaderVersion": "21.1.225",
+"latestReleaseId": "ie-1.0.0",
+"releaseVersion": "1.0.0",
+"releaseChannel": "stable",
+"artifactFormat": "manifest-files",
+"manifestUrl": "./packs/industrial-era/manifest.json",
+"iconUrl": "./packs/industrial-era/icon.png",
+"heroImageUrl": "./packs/industrial-era/hero.png",
+"featured": false
+}
+]
+}
