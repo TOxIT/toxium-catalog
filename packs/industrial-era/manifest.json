@@ -76,7 +76,7 @@
       "path": "neoforge/21.1.225/neoforge-21.1.225-installer.jar",
       "category": "runtime-ref",
       "required": true,
-      "downloadUrl": "[https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.225/neoforge-21.1.225-installer.jar](https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.225/neoforge-21.1.225-installer.jar)"
+      "downloadUrl": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.225/neoforge-21.1.225-installer.jar"
     }
   ]
 }
