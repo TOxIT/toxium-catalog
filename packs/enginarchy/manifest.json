@@ -8,14 +8,14 @@
   "release": {
     "id": "eng-1.0.0",
     "version": "1.0.0",
-    "publishedAt": "2026-04-30T11:30:26.632Z"
+    "publishedAt": "2026-04-30T16:08:15.933Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
       "fileName": "enginarchy-1.0.0.zip",
-      "url": "https://github.com/toxit/minecraftlauncher-packs/releases/download/enginarchy-v1.0.0/enginarchy-1.0.0.zip",
+      "url": "https://github.com/toxit/toxium-packs/releases/download/enginarchy-v1.0.0/enginarchy-1.0.0.zip",
       "sha256": "3df17965eab50f147f401abef95d478d258ebafeefdcf7dff50b4b986dfb8cd1",
       "sizeBytes": 1045501058
     },
