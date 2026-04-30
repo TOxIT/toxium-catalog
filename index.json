@@ -15,8 +15,8 @@
       "releaseChannel": "stable",
       "artifactFormat": "manifest-files",
       "manifestUrl": "./packs/vanilla-plus/manifest.json",
-      "iconUrl": "./packs/vanilla-plus/icon.png",
-      "heroImageUrl": "./packs/vanilla-plus/hero.png",
+      "iconUrl": null,
+      "heroImageUrl": null,
       "featured": true
     },
     {
@@ -32,7 +32,7 @@
       "releaseChannel": "stable",
       "artifactFormat": "manifest-files",
       "manifestUrl": "./packs/industrial-era/manifest.json",
-      "iconUrl": "./packs/industrial-era/icon.png",
+      "iconUrl": null,
       "heroImageUrl": "./packs/industrial-era/hero.png",
       "featured": false
     },
@@ -50,7 +50,7 @@
       "artifactFormat": "zip",
       "artifactSizeBytes": 1045501058,
       "manifestUrl": "./packs/enginarchy/manifest.json",
-      "iconUrl": "./packs/enginarchy/icon.png",
+      "iconUrl": null,
       "heroImageUrl": "./packs/enginarchy/hero.png",
       "featured": false
     }
