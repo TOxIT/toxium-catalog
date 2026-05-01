@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-30T16:08:15.933Z",
+  "updatedAt": "2026-05-01T22:19:47.309Z",
   "packs": [
     {
       "id": "vanilla-plus",
@@ -54,6 +54,24 @@
       "logoUrl": "./packs/enginarchy/logo.png",
       "thumbnailUrl": "./packs/enginarchy/hero-thumbnail.png",
       "heroImageUrl": "./packs/enginarchy/hero.png",
+      "featured": false
+    },
+    {
+      "id": "create-tech-test",
+      "slug": "create-tech-test",
+      "title": "create-tech-test",
+      "summary": "create-tech-test",
+      "minecraftVersion": "1.21.1",
+      "loaderType": "neoforge",
+      "loaderVersion": "21.1.228",
+      "latestReleaseId": "create-tech-test-0.0.1",
+      "releaseVersion": "0.0.1",
+      "releaseChannel": "stable",
+      "artifactFormat": "zip",
+      "artifactSizeBytes": 740613128,
+      "manifestUrl": "./packs/create-tech-test/manifest.json",
+      "iconUrl": "./packs/create-tech-test/icon.png",
+      "heroImageUrl": "./packs/create-tech-test/hero.png",
       "featured": false
     }
   ]
