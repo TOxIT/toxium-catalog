@@ -6,18 +6,18 @@
     "title": "Vanilla Vibe"
   },
   "release": {
-    "id": "vanilla-vibe-0.0.1",
-    "version": "0.0.1",
-    "publishedAt": "2026-05-03T09:37:30.329Z"
+    "id": "vanilla-vibe-0.0.2",
+    "version": "0.0.2",
+    "publishedAt": "2026-05-03T10:15:52.746Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "vanilla-vibe-0.0.1.zip",
-      "url": "https://github.com/toxit/toxium-packs/releases/download/vanilla-vibe-v0.0.1/vanilla-vibe-0.0.1.zip",
-      "sha256": "62d17688e231be8dd06b980ba0924a45c490f524c93cfe6d65a73630d9c31286",
-      "sizeBytes": 361986562
+      "fileName": "vanilla-vibe-0.0.2.zip",
+      "url": "https://github.com/toxit/toxium-packs/releases/download/vanilla-vibe-v0.0.2/vanilla-vibe-0.0.2.zip",
+      "sha256": "476d50246a694d72d5ccb627661d516d43f52d07d56bdc26f962004e69d6b8a6",
+      "sizeBytes": 361989886
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
@@ -4506,6 +4506,13 @@
       "path": "mods/zfastnoise-1.0.29+1.21.11.jar",
       "size": 455559,
       "sha256": "1fa5becd9fd32b487768f47f92057057554c77697bbc620f97d0462cd48521fc",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "options.txt",
+      "size": 9557,
+      "sha256": "24020cd4a17517a7e12afd6afc3684f0a627c5cf3c5e4d4dcb01d22bc54b0431",
       "category": "managed",
       "required": true
     },
