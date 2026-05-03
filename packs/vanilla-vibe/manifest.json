@@ -6,16 +6,16 @@
     "title": "Vanilla Vibe"
   },
   "release": {
-    "id": "vanilla-vibe-0.0.2",
-    "version": "0.0.2",
-    "publishedAt": "2026-05-03T10:15:52.746Z"
+    "id": "vanilla-vibe-0.0.1",
+    "version": "0.0.1",
+    "publishedAt": "2026-05-03T10:26:12.411Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "vanilla-vibe-0.0.2.zip",
-      "url": "https://github.com/toxit/toxium-packs/releases/download/vanilla-vibe-v0.0.2/vanilla-vibe-0.0.2.zip",
+      "fileName": "vanilla-vibe-0.0.1.zip",
+      "url": "https://github.com/toxit/toxium-packs/releases/download/vanilla-vibe-v0.0.1/vanilla-vibe-0.0.1.zip",
       "sha256": "476d50246a694d72d5ccb627661d516d43f52d07d56bdc26f962004e69d6b8a6",
       "sizeBytes": 361989886
     },
