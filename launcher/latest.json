@@ -1,7 +1,7 @@
 {
-  "version": "0.1.2",
-  "title": "Toxium Launcher 0.1.2",
-  "notes": "TEST",
+  "version": "0.1.3",
+  "title": "Toxium Launcher 0.1.3",
+  "notes": "Улучшенная версия updater",
   "publishedAt": "2026-05-03T00:00:00.000Z",
   "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest",
   "required": false,
