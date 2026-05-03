@@ -1,28 +1,28 @@
 {
-  "version": "0.1.0",
-  "title": "Toxium Launcher 0.1.0",
-  "notes": "Первая публичная версия лаунчера.",
+  "version": "0.1.1",
+  "title": "Toxium Launcher 0.1.1",
+  "notes": "Публичная версия лаунчера.",
   "publishedAt": "2026-05-03T00:00:00.000Z",
-  "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest",
-  "required": false,
+  "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.1",
+  "required": true,
   "platforms": {
     "windows-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.1"
     },
     "windows-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.1"
     },
     "macos-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.1"
     },
     "macos-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.1"
     },
     "linux-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.1"
     },
     "linux-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.1"
     }
   }
 }
