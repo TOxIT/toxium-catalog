@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "pack": {
+    "id": "new-for-delete",
+    "slug": "new-for-delete",
+    "title": "new-for-delete"
+  },
+  "release": {
+    "id": "new-for-delete-0.0.2",
+    "version": "0.0.2",
+    "publishedAt": "2026-05-02T23:53:35.010Z"
+  },
+  "distribution": {
+    "channel": "stable",
+    "format": "zip",
+    "artifact": {
+      "fileName": "new-for-delete-0.0.2.zip",
+      "url": "https://github.com/toxit/toxium-packs/releases/download/new-for-delete-v0.0.2/new-for-delete-0.0.2.zip",
+      "sha256": "0e43336c5ee73ddf92d0322fb7151dfb4d40659c5e557a2f9cedb76ac84fe660",
+      "sizeBytes": 4502
+    },
+    "requiresLauncherVersion": ">=0.1.0"
+  },
+  "minecraft": {
+    "version": "1.21.1"
+  },
+  "loader": {
+    "type": "neoforge",
+    "version": "21.1.228"
+  },
+  "java": {
+    "majorVersion": 21,
+    "runtimeKey": "temurin-21-windows-x64"
+  },
+  "loaderPreparation": {
+    "strategy": "installer-client",
+    "versionJsonPath": "versions/neoforge-21.1.228/neoforge-21.1.228.json",
+    "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+    "argumentsProfile": "neoforge-21.1.228"
+  },
+  "launchPreparation": {
+    "metadataFiles": [
+      "versions/neoforge-21.1.228/neoforge-21.1.228.json"
+    ],
+    "librariesDir": "libraries",
+    "assetsDir": "assets",
+    "javaExecutable": "java",
+    "recommendedJvmArgs": [
+      "-Xms1G",
+      "-Xmx4G"
+    ],
+    "recommendedGameArgs": [
+      "--version",
+      "neoforge-21.1.228"
+    ]
+  },
+  "preserveRules": {
+    "paths": [
+      "saves/**",
+      "screenshots/**",
+      "logs/**",
+      "crash-reports/**",
+      "options.txt",
+      "servers.dat",
+      "optionsof.txt"
+    ]
+  },
+  "deleteRules": {
+    "removeManagedFilesMissingInManifest": true
+  },
+  "features": {
+    "offlineAllowed": true,
+    "skinIntegration": {
+      "provider": "ely-by",
+      "authProvider": "ely-by",
+      "mode": "optional",
+      "requiresAuthlibInjector": true
+    }
+  },
+  "files": [
+    {
+      "path": "config/fml.toml",
+      "size": 1550,
+      "sha256": "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/neoforge-client.toml",
+      "size": 578,
+      "sha256": "d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/neoforge-common.toml",
+      "size": 772,
+      "sha256": "fe878a2717a145cd890621eac5b3be1e1fd656f7ff9abc6e8d53f670d37474c4",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "downloads/log.json",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "icon.png",
+      "size": 2441,
+      "sha256": "aba93480387ce59f4f8ec4157ec0c07b3c8243088df535bc9cdd61acd8e869a2",
+      "category": "managed",
+      "required": true
+    }
+  ]
+}
