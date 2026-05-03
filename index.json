@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-03T12:36:18.302Z",
+  "updatedAt": "2026-05-03T12:38:57.303Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -52,7 +52,7 @@
       "manifestUrl": "./packs/aerocratia/manifest.json",
       "iconUrl": null,
       "heroImageUrl": "./packs/aerocratia/hero.png",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "./packs/aerocratia/hero-thumbnail.png",
       "logoUrl": "./packs/aerocratia/logo.png",
       "homeDecorations": {
         "right": {
