@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-03T09:37:30.329Z",
+  "updatedAt": "2026-05-03T10:15:52.746Z",
   "packs": [
     {
       "id": "vanilla-plus",
@@ -133,11 +133,11 @@
       "minecraftVersion": "1.21.11",
       "loaderType": "fabric",
       "loaderVersion": "0.19.1",
-      "latestReleaseId": "vanilla-vibe-0.0.1",
-      "releaseVersion": "0.0.1",
+      "latestReleaseId": "vanilla-vibe-0.0.2",
+      "releaseVersion": "0.0.2",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
-      "artifactSizeBytes": 361986562,
+      "artifactSizeBytes": 361989886,
       "manifestUrl": "./packs/vanilla-vibe/manifest.json",
       "iconUrl": null,
       "heroImageUrl": null,
