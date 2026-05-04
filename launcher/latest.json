@@ -1,7 +1,7 @@
 {
-  "version": "0.1.4",
-  "title": "Toxium Launcher 0.1.4",
-  "notes": "Обновленный вход и обход для загрузчиков",
+  "version": "0.1.5",
+  "title": "Toxium Launcher 0.1.5",
+  "notes": "- Лаунчер теперь сам скачивает нужную Java, если её нет на компьютере.\n- Добавлены резервные источники загрузки для Java, NeoForge, Forge и Fabric.\n- Лаунчер лучше восстанавливает недокачанные библиотеки Minecraft.\n- Уведомления добавлны и стилизованы под Minecraft.\n- Добавлены звуки для уведомлений и некоторых действий.\n- Исправлен процесс авторизации через Ely.by.\n- Исправлены проблемы с кнопками в разделе «Играть».\n- Исправлено наложение нескольких уведомлений друг на друга.\n- После добавления профиля лаунчер автоматически открывает раздел «Играть».\n- Раздел «Список изменений» теперь показывает актуальные обновления динамически.",
   "publishedAt": "2026-05-03T00:00:00.000Z",
   "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest",
   "required": true,
@@ -24,5 +24,73 @@
     "linux-arm64": {
       "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
     }
-  }
+  },
+  "runtimeSources": {
+    "java": {
+      "temurin-21-windows-x64": {
+        "majorVersion": 21,
+        "downloadUrl": "https://api.adoptium.net/v3/binary/latest/21/ga/windows/x64/jre/hotspot/normal/eclipse",
+        "fallbackDownloadUrls": [
+          "https://github.com/adoptium/temurin21-binaries/releases/latest"
+        ]
+      },
+      "temurin-17-windows-x64": {
+        "majorVersion": 17,
+        "downloadUrl": "https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jre/hotspot/normal/eclipse",
+        "fallbackDownloadUrls": [
+          "https://github.com/adoptium/temurin17-binaries/releases/latest"
+        ]
+      },
+      "temurin-8-windows-x64": {
+        "majorVersion": 8,
+        "downloadUrl": "https://api.adoptium.net/v3/binary/latest/8/ga/windows/x64/jre/hotspot/normal/eclipse",
+        "fallbackDownloadUrls": [
+          "https://github.com/adoptium/temurin8-binaries/releases/latest"
+        ]
+      }
+    },
+    "loaders": {
+      "forge": {
+        "mavenUrl": "https://maven.minecraftforge.net",
+        "fallbackMavenUrls": [
+          "https://bmclapi2.bangbang93.com/maven"
+        ]
+      },
+      "neoforge": {
+        "mavenUrl": "https://maven.neoforged.net/releases",
+        "fallbackMavenUrls": [
+          "https://bmclapi2.bangbang93.com/maven",
+          "https://mirror.sjtu.edu.cn/bmclapi"
+        ]
+      },
+      "fabric": {
+        "metadataUrl": "https://meta.fabricmc.net",
+        "mavenUrl": "https://maven.fabricmc.net",
+        "fallbackMetadataUrls": [
+          "https://bmclapi2.bangbang93.com/fabric-meta"
+        ],
+        "fallbackMavenUrls": [
+          "https://bmclapi2.bangbang93.com/maven"
+        ]
+      }
+    }
+  },
+  "releases": [
+    {
+      "version": "0.1.5",
+      "title": "Toxium Launcher 0.1.5",
+      "notes": "- Лаунчер теперь сам скачивает нужную Java, если её нет на компьютере.\n- Добавлены резервные источники загрузки для Java, NeoForge, Forge и Fabric.\n- Лаунчер лучше восстанавливает недокачанные библиотеки Minecraft.\n- Уведомления добавлны и стилизованы под Minecraft.\n- Добавлены звуки для уведомлений и некоторых действий.\n- Исправлен процесс авторизации через Ely.by.\n- Исправлены проблемы с кнопками в разделе «Играть».\n- Исправлено наложение нескольких уведомлений друг на друга.\n- После добавления профиля лаунчер автоматически открывает раздел «Играть».\n- Раздел «Список изменений» теперь показывает актуальные обновления динамически.",
+      "publishedAt": "2026-05-03T00:00:00.000Z",
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest",
+      "required": true
+    },
+    {
+      "version": "0.1.4",
+      "title": "Toxium Launcher 0.1.4",
+      "notes": "Обновленный вход и обход для загрузчиков",
+      "publishedAt": "2026-05-03T00:00:00.000Z",
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest",
+      "required": true
+    }
+  ]
 }
