@@ -6,18 +6,18 @@
     "title": "Vanilla Vibe"
   },
   "release": {
-    "id": "vanilla-vibe-0.0.1",
-    "version": "0.0.1",
-    "publishedAt": "2026-05-03T19:18:46.378Z"
+    "id": "vanilla-vibe-0.0.2",
+    "version": "0.0.2",
+    "publishedAt": "2026-05-04T23:11:27.669Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "vanilla-vibe-0.0.1.zip",
-      "url": "https://github.com/toxit/toxium-packs/releases/download/vanilla-vibe-v0.0.1/vanilla-vibe-0.0.1.zip",
-      "sha256": "476d50246a694d72d5ccb627661d516d43f52d07d56bdc26f962004e69d6b8a6",
-      "sizeBytes": 361989886
+      "fileName": "vanilla-vibe-0.0.2.zip",
+      "url": "https://github.com/toxit/toxium-packs/releases/download/vanilla-vibe-v0.0.2/vanilla-vibe-0.0.2.zip",
+      "sha256": "1b61aef874c28c3db05dbe83eb54057c72e584bca6593096eebac96b1464fd58",
+      "sizeBytes": 362071061
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
@@ -1082,28 +1082,28 @@
     {
       "path": ".mixin.out/class/net/irisshaders/iris/gui/element/ShaderPackOptionList$HeaderEntry.class",
       "size": 34640,
-      "sha256": "d31cbbfedeadedbf3089837982e6b3d1e36fc20bb1f38faae94df521de261d10",
+      "sha256": "3cdce6f76bc403d01992e82c2d6947b2405219a3097eb07b8018a956aadba639",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/net/minecraft/class_1291.class",
       "size": 14939,
-      "sha256": "bfac85e92912aacbd3fe86f6dbdf8b57ff708f04d978a3d36303de9c5348eda2",
+      "sha256": "e03a34a1ffa1422d6d715fa5395abad25a9c6640114ba8e247dba12799a1b5bd",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/net/minecraft/class_310.class",
       "size": 199352,
-      "sha256": "6e1f1e63522ba595d650311dfc45cee37424c486ecd7e6a624c1c0bffa7bb343",
+      "sha256": "084b8777102b5d9a49f48f6860bf45567743b55605415572540623a4dc629702",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/net/minecraft/class_9959.class",
       "size": 47864,
-      "sha256": "3380060414b9edefbc2dd1402fea2a230d43377239cfd6eb8c09ac0a40d254f3",
+      "sha256": "ab870c33e8ce2af7d3482c20b7b740f83168f7e12380cff58ca741a5e07e6d53",
       "category": "managed",
       "required": true
     },
@@ -1249,15 +1249,15 @@
     },
     {
       "path": "command_history.txt",
-      "size": 17,
-      "sha256": "0d22f2e79b19bf861be6719b8c6217993bc1a9aaa855ea83b5558a37a701db5e",
+      "size": 32,
+      "sha256": "37cab497a328b92288b3f30e070bbcaf07be55c6157c6826777e6bdb59383708",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/.puzzle_cache/mojangstudios.png",
-      "size": 9581,
-      "sha256": "27d2a588a33e94aff8cea4ea6090509ab3e10640f980e63dfd317c6b0dcd30df",
+      "size": 90748,
+      "sha256": "6adb7ddc10c618232b43fafe8892df5f9e19aaeecb84b989d1c23d3af71038d0",
       "category": "managed",
       "required": true
     },
@@ -1445,8 +1445,8 @@
     },
     {
       "path": "config/cameraoverhaul.toml",
-      "size": 5421,
-      "sha256": "4c87a4108f3085df5f77fd7402a63ba036d51ec114ef6e306821ce71ddc4887b",
+      "size": 8546,
+      "sha256": "03468af5900344291fd04da6f565440a7b1403e45f34d0ba029afa1d8f60ccac",
       "category": "managed",
       "required": true
     },
@@ -1789,7 +1789,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 290,
-      "sha256": "f865ba6aec3b9c4ac1ba6fab5b359d664a07d1b50183e0ecb21dd9d8475a78a0",
+      "sha256": "67e9e1bc7cd10654fda22e9f040e60eefa6290fb332cac89e7acde0af38bec7b",
       "category": "managed",
       "required": true
     },
@@ -1963,8 +1963,8 @@
     },
     {
       "path": "config/iris.properties",
-      "size": 301,
-      "sha256": "3bf22ef684c08f42f9636385624eeaf4a49941b1d8c611f5d9b78d26481c001b",
+      "size": 308,
+      "sha256": "c86a4fb27eee2af6196fcb74836154a55bfc6aac6211a48365f37f1d8e1c319b",
       "category": "managed",
       "required": true
     },
@@ -2202,7 +2202,7 @@
     {
       "path": "config/packed_packs/preferences.properties",
       "size": 206,
-      "sha256": "b975b61a90ee07276295d62c42c3217ed45a0c0179433da3e7d4d3ca060e67e7",
+      "sha256": "5f930d208dd92e596078d73c6402ba2208e8d434f706ec73a120d094a8077aaf",
       "category": "managed",
       "required": true
     },
@@ -2594,14 +2594,14 @@
     {
       "path": "config/roughlyenoughitems/pinyin_double.properties",
       "size": 73,
-      "sha256": "dde6f24c9be27b55f9f9a2ff33f956f1e3635f56cc73d501e809bccb7ea6741f",
+      "sha256": "b5ce8417b70c4763e659cf7df0902795eb7cb791cedbb1a0632e45cd06512f7c",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/roughlyenoughitems/pinyin.properties",
       "size": 48,
-      "sha256": "bed833244c7cd59cdfa7bee425a3afff5ce7364dae86f0e1ad93e356ec0759c1",
+      "sha256": "a909916020b935f4059d3843cc8b7e2dddd7b207c8197a1ae39cfbf404563f50",
       "category": "managed",
       "required": true
     },
@@ -2615,7 +2615,7 @@
     {
       "path": "config/rsls.properties",
       "size": 130,
-      "sha256": "384985b975d1e7c2b6d6c848d700191161e1755a3232c0e9bd0b5272743258b1",
+      "sha256": "654bf63b11127984144611cdaf9b6a144d3a540e925bb00bfdcfa393eb1cb1fd",
       "category": "managed",
       "required": true
     },
@@ -2691,8 +2691,8 @@
     },
     {
       "path": "config/shouldersurfing-client.toml",
-      "size": 18911,
-      "sha256": "2c44105888e7233e470ce200a53215c622720ce9ce393fcdb496a7df067c196f",
+      "size": 18907,
+      "sha256": "19f59d11966d2574b05d8cd37cab6ddf3a06a224a0695d5435839bcae133b44c",
       "category": "managed",
       "required": true
     },
@@ -3035,7 +3035,7 @@
     {
       "path": "config/vmp.properties",
       "size": 405,
-      "sha256": "36e99c2992b750fffb6d1a481de5299116a05af4adf0c04df8b6634de5072b77",
+      "sha256": "db10ed2c8a7e2583bec23cd605f10f70fc01284afff89ac557de59d672fabde8",
       "category": "managed",
       "required": true
     },
@@ -4511,8 +4511,8 @@
     },
     {
       "path": "options.txt",
-      "size": 9557,
-      "sha256": "24020cd4a17517a7e12afd6afc3684f0a627c5cf3c5e4d4dcb01d22bc54b0431",
+      "size": 9705,
+      "sha256": "6ab4bb0a28e08946046df10afb39205e659e9b511e401f2aba8ac2269ab9896b",
       "category": "managed",
       "required": true
     },
@@ -5163,7 +5163,7 @@
     {
       "path": "shaderpacks/BSLClassic_v10.0.zip.txt",
       "size": 71,
-      "sha256": "bffbb5709707ecbbc1f32303d2ac3659d06deba0d9e1b5c2282f4e7213650d35",
+      "sha256": "56099e710f82e964426c9690a6e5781c53ad628276493c210ebd7cefda9ab1c8",
       "category": "managed",
       "required": true
     },
@@ -9139,7 +9139,7 @@
     {
       "path": "usercache.json",
       "size": 106,
-      "sha256": "f1cfb4cdf0bf0dbccd13c0beb973b00079bf5e0d0bb2fadc24ce9d54fa5b6ca4",
+      "sha256": "291b2399627ed9bfe80cd5fabf7374ba431fb82c6ff396e927779e9280d62eee",
       "category": "managed",
       "required": true
     }
