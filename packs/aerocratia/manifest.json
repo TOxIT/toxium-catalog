@@ -6,18 +6,18 @@
     "title": "Aerocratia"
   },
   "release": {
-    "id": "aerocratia-0.0.1",
-    "version": "0.0.1",
-    "publishedAt": "2026-05-03T12:38:57.303Z"
+    "id": "aerocratia-0.0.2",
+    "version": "0.0.2",
+    "publishedAt": "2026-05-05T10:32:15.239Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "aerocratia-0.0.1.zip",
-      "url": "https://github.com/toxit/toxium-packs/releases/download/aerocratia-v0.0.1/aerocratia-0.0.1.zip",
-      "sha256": "311835300cd855d804e47540febd05357f669b7abb2641cc2a19975599535e39",
-      "sizeBytes": 740616978
+      "fileName": "aerocratia-0.0.2.zip",
+      "url": "https://github.com/toxit/toxium-packs/releases/download/aerocratia-v0.0.2/aerocratia-0.0.2.zip",
+      "sha256": "48582e7b82d02673b8766cf804fb1aaf3d29b0ea5a32caca9f5f087ec6a7ff6f",
+      "sizeBytes": 741523670
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
@@ -81,56 +81,49 @@
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlock.class",
       "size": 54170,
-      "sha256": "2356960597101b6990b67a94e0bdffd67a5523829d9398c45d19fe1652ed99e8",
+      "sha256": "d87680b8271dc334baa7ef6ab35d59c4c2b54ab309374378269c950f225bf224",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlockEntity.class",
       "size": 38304,
-      "sha256": "226e9609e1b599e14a16dc58414d10ade3b23ae9d42d3206e077b059dd2034f1",
+      "sha256": "144a5abb29497ec21665aa36fda630e004163903edc5f6627b2895f1f2fc88ad",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelBlock.class",
       "size": 16129,
-      "sha256": "15e28c4963d868230b33c547847d77fb73f2e62157cf41920ada17995a978850",
+      "sha256": "e8c71e5b792c858fdf6f5b0f92db85984a10910b8b57c3a4defa880f152830b6",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelControllerBlock.class",
       "size": 17958,
-      "sha256": "d1c0fc12eda31665e743e63687b79c8bcf955927aa2453fd797e151a8cbf56b8",
+      "sha256": "4559d0ace4da1247e088a0ed8e7462bc47e384efc2ea4c2f64350c8820737647",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/logistics/factoryBoard/FactoryPanelBehaviour.class",
       "size": 66585,
-      "sha256": "396463ef40da507e532ea56182ee92fc6bed854b658f1fbeac34fdcebdcc1ebe",
+      "sha256": "54e5b66d63c213434d35a76d849f5c8fdbbfc447b3654b388e6acf27971ff80f",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlock.class",
       "size": 24662,
-      "sha256": "6a603714af91f2b795cd06c20a4b5a18a916cb9f2a9110c16b0493b6eedbddad",
+      "sha256": "52ad452d46e010a660fbdd38a389164ab17b4acad510d3c502ad94c21d47b6b8",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlockEntity.class",
       "size": 17982,
-      "sha256": "5c456b94c5247b364e163b1a13e91c5f8649c1f9ec047970081b1d8e7d88ecb8",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": ".mixin.out/class/net/irisshaders/iris/gui/element/ShaderPackOptionList$HeaderEntry.class",
-      "size": 34616,
-      "sha256": "44975a28ba8ce0b73cfbdcf5bac4e5df36c8b076b18201791230603329d7a9d1",
+      "sha256": "531ed5d4b845d7d07a2d2467dd0ccc14307b4074a6a2f671df2228060fae4fe9",
       "category": "managed",
       "required": true
     },
@@ -1572,21 +1565,21 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 290,
-      "sha256": "f66c82669e1afd85e0f654a2260b5ccb387a22f4b05d6c6a5dc9399eea5c7743",
+      "sha256": "01bb7e53a64c9c6482b97daac21e35d901116dd6d49b5c6d5f57db9484d75f40",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/bg.png",
-      "size": 1240201,
-      "sha256": "46f4460e57bdf43ab8e23156c1ed488ab9e95bbd672e890977820b09a2811b98",
+      "size": 1936278,
+      "sha256": "5ee134b9dbb9960b04ef1c03976bc2dcb0380ab940280a451f910819bde88abf",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/bgcp.png",
-      "size": 1036249,
-      "sha256": "b0a25db4048d1f55dd5f2dcf3bc08e5534ade0e175b5bb6527c778d3c385bd12",
+      "size": 1233967,
+      "sha256": "67af281f15800b398b2adfe49796e3e51db93df8a384281a70913d26d9d60401",
       "category": "managed",
       "required": true
     },
@@ -1598,9 +1591,37 @@
       "required": true
     },
     {
+      "path": "config/fancymenu/assets/empty-s.png",
+      "size": 2811,
+      "sha256": "44e21a69ec16d0aef8caff27103342672709684dca35834cd7f0128e694a572d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/assets/empty.png",
+      "size": 5124,
+      "sha256": "9ec497b3dc718abbfc70c5369ff0fc49392dd751a86799dd37ee7bccb784da2d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/assets/hover-s.png",
+      "size": 3745,
+      "sha256": "d11a4c3a9174971eaf8cb433353ad5a827bd216c18bde82da172d9b69cf6994c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/assets/hover.png",
+      "size": 6930,
+      "sha256": "3355ff884547e276e3789b06f723b61a0f4b5a7dbc27a6de3a6ecc83b81a2054",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "config/fancymenu/assets/icon16x16.png",
-      "size": 840,
-      "sha256": "b584fc4f6446b9da6baef1f441c147ef160741b3b87a32ca6db846b64b69660b",
+      "size": 1099,
+      "sha256": "952fd086ce80c3494d19c53622215b3edb5bf1ff03aae994e1b55ef17974f336",
       "category": "managed",
       "required": true
     },
@@ -1613,50 +1634,50 @@
     },
     {
       "path": "config/fancymenu/assets/icon32x32.png",
-      "size": 2240,
-      "sha256": "29e2be7ee924a1ebc741aeacc7e4854aedb5663efa14dad00d3adf2f73cd67ed",
+      "size": 2879,
+      "sha256": "d7a59df6bbfe0768222571c99e9f7ec7ad00e2a412bdda37c3a1b5184ced4e29",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/m.png",
-      "size": 6971,
-      "sha256": "50623652aa38ac9f1170dd8395fb9ec159cf1b169d4b7f46fb6f119858c35757",
+      "size": 7157,
+      "sha256": "5fa01c404e165a19c0fe71856c323d09ad7d1136bc216bdfe75e43bd8c937e62",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/mh.png",
-      "size": 7654,
-      "sha256": "f7ce93d746530810f7ab5333d910a8392317102a7f55627d030aef6464b91461",
+      "size": 8774,
+      "sha256": "796eba926626779ebae67b86c5edbb80a00b12dd4691f122f2191544b709f676",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/mp.png",
-      "size": 8642,
-      "sha256": "e00790a55c0623bfbf8f9555a3cc9daff82f592b629a3cc92d2d25c01b76a4c1",
+      "size": 8988,
+      "sha256": "16d92408142bd1c8ee5930a87a43ff021090e4e8bd8444fd5445fec55815b593",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/mph.png",
-      "size": 9405,
-      "sha256": "c2dc565c60cb0a5981681b43f2273d17ff7111bbd86e18ff4c301568b9c8d1ac",
+      "size": 10414,
+      "sha256": "ce6c59c1d9f023b59a18a3108ebf86d6bd1c1675d722d0f58ea36aae27d98d75",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/o.png",
-      "size": 5081,
-      "sha256": "9abba91347d5dd11ff9324f372065c4572e0119fc8f9cfe0d4e560f3b98fd641",
+      "size": 6326,
+      "sha256": "09db31d4a52ff74ec0a4ecab653fdc32078c5090420822486e9be06170ff7ab2",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/oh.png",
-      "size": 5408,
-      "sha256": "bece77e93387c2e5cbcfa0af4399d1d36a29059bedad2f6adad9afc15c4c5765",
+      "size": 6840,
+      "sha256": "fd40a866cc9f72a6899bc11290ae60c00a4c5d56f31107047096da33d802760f",
       "category": "managed",
       "required": true
     },
@@ -1669,15 +1690,15 @@
     },
     {
       "path": "config/fancymenu/assets/q.png",
-      "size": 5578,
-      "sha256": "eb7f9e284983973dd37941ad0b55b99cfbe6e51114a389c4fd306b1fb79722a5",
+      "size": 5203,
+      "sha256": "fc944c2e395bd2f8090619c89ede823746a67a44350e1ab3ff0c9cc03646b9c3",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/qh.png",
-      "size": 5774,
-      "sha256": "856993f23b6c1201a6337507dfe199f9b1aae557d04f5ed4108a55a596d9af17",
+      "size": 5864,
+      "sha256": "7a88af3d7508cc84fc88594112e7bb5ced59bd54ae203ce7e770b1629737bdbb",
       "category": "managed",
       "required": true
     },
@@ -1697,15 +1718,15 @@
     },
     {
       "path": "config/fancymenu/assets/s.png",
-      "size": 8541,
-      "sha256": "8ab7d1a220399ddb4fb4d86e63efd53c742a46c7ac79b868e2abd92d689ad9f8",
+      "size": 8747,
+      "sha256": "586f3d590f968450ff6d11014e130f1ff16702d56bb9c575c0655d084beb34c9",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/fancymenu/assets/sh.png",
-      "size": 9242,
-      "sha256": "9329ef630331bd3e1e09df6ac4a460264379e96b61ab04fe1c88827c0a54a9f1",
+      "size": 10126,
+      "sha256": "78b71d0c982b0081faf83a17d0138c1e08d5cd02adefcb05bc4cea18860e4d4c",
       "category": "managed",
       "required": true
     },
@@ -1726,7 +1747,7 @@
     {
       "path": "config/fancymenu/customization/all_of_create.txt",
       "size": 34982,
-      "sha256": "2c0ffc12f80b5fb43163fb9c2efe716ffcf61e4927a1ae0ff59044839a8e0df9",
+      "sha256": "fb76b56e793ed1be0f1661ca952557bbe39b5297e4bf07e327e6b1cf259252d3",
       "category": "managed",
       "required": true
     },
@@ -1753,8 +1774,8 @@
     },
     {
       "path": "config/fancymenu/options.txt",
-      "size": 2256,
-      "sha256": "c72518d7b0f70cec0390494c27fc32c7f94017f67066a30f5cbea77b52240466",
+      "size": 2260,
+      "sha256": "82232b342982a9ea2b9fd5af703dfa6c010b3964a8a4f8c5d3c6ef8618337fda",
       "category": "managed",
       "required": true
     },
@@ -2153,7 +2174,7 @@
     {
       "path": "config/iris.properties",
       "size": 323,
-      "sha256": "d3c5324d33703e70dc1d7ce4b64cbe545df5718d217f8557818b4da41b953dcf",
+      "sha256": "cbe45c1683f8e23a71c46cbe697ad2e82ab879a8206880cfebe9bcd9ca64a98e",
       "category": "managed",
       "required": true
     },
@@ -2629,7 +2650,7 @@
     {
       "path": "config/packetfixer.properties",
       "size": 487,
-      "sha256": "3b0d0a055cfdcefac0405c3240a186a3c70cd72a19b3290648076b9352ebd3c1",
+      "sha256": "ca6302a209495950eb6011072935a8b3d751d3b95788dce1ba779082f8f9b0ba",
       "category": "managed",
       "required": true
     },
@@ -3048,8 +3069,8 @@
     },
     {
       "path": "config/sodiumextras-client.toml",
-      "size": 5093,
-      "sha256": "dc0ac9b1f8dafd6b4f58109cb32583ca8a90992830700f7e985ca7c7607467bf",
+      "size": 5091,
+      "sha256": "ef38dc7dce634b856f8c4eb331229cc423c8fecac6f0cb3145a74832d8a4d304",
       "category": "managed",
       "required": true
     },
@@ -7856,37 +7877,37 @@
       "required": true
     },
     {
-      "path": "local/crash_assistant/37616_1777671032745_app.jar",
+      "path": "local/crash_assistant/39244_1777976995831_app.jar",
       "size": 1779430,
       "sha256": "a4a00cc73c89392b3486e5e68720336ffbcc3b4abd282e01f6ddf68f08c78f8a",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/37616_1777671032745_args.info",
-      "size": 20448,
-      "sha256": "18f25cb63bc5dbbb4d6d08e5e3df08c6cbbf6d6b72c016ba1a39baff12a2f95d",
+      "path": "local/crash_assistant/39244_1777976995831_args.info",
+      "size": 20449,
+      "sha256": "886289a9c0e4a4c00b2bce9b98f435bdce8303f4ea307076b923475e2dbc109b",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/37616_1777671032745_gpu-detect-jni.dll",
+      "path": "local/crash_assistant/39244_1777976995831_gpu-detect-jni.dll",
       "size": 39424,
       "sha256": "dcf992ef73fe4ab62c9d96c80f2fba56317d6f712a196e07932617e507c57fe8",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/37616_1777671032745_mod.jar",
+      "path": "local/crash_assistant/39244_1777976995831_mod.jar",
       "size": 3159461,
       "sha256": "ed7cc0dde1a3660cb043ac88106ebe591749f28b9c0130adf196d2ff49fbefc5",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/37616_1777671032745.info",
-      "size": 20,
-      "sha256": "5ff3573b2f8875b055ace03faff210fac711dc2c2a5f64110424b63d1c1a64e4",
+      "path": "local/crash_assistant/39244_1777976995831.info",
+      "size": 21,
+      "sha256": "f05d6a525b46c78444e0d2c0db300d520d5a9f978d43497e8fddd01468a533fb",
       "category": "managed",
       "required": true
     },
@@ -13163,8 +13184,8 @@
     },
     {
       "path": "options.txt",
-      "size": 14710,
-      "sha256": "419e0d4f4fcf1cd9ac63118f0313b59b73b6e1bc467d07bff3fe7862d0ceb999",
+      "size": 14899,
+      "sha256": "002f214a9aa2a6f57c57536f55e428cdcdf94b1854b6d003da1f04a8643f1e60",
       "category": "managed",
       "required": true
     },
@@ -13437,7 +13458,7 @@
     {
       "path": "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip.txt",
       "size": 57,
-      "sha256": "f5225f13c0d1775069213d67b396bad203a247befd20a1efc05d9401a19c3327",
+      "sha256": "0796f184994e6f5ab0caf73e75553c1899e401fcff5bc2860ded6d6fd4ec97b3",
       "category": "managed",
       "required": true
     },
