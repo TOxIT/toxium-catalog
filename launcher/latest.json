@@ -1,28 +1,29 @@
 {
-  "version": "0.1.5",
-  "title": "Toxium Launcher 0.1.5",
-  "notes": "- Лаунчер теперь сам скачивает нужную Java, если её нет на компьютере.\n- Добавлены резервные источники загрузки для Java, NeoForge, Forge и Fabric.\n- Лаунчер лучше восстанавливает недокачанные библиотеки Minecraft.\n- Уведомления добавлны и стилизованы под Minecraft.\n- Добавлены звуки для уведомлений и некоторых действий.\n- Исправлен процесс авторизации через Ely.by.\n- Исправлены проблемы с кнопками в разделе «Играть».\n- Исправлено наложение нескольких уведомлений друг на друга.\n- После добавления профиля лаунчер автоматически открывает раздел «Играть».\n- Раздел «Список изменений» теперь показывает актуальные обновления динамически.",
+  "version": "0.1.6",
+  "title": "Toxium Launcher 0.1.6",
+  "notes": "- Улучшение стабильности скачивания и обновления лаунчера\n- Добавлена синхронизация состояния основных кнопок при переходе между разделами",
   "publishedAt": "2026-05-03T00:00:00.000Z",
-  "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest",
+  "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.6",
   "required": true,
   "platforms": {
     "windows-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/download/untagged-88396d756246c598d86f/ToxiumLauncher_0.1.6_x64-setup.exe",
+      "sizeBytes": 15271419
     },
     "windows-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.6"
     },
     "macos-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.6"
     },
     "macos-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.6"
     },
     "linux-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.6"
     },
     "linux-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.6"
     }
   },
   "runtimeSources": {
@@ -76,6 +77,14 @@
     }
   },
   "releases": [
+    {
+      "version": "0.1.6",
+      "title": "Toxium Launcher 0.1.6",
+      "notes": "- Улучшение стабильности скачивания и обновления лаунчера\n- Добавлена синхронизация состояния основных кнопок при переходе между разделами",
+      "publishedAt": "2026-05-03T00:00:00.000Z",
+      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.6",
+      "required": true
+    },
     {
       "version": "0.1.5",
       "title": "Toxium Launcher 0.1.5",
