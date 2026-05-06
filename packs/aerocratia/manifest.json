@@ -6,18 +6,18 @@
     "title": "Aerocratia"
   },
   "release": {
-    "id": "aerocratia-0.0.2",
-    "version": "0.0.2",
-    "publishedAt": "2026-05-05T10:32:15.239Z"
+    "id": "aerocratia-0.0.3",
+    "version": "0.0.3",
+    "publishedAt": "2026-05-06T20:57:41.346Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "aerocratia-0.0.2.zip",
-      "url": "https://github.com/toxit/toxium-packs/releases/download/aerocratia-v0.0.2/aerocratia-0.0.2.zip",
-      "sha256": "48582e7b82d02673b8766cf804fb1aaf3d29b0ea5a32caca9f5f087ec6a7ff6f",
-      "sizeBytes": 741523670
+      "fileName": "aerocratia-0.0.3.zip",
+      "url": "https://github.com/toxit/toxium-packs/releases/download/aerocratia-v0.0.3/aerocratia-0.0.3.zip",
+      "sha256": "0fd2882e6f38dda34170b9d38e90d39c6f7e5dac5e8eb61d68376dda96224ae2",
+      "sizeBytes": 741523688
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
@@ -12581,7 +12581,7 @@
       "required": true
     },
     {
-      "path": "mods/luna_minecraft-neoforge-5.3.1.jar",
+      "path": "mods/luna_minecraft-neoforge-5.3.1.jar.disabled",
       "size": 623561,
       "sha256": "a652ba5b8481c15c995d6be980285d314aefe26f5015a10eab85dad4b51996eb",
       "category": "managed",
