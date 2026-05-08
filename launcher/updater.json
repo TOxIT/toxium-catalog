@@ -1,10 +1,10 @@
 {
   "version": "0.1.7",
   "notes": "Toxium Launcher 0.1.7 release.",
-  "pub_date": "2026-05-07T19:15:35.167Z",
+  "pub_date": "2026-05-08T16:14:08.919Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTm52OVFEQVM3UUVXQVM2b211Uld1cTd0UktNdDJNbWhoOUg4SjJPd0tsS3FQVldsMlEvY25KOFZjMTZobGpIdm14aHZHU2s5dVVtM3YwdUE3L0pod3FQeFBDUUdHaWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4MTgxMzM0CWZpbGU6VG94aXVtTGF1bmNoZXJfMC4xLjdfeDY0LXNldHVwLmV4ZQo5UGlQemJQVEQvUSsvbnphSGtac3JyTUpZQVVYWEVQK0dWVFYxQ3NTVVBCaCtjVTJyNEJBcWdVdHByU1hrT0dlQklqTVlmM2N5Y2JjMFd4SE5TTDdDUT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTm52OVFEQVM3UU45N0hSMmFHN0xCRlVNeWpXVG9lQmhBbVlIVEs0SnBuTUlma3ZJcjdMME5kelppR2liMGNTeWF0Mi84ZXEyZndyZlNHa0EwcEtQV0h6Vnd3QzJ6dkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4MjU2ODQ4CWZpbGU6VG94aXVtTGF1bmNoZXJfMC4xLjdfeDY0LXNldHVwLmV4ZQpDcDlEbmd1RkUyUGVmQ0t2MWUyUGNrSllMMzA2UXJ5T0QvblZBaDAwd3l4QXZKWlJUdGFUdU5DSEVLNzlwM0RnSi9kS3Bub2FKZXhYWi85MXJzYUlEQT09Cg==",
       "url": "https://github.com/TOxIT/toxium-launcher/releases/download/launcher-v0.1.7/ToxiumLauncher_0.1.7_x64-setup.exe",
       "sizeBytes": 15282604
     }
