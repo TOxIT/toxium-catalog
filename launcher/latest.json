@@ -1,36 +1,36 @@
 {
-  "version": "0.1.8",
-  "title": "Toxium Launcher 0.1.8",
-  "notes": "Toxium Launcher 0.1.8 release.",
-  "publishedAt": "2026-05-09T07:58:17.696Z",
-  "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.8",
-  "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8",
+  "version": "0.1.10",
+  "title": "Toxium Launcher 0.1.10",
+  "notes": "Toxium Launcher 0.1.10 release.",
+  "publishedAt": "2026-05-10T21:03:24.141Z",
+  "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.10",
+  "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
   "required": false,
   "platforms": {
     "windows-x86_64": {
-      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/download/launcher-v0.1.8/ToxiumLauncher_0.1.8_x64-setup.exe",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8",
-      "sizeBytes": 15284551
+      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/download/launcher-v0.1.10/ToxiumLauncher_0.1.10_x64-setup.exe",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
+      "sizeBytes": 18232049
     },
     "windows-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10"
     },
     "macos-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10"
     },
     "macos-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10"
     },
     "linux-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10"
     },
     "linux-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10"
     }
   },
   "runtimeSources": {
@@ -85,11 +85,29 @@
   },
   "releases": [
     {
+      "version": "0.1.10",
+      "title": "Toxium Launcher 0.1.10",
+      "notes": "Toxium Launcher 0.1.10 release.",
+      "publishedAt": "2026-05-10T21:03:24.141Z",
+      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.10",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
+      "required": false
+    },
+    {
+      "version": "0.1.9",
+      "title": "Toxium Launcher 0.1.9",
+      "notes": "Toxium Launcher 0.1.9 release.",
+      "publishedAt": "2026-05-10T19:26:25.303Z",
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/download/launcher-v0.1.9/ToxiumLauncher_0.1.9_x64-setup.exe",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.9",
+      "required": false
+    },
+    {
       "version": "0.1.8",
       "title": "Toxium Launcher 0.1.8",
       "notes": "Toxium Launcher 0.1.8 release.",
       "publishedAt": "2026-05-09T07:58:17.696Z",
-      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.8",
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/download/launcher-v0.1.8/ToxiumLauncher_0.1.8_x64-setup.exe",
       "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8",
       "required": false
     },
@@ -114,7 +132,7 @@
     {
       "version": "0.1.5",
       "title": "Toxium Launcher 0.1.5",
-      "notes": "- Лаунчер теперь сам скачивает нужную Java, если её нет на компьютере.\n- Добавлены резервные источники загрузки для Java, NeoForge, Forge и Fabric.\n- Лаунчер лучше восстанавливает недокачанные библиотеки Minecraft.\n- Уведомления добавлны и стилизованы под Minecraft.\n- Добавлены звуки для уведомлений и некоторых действий.\n- Исправлен процесс авторизации через Ely.by.\n- Исправлены проблемы с кнопками в разделе «Играть».\n- Исправлено наложение нескольких уведомлений друг на друга.\n- После добавления профиля лаунчер автоматически открывает раздел «Играть».\n- Раздел «Список изменений» теперь показывает актуальные обновления динамически.",
+      "notes": "- Лаунчер теперь сам скачивает нужную Java, если её нет на компьютере.\n- Добавлены резервные источники загрузки для Java, NeoForge, Forge и Fabric.\n- Лаунчер лучше восстанавливает недокачанные библиотеки Minecraft.\n- Уведомления добавлны и стилизованы под Minecraft.\n- Добавлены звуки для уведомлений и некоторых действий.\n- Исправлен процесс авторизации через Ely.by.\n- Исправлены проблемы с кнопками в разделе «Играть».\n- Исправлено наложение нескольких уведомлений друг на друга.\n- После добавления профиля лаунчер автоматически открывает раздел «Играть».\n- Раздел «Что нового?» теперь показывает актуальные обновления динамически.",
       "publishedAt": "2026-05-03T00:00:00.000Z",
       "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/latest",
       "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/latest",
