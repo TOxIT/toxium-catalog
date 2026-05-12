@@ -2,7 +2,7 @@
   "version": "0.1.10",
   "title": "Toxium Launcher 0.1.10",
   "notes": "Toxium Launcher 0.1.10 release.",
-  "publishedAt": "2026-05-10T21:03:24.141Z",
+  "publishedAt": "2026-05-12T16:42:20.150Z",
   "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.10",
   "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
   "required": false,
@@ -10,7 +10,7 @@
     "windows-x86_64": {
       "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/download/launcher-v0.1.10/ToxiumLauncher_0.1.10_x64-setup.exe",
       "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
-      "sizeBytes": 18232049
+      "sizeBytes": 18300810
     },
     "windows-arm64": {
       "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
@@ -88,36 +88,9 @@
       "version": "0.1.10",
       "title": "Toxium Launcher 0.1.10",
       "notes": "Toxium Launcher 0.1.10 release.",
-      "publishedAt": "2026-05-10T21:03:24.141Z",
+      "publishedAt": "2026-05-12T16:42:20.150Z",
       "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.10",
       "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.10",
-      "required": false
-    },
-    {
-      "version": "0.1.9",
-      "title": "Toxium Launcher 0.1.9",
-      "notes": "Toxium Launcher 0.1.9 release.",
-      "publishedAt": "2026-05-10T19:26:25.303Z",
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/download/launcher-v0.1.9/ToxiumLauncher_0.1.9_x64-setup.exe",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.9",
-      "required": false
-    },
-    {
-      "version": "0.1.8",
-      "title": "Toxium Launcher 0.1.8",
-      "notes": "Toxium Launcher 0.1.8 release.",
-      "publishedAt": "2026-05-09T07:58:17.696Z",
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/download/launcher-v0.1.8/ToxiumLauncher_0.1.8_x64-setup.exe",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.8",
-      "required": false
-    },
-    {
-      "version": "0.1.7",
-      "title": "Toxium Launcher 0.1.7",
-      "notes": "Toxium Launcher 0.1.7 release.",
-      "publishedAt": "2026-05-07T19:15:35.165Z",
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.7",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.7",
       "required": false
     },
     {
