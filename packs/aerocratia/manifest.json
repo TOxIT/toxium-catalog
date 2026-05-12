@@ -6,18 +6,18 @@
     "title": "Aerocratia"
   },
   "release": {
-    "id": "aerocratia-0.0.4",
-    "version": "0.0.4",
-    "publishedAt": "2026-05-09T09:14:41.213Z"
+    "id": "aerocratia-0.0.5",
+    "version": "0.0.5",
+    "publishedAt": "2026-05-12T16:53:57.327Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "aerocratia-0.0.4.zip",
-      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.4/aerocratia-0.0.4.zip",
-      "sha256": "b7c5a4d42cd62f4dc63413d1f89f28273d7d5716573e3174410f22359c91590c",
-      "sizeBytes": 663885779
+      "fileName": "aerocratia-0.0.5.zip",
+      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.5/aerocratia-0.0.5.zip",
+      "sha256": "0366cf69a64b908d4e7b33ba3cf069bca7bfae37cad4cb74a0ed08e3730bc49a",
+      "sizeBytes": 637162571
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
@@ -81,49 +81,49 @@
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlock.class",
       "size": 54170,
-      "sha256": "bed7fd591f4042cd14406ee4be5a5afa19e71f6b27bde54d57ef4a9e26beb55b",
+      "sha256": "fdc8660b15ae9a0906c51a24796c1aa0d3d643ed0236937dd0b8cbf86baf84f9",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlockEntity.class",
       "size": 38304,
-      "sha256": "6fb39eb4dc2fbe5cbb6c5d87564b2607d759787799fe8366e149fc71610fbb20",
+      "sha256": "5e8e52242e6c6c28883afad39f3fa432894e3b9089380247be8c9f727f6e7792",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelBlock.class",
       "size": 16129,
-      "sha256": "22383d3081976fd654d4e84ff25896365d442fa52ec0125f7c6563330449e734",
+      "sha256": "405d29977904d77820a0bec54cfdf4e4e450ac9505aa207163a39821af3412d6",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelControllerBlock.class",
       "size": 17958,
-      "sha256": "be2e8e141e45c8c1d1d4ca48b175abcb8a425fa55527a0e9bf7c2239ccaaadd8",
+      "sha256": "bb2287db777abc3cbc2d8652a7d96f8b8766e4f46f582db16c95b56d48a974d4",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/logistics/factoryBoard/FactoryPanelBehaviour.class",
       "size": 66585,
-      "sha256": "0ed7ba496ffe6b543cc864515b5ec715d6c2bd5708f8d7c22b5b740fee874677",
+      "sha256": "16017844b1c0ab799054254954a426c10276748679375c7d9be93d1310d98c85",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlock.class",
       "size": 24662,
-      "sha256": "918535edaf3abeaeb9d6172883f6eac253ab3903a07f751fe37c870a3aa14794",
+      "sha256": "897674c0681860b06d760c1d7ceefb5d5b079d69101e80be1743b7dbde5c3e77",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlockEntity.class",
       "size": 17982,
-      "sha256": "cf7635bb96aa89b4b18308087c2942cac89c0d99361a41273bf97d707c48bb5e",
+      "sha256": "6aee75d786db1622a5cd0dffbd3f0f0a26ea085c3a6398eae3206bd3ce08591e",
       "category": "managed",
       "required": true
     },
@@ -150,8 +150,8 @@
     },
     {
       "path": "command_history.txt",
-      "size": 1546,
-      "sha256": "87f2430d83a981eb503a4b126dc68dd0e0f4ea351d7d8c67b9a8af3e0687502c",
+      "size": 1392,
+      "sha256": "1a0bc8cf46cc3de454b3a612c57e9c7f9b15561c3c6324863ecdfce560b41777",
       "category": "managed",
       "required": true
     },
@@ -1565,7 +1565,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 290,
-      "sha256": "8e2b00c3d2cbf35fe24d1d191bf4c68fe3dabe2d64b4b567bfddbfcef9249be7",
+      "sha256": "d0d1af2c279e4bf2352bea59d8e4ee39f96ec6e64fe73537f576186161ee3e1b",
       "category": "managed",
       "required": true
     },
@@ -2180,8 +2180,8 @@
     },
     {
       "path": "config/iris.properties",
-      "size": 323,
-      "sha256": "173912478e05b5226fe6b686fba26c04afc8cddae7dafc3ed311aa7e04e5845c",
+      "size": 315,
+      "sha256": "dd0f0e602989e8430574e8bcd72336d07dd229d7d2525f29f3c7291b3dfd4c5c",
       "category": "managed",
       "required": true
     },
@@ -2264,29 +2264,29 @@
     },
     {
       "path": "config/jei/jei-client.ini",
-      "size": 18188,
-      "sha256": "3e83de222390d0fda96c6f2fea62f6c0ec7100974731349d3e4225746e96e0f3",
+      "size": 17967,
+      "sha256": "b97c2d85bb41ebe5158c0e7d7d929c9e019fb9721d66484a099789f5545efa56",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/jei/jei-colors.ini",
-      "size": 1443,
-      "sha256": "ea90248d031ff973bec55372ab91c2d8570cbb61c249114b4bd13ccb8221a4c9",
+      "size": 1495,
+      "sha256": "14b38e9d1a1c21a2c36fdf6e8ce81356f7857c0667ed77ee264cd124350de47a",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/jei/jei-debug.ini",
-      "size": 2249,
-      "sha256": "b7b7003f8a253e958a1efd99209828741cd30ff765c75d8df8ca2cbf612b6466",
+      "size": 2354,
+      "sha256": "e23636bc2f6fecee45b34c701f666e18efa577370772a9d21fccf9f8556ff74b",
       "category": "managed",
       "required": true
     },
     {
       "path": "config/jei/jei-mod-id-format.ini",
-      "size": 659,
-      "sha256": "84e07a5137e41d623278cbb4afa04c5a32d9d53ab8fe331c72522487938d5a00",
+      "size": 685,
+      "sha256": "df6c58a512320c74b2d38ebdb7d54d1f62168394f0496ecfab2a8545ac9f0204",
       "category": "managed",
       "required": true
     },
@@ -2364,6 +2364,13 @@
       "path": "config/konkrete/locals/pt_br.local",
       "size": 322,
       "sha256": "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/lambdynlights.toml",
+      "size": 1448,
+      "sha256": "fdd6958ff17541c8d1c891bd1602088bb6888f41229e966387a07311f32ec6d9",
       "category": "managed",
       "required": true
     },
@@ -2657,7 +2664,7 @@
     {
       "path": "config/packetfixer.properties",
       "size": 487,
-      "sha256": "4194c3a9f9694b006fe53317ea6e0a165e9e9cf478ee980b72fb3f929716e4e4",
+      "sha256": "cbecd5c48b71fbbed34fa471abe4c35f3a3b02c2efad1bcce04afaabd099d59f",
       "category": "managed",
       "required": true
     },
@@ -2735,6 +2742,13 @@
       "path": "config/paxi/datapacks/ExtraCreateRecipes.zip",
       "size": 692281,
       "sha256": "d43266afd7d01fbc47a13fdd4a2667be7cf2d76878e7230e3308c528eefa14d4",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/paxi/datapacks/New_Weapons_Weapon_Mapper_0.0.1.zip",
+      "size": 15334,
+      "sha256": "fd2d8d2feef8269f3a15a6705f8ce5f39ea383f572b855d37872bb937c4a27c3",
       "category": "managed",
       "required": true
     },
@@ -3076,8 +3090,8 @@
     },
     {
       "path": "config/sodiumextras-client.toml",
-      "size": 5093,
-      "sha256": "25f7ea679b20ff524ed8578850362275b620ca73ae3d36f77254a2ba6362d946",
+      "size": 5091,
+      "sha256": "ef38dc7dce634b856f8c4eb331229cc423c8fecac6f0cb3145a74832d8a4d304",
       "category": "managed",
       "required": true
     },
@@ -3510,8 +3524,8 @@
     },
     {
       "path": "data/fabricDefaultResourcePacks.dat",
-      "size": 61,
-      "sha256": "1db3ccb9f9c4f9369804f3b84a15b4d8770f0647e601aa10adadb99a87b65165",
+      "size": 80,
+      "sha256": "d0661ee82ee1a28822e8945f7d45abb902f39bb91ba2d22c3df224ea0126cb07",
       "category": "managed",
       "required": true
     },
@@ -3581,7 +3595,7 @@
     {
       "path": "dynamic-data-pack-cache/hash.txt",
       "size": 64,
-      "sha256": "f9daa49b976403ec83912ebaf913376e7599c23600234fe3e5d3d5a6a072a581",
+      "sha256": "4b2ffc4dbdfbf88e49e8402ba0a44ac327408cbeb95fbf950a3c48fc213d4b3d",
       "category": "managed",
       "required": true
     },
@@ -7410,7 +7424,7 @@
     {
       "path": "dynamic-resource-pack-cache/hash.txt",
       "size": 64,
-      "sha256": "461ad0e6d51ff85480092303bdd3889ec7818e0d84a652ffc90f0b94d8084639",
+      "sha256": "8e81730dd45e4325414de618b1cfa78d8e499cec4199f3cb76011806151e3302",
       "category": "managed",
       "required": true
     },
@@ -7850,8 +7864,8 @@
     },
     {
       "path": "emi.json",
-      "size": 1109,
-      "sha256": "11b73c451b0b2ee36a814e8a3f67ad425c84808579daeab1133ae1a61b4a9a92",
+      "size": 1448,
+      "sha256": "90ffaa2c3dd1fdd3be9740292821f039c520dfa92584327a64b8e9d444074038",
       "category": "managed",
       "required": true
     },
@@ -7872,7 +7886,7 @@
     {
       "path": "fancymenu_data/last_world.fmdata",
       "size": 176,
-      "sha256": "facd1cba126cf5a267c1ad41ef221e4ead50b5f6896f7bf2ae190ceee4a5ed41",
+      "sha256": "82f08b3f7ff216ebdf2b19c07d68284d3a6dd64737a946e776e255799278ae54",
       "category": "managed",
       "required": true
     },
@@ -7884,37 +7898,37 @@
       "required": true
     },
     {
-      "path": "local/crash_assistant/39308_1778316672815_app.jar",
+      "path": "local/crash_assistant/27104_1778588217405_app.jar",
       "size": 1779430,
       "sha256": "a4a00cc73c89392b3486e5e68720336ffbcc3b4abd282e01f6ddf68f08c78f8a",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/39308_1778316672815_args.info",
+      "path": "local/crash_assistant/27104_1778588217405_args.info",
       "size": 20447,
-      "sha256": "7e9ac41c7f49c032e0f73dd2bc08b35c7b9be285b2365aa939862a3b9eb0feac",
+      "sha256": "b4e362332170187d1aab1a3f0c5b371734d1de68046eb7aaecf005e8b726e347",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/39308_1778316672815_gpu-detect-jni.dll",
+      "path": "local/crash_assistant/27104_1778588217405_gpu-detect-jni.dll",
       "size": 39424,
       "sha256": "dcf992ef73fe4ab62c9d96c80f2fba56317d6f712a196e07932617e507c57fe8",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/39308_1778316672815_mod.jar",
+      "path": "local/crash_assistant/27104_1778588217405_mod.jar",
       "size": 3159461,
       "sha256": "ed7cc0dde1a3660cb043ac88106ebe591749f28b9c0130adf196d2ff49fbefc5",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/39308_1778316672815.info",
+      "path": "local/crash_assistant/27104_1778588217405.info",
       "size": 21,
-      "sha256": "80707973baac85dcf4362999f9bdd665e2e833c78549a44bcf623ef7377ee578",
+      "sha256": "163e21d7974d3c9994bfaa99a2931b7491837b82a58e3734a0a0ada6435e95bf",
       "category": "managed",
       "required": true
     },
@@ -9028,6 +9042,13 @@
       "path": "local/crash_assistant/mod_data_cache_v4/L_Ender's Cataclysm 1.21.1-3.27.jar.mod_data.json",
       "size": 275,
       "sha256": "ee1511aa198e90f45c0e48517db2da02670dd5fcfdd004a677975bc5682e5812",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "local/crash_assistant/mod_data_cache_v4/lambdynamiclights-4.8.8+1.21.1.jar.mod_data.json",
+      "size": 4843,
+      "sha256": "83ef0daa1d8c30d1e5c14658d246fdecaf51026a4848e3ce2a5fb811a00ac24d",
       "category": "managed",
       "required": true
     },
@@ -10880,6 +10901,13 @@
       "required": true
     },
     {
+      "path": "mods/.index/lambdynamiclights.pw.toml",
+      "size": 607,
+      "sha256": "4510b2af63ae54535902ffc7a2af82fb5ab02f583a6062ccbd70ba475925be56",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/.index/leaky.pw.toml",
       "size": 396,
       "sha256": "57fa0bb009f880f534da898f003f1c00058755aff3aefb0cce5fdc896ed1f976",
@@ -11268,6 +11296,13 @@
       "path": "mods/.index/smooth-chunk-save.pw.toml",
       "size": 428,
       "sha256": "b6a20b3cb389fa33dd4fcdc771b4769ad5185e48def613ea19fe68878bea72ba",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/sodium-dynamic-lights.pw.toml",
+      "size": 589,
+      "sha256": "d2b5446159fd44d485c7b518a9ab70364fd84b3e8a2eac4f783004dd3c503056",
       "category": "managed",
       "required": true
     },
@@ -12133,13 +12168,6 @@
       "required": true
     },
     {
-      "path": "mods/DistantHorizons-3.0.2-b-1.21.1-fabric-neoforge.jar",
-      "size": 30019727,
-      "sha256": "ffe8da15ac4deedcf1eb306b0a49d6f5ba1a8385d0119bf1475e5c358f16f855",
-      "category": "managed",
-      "required": true
-    },
-    {
       "path": "mods/DnDesires-1.21.1-2.2d-BETA.jar",
       "size": 1184499,
       "sha256": "8718c117ba98e7fd92312a73b37f20fc8cbfac800963bc5ced4eb49ccdb11330",
@@ -12532,6 +12560,13 @@
       "required": true
     },
     {
+      "path": "mods/lambdynamiclights-4.8.8+1.21.1.jar",
+      "size": 2017417,
+      "sha256": "5c41d55ad9306f8d0a8c1b0174d71a3e333026b08adb6883653cd91ab6c5bea0",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/leaky-1.21-2.4.jar",
       "size": 15483,
       "sha256": "fede359dbf9b8174921b5ed354c18256fd436ee9bdbf0230a63f90890c9f2a15",
@@ -12917,13 +12952,6 @@
       "required": true
     },
     {
-      "path": "mods/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-      "size": 299353,
-      "sha256": "d78002d50865db928fbf2c17c716ffcbbd6d33bff88aa1f0f3a04152a2665e25",
-      "category": "managed",
-      "required": true
-    },
-    {
       "path": "mods/sodiumextras-neoforge-1.0.8-1.21.1.jar",
       "size": 276988,
       "sha256": "2f9d6ab7f3d968b985f30c083b136466b84d54f4cc9d5f05394c39615aae2f8f",
@@ -13149,8 +13177,8 @@
     },
     {
       "path": "options.txt",
-      "size": 14677,
-      "sha256": "b8354b36b14fcb0fb2da14d33df562aa3d6a669bc26fbd8682a157a8afb5837f",
+      "size": 14867,
+      "sha256": "bb22eab9ee6c617d0833bb7c4d301f6d176493491f0f4d0914b100269832ad61",
       "category": "managed",
       "required": true
     },
@@ -13423,7 +13451,7 @@
     {
       "path": "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip.txt",
       "size": 57,
-      "sha256": "17d2d3bb4ea8756ee315a1b71b323e64f9d784b0ad859d434229c55ec262ede8",
+      "sha256": "56c086c3f6f1c484e991c1a93bef12edf12fade0b2a3ff383974923070118dc3",
       "category": "managed",
       "required": true
     },
@@ -21172,7 +21200,7 @@
     {
       "path": "usercache.json",
       "size": 431,
-      "sha256": "85629494db33053400327c712d79c6faeac7d8ec6e34c08926db1e8f364a9fb3",
+      "sha256": "fa74721d4b15d00b16eb6e98f12dd3e345648510d504917682eff54701dbe77d",
       "category": "managed",
       "required": true
     },
@@ -21229,6 +21257,13 @@
       "path": "xaero/minimap/Новый мир (2)/dim%-1/waypoints.txt",
       "size": 189,
       "sha256": "007f6fb244d5bedcc8d96d19d4a019eab407a0db5ef6241b09c74e5190b409b0",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/minimap/Новый мир (3)/config.txt",
+      "size": 343,
+      "sha256": "59f7d70934afdbc8127f579df72980726384fb8b7b7ea9f0705fb9aaf7cb6cbc",
       "category": "managed",
       "required": true
     },
@@ -21915,6 +21950,97 @@
       "path": "xaero/world-map/Новый мир (3)/null/.lock",
       "size": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/cache_1/-1_-1.xwmc.outdated",
+      "size": 98532,
+      "sha256": "98df4c9f14964ad26707ccd6414bac05b38e474485d2543043535d7ec0a07b41",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/cache_1/-1_-2.xwmc.outdated",
+      "size": 43850,
+      "sha256": "0e1466ed1e019c77f1dff543d282c1c0f5248c01ed1f4f38154201d24bcf2b9e",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/cache_1/-1_0.xwmc",
+      "size": 9976,
+      "sha256": "41266b17d4bbf4673fa42249b05c59e4814ce70382ad19eb8d6ec783435771c6",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/cache_1/0_-1.xwmc.outdated",
+      "size": 398676,
+      "sha256": "2f20d8883556470d9ed457b3392a072a78f71e7decf94bb57334257a20199c31",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/cache_1/0_-2.xwmc.outdated",
+      "size": 186752,
+      "sha256": "3c980dcdeb4615e85b061378fa533080f59ebb2171e5bee952afc2d465157dd1",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/cache_1/0_0.xwmc",
+      "size": 42322,
+      "sha256": "6f4ab687b27bd3cc84dfa82ad21b4e39ce44256acac8ea8372341ca80ba66f2d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/cache_1/1_-1.xwmc.outdated",
+      "size": 278107,
+      "sha256": "3e2ab0b9321b9ef24f4698b6ab74eaed8dfd827124cf4d9dea4eb25d58bb3dd8",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/cache_1/1_-2.xwmc.outdated",
+      "size": 134595,
+      "sha256": "51330aa9c85373a17bfcc4074c2a18fd68797edc82bc07918c2bfefcde26d260",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/cache_1/1_0.xwmc",
+      "size": 13816,
+      "sha256": "67a02aaa8ffb2acebba5b5365da0197d0aee9175d1e2d961dc2151dd807bc2dd",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/caves/5/cache_1/0_-1.xwmc.outdated",
+      "size": 24588,
+      "sha256": "666772b57c40f7a4722649b03abbde4600bfdb32974afe00e7469218be08e036",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/caves/5/cache_1/0_-2.xwmc.outdated",
+      "size": 7378,
+      "sha256": "a9314a7ebc0cc98fd0fc018664565fe31a549e72a881f054f9f4f2ed91390b68",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/caves/5/cache_1/1_-1.xwmc.outdated",
+      "size": 12015,
+      "sha256": "1f171c80a58b6957d5a628d8f1df61b7a5571c01b7fe6d45dcdb692740e7bdb2",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "xaero/world-map/Новый мир (3)/null/caves/5/cache_1/1_-2.xwmc.outdated",
+      "size": 22144,
+      "sha256": "509e610a74f5f40779d28a2eef72b4e4bb5a587f63b264cea77611b322edabc3",
       "category": "managed",
       "required": true
     },
