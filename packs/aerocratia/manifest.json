@@ -6,18 +6,18 @@
     "title": "Aerocratia"
   },
   "release": {
-    "id": "aerocratia-0.0.5",
-    "version": "0.0.5",
-    "publishedAt": "2026-05-12T16:53:57.327Z"
+    "id": "aerocratia-0.0.6",
+    "version": "0.0.6",
+    "publishedAt": "2026-05-15T19:59:26.012Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "aerocratia-0.0.5.zip",
-      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.5/aerocratia-0.0.5.zip",
-      "sha256": "0366cf69a64b908d4e7b33ba3cf069bca7bfae37cad4cb74a0ed08e3730bc49a",
-      "sizeBytes": 637162571
+      "fileName": "aerocratia-0.0.6.zip",
+      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.6/aerocratia-0.0.6.zip",
+      "sha256": "a9b42686186ef9f54bbfe1f9e30a4f6037eb5d19a287aa128ef25a82f809b7c0",
+      "sizeBytes": 639450558
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
@@ -81,49 +81,49 @@
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlock.class",
       "size": 54170,
-      "sha256": "fdc8660b15ae9a0906c51a24796c1aa0d3d643ed0236937dd0b8cbf86baf84f9",
+      "sha256": "0bf82bf2fefe904a51d77ac0a37652367019f0812570b9a86da0f961e8af52f0",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlockEntity.class",
       "size": 38304,
-      "sha256": "5e8e52242e6c6c28883afad39f3fa432894e3b9089380247be8c9f727f6e7792",
+      "sha256": "e56596ed3c4b5f0677cb8dbb5021170d60b4c41b435457a4a98b5a8c2ad7bdeb",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelBlock.class",
       "size": 16129,
-      "sha256": "405d29977904d77820a0bec54cfdf4e4e450ac9505aa207163a39821af3412d6",
+      "sha256": "9cb9c5c4fad83d52ba037d30d438337e354a3695d3d1969531e19e70cbbfcef2",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelControllerBlock.class",
       "size": 17958,
-      "sha256": "bb2287db777abc3cbc2d8652a7d96f8b8766e4f46f582db16c95b56d48a974d4",
+      "sha256": "462b3a110aa9f996778b90aec2ed6c594fc1f46a8f23fde85f6f56e972365076",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/logistics/factoryBoard/FactoryPanelBehaviour.class",
       "size": 66585,
-      "sha256": "16017844b1c0ab799054254954a426c10276748679375c7d9be93d1310d98c85",
+      "sha256": "ecacc7690a35574340ff10188b0f0e3f37f53d299a574d0d7e8d9eb77b0ecf3e",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlock.class",
       "size": 24662,
-      "sha256": "897674c0681860b06d760c1d7ceefb5d5b079d69101e80be1743b7dbde5c3e77",
+      "sha256": "399a5645df71391a058affa44b0c8cd8313822242f8bb29e8e045ac59edd227b",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlockEntity.class",
       "size": 17982,
-      "sha256": "6aee75d786db1622a5cd0dffbd3f0f0a26ea085c3a6398eae3206bd3ce08591e",
+      "sha256": "6442e8d46b8acea4b0f4914a9a1bcf38467774c72e086e5ffa6b0207628b03ed",
       "category": "managed",
       "required": true
     },
@@ -1565,7 +1565,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 290,
-      "sha256": "d0d1af2c279e4bf2352bea59d8e4ee39f96ec6e64fe73537f576186161ee3e1b",
+      "sha256": "eb631cc9005a50a9391b5e8e99c21315fc67fd5c552d1e77cfb4014938bd2494",
       "category": "managed",
       "required": true
     },
@@ -2181,7 +2181,7 @@
     {
       "path": "config/iris.properties",
       "size": 315,
-      "sha256": "dd0f0e602989e8430574e8bcd72336d07dd229d7d2525f29f3c7291b3dfd4c5c",
+      "sha256": "94336dd1ca75ca8d388016604c68523d054bae84f454d80b6b70499c188fa1ba",
       "category": "managed",
       "required": true
     },
@@ -2664,7 +2664,7 @@
     {
       "path": "config/packetfixer.properties",
       "size": 487,
-      "sha256": "cbecd5c48b71fbbed34fa471abe4c35f3a3b02c2efad1bcce04afaabd099d59f",
+      "sha256": "a032c2bfed082d7aca8e7a3fc856e9e0890c7d964546a21c000afa8b43cdd157",
       "category": "managed",
       "required": true
     },
@@ -7424,7 +7424,7 @@
     {
       "path": "dynamic-resource-pack-cache/hash.txt",
       "size": 64,
-      "sha256": "8e81730dd45e4325414de618b1cfa78d8e499cec4199f3cb76011806151e3302",
+      "sha256": "c7d606e3bec1928bf5ffd19585869d0355c2db8c3ce8c405c446f123377c55cf",
       "category": "managed",
       "required": true
     },
@@ -7870,6 +7870,27 @@
       "required": true
     },
     {
+      "path": "essential/loader/stage0/modlauncher/stage1.jar",
+      "size": 207514,
+      "sha256": "a35aa9eaf1cc9876202977b2f3d24a6692dcd6c1c0f8e817419b493a2c4440bd",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "essential/loader/stage1/modlauncher9/stage2.forge_1.17.1.jar",
+      "size": 293677,
+      "sha256": "f4c7ae0a497136deeea3d9199a024be7c519b013bdd9e483c8e7befebe97242e",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "essential/loader/stage1/modlauncher9/stage2.forge_1.17.1.meta",
+      "size": 84,
+      "sha256": "9f162847d89bdd62fe3eec661222a01a840d4a4ec65dc3fa560ab4bb98ea62a5",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "fancymenu_data/buddy/buddy_leveling.json",
       "size": 1619,
       "sha256": "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50",
@@ -7898,37 +7919,37 @@
       "required": true
     },
     {
-      "path": "local/crash_assistant/27104_1778588217405_app.jar",
+      "path": "local/crash_assistant/18596_1778702349845_app.jar",
       "size": 1779430,
       "sha256": "a4a00cc73c89392b3486e5e68720336ffbcc3b4abd282e01f6ddf68f08c78f8a",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/27104_1778588217405_args.info",
-      "size": 20447,
-      "sha256": "b4e362332170187d1aab1a3f0c5b371734d1de68046eb7aaecf005e8b726e347",
+      "path": "local/crash_assistant/18596_1778702349845_args.info",
+      "size": 20445,
+      "sha256": "d4572438cb21b81502e130c3bfa897768e76d9e903ec8b829fd487fcec8e3d8b",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/27104_1778588217405_gpu-detect-jni.dll",
+      "path": "local/crash_assistant/18596_1778702349845_gpu-detect-jni.dll",
       "size": 39424,
       "sha256": "dcf992ef73fe4ab62c9d96c80f2fba56317d6f712a196e07932617e507c57fe8",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/27104_1778588217405_mod.jar",
+      "path": "local/crash_assistant/18596_1778702349845_mod.jar",
       "size": 3159461,
       "sha256": "ed7cc0dde1a3660cb043ac88106ebe591749f28b9c0130adf196d2ff49fbefc5",
       "category": "managed",
       "required": true
     },
     {
-      "path": "local/crash_assistant/27104_1778588217405.info",
+      "path": "local/crash_assistant/18596_1778702349845.info",
       "size": 21,
-      "sha256": "163e21d7974d3c9994bfaa99a2931b7491837b82a58e3734a0a0ada6435e95bf",
+      "sha256": "4d78a7f85210fec2a6020c5ae9a182690d3085f4c658910c7bd6da54e4d9182c",
       "category": "managed",
       "required": true
     },
@@ -7941,8 +7962,8 @@
     },
     {
       "path": "local/crash_assistant/local_config.json",
-      "size": 244,
-      "sha256": "cd0676fd3ad68f3d239164bbceb33eda196ba6173b45322467157750da79d09f",
+      "size": 273,
+      "sha256": "2a7aec85b1ee7b2d6abd94814ef2953f3272baef92884e36e28172a7c6ed4e1b",
       "category": "managed",
       "required": true
     },
@@ -8479,6 +8500,13 @@
       "required": true
     },
     {
+      "path": "local/crash_assistant/mod_data_cache_v4/createdeco-2.1.3.jar.mod_data.json",
+      "size": 270,
+      "sha256": "3ffca7b749626d4e5bef5d54ccfd34ceac6551c4d1ed166d7fe84e644ca3fac3",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "local/crash_assistant/mod_data_cache_v4/createdieselgenerators-1.21.1-1.3.11.jar.mod_data.json",
       "size": 303,
       "sha256": "13d6b5641b8a243ef7b60111cb6358f7365a334ec99f9b8f4f77aad532ac489e",
@@ -8741,6 +8769,13 @@
       "path": "local/crash_assistant/mod_data_cache_v4/escalated-1.2.1-create.6.0.8-mc.1.21.1-neoforge.jar.mod_data.json",
       "size": 304,
       "sha256": "efdb1595334157bcbf6ea69593ab603c4ef7be8174b919f6ff76ad350c3d4f49",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "local/crash_assistant/mod_data_cache_v4/Essential_1-3-10-8_neoforge_1-21-1.jar.mod_data.json",
+      "size": 221,
+      "sha256": "be76fe63cff25c38c6acba7bc41773262146b714f0105b64b57288a8cbbf91ca",
       "category": "managed",
       "required": true
     },
@@ -10138,6 +10173,13 @@
       "required": true
     },
     {
+      "path": "mods/.index/create-deco.pw.toml",
+      "size": 525,
+      "sha256": "98db7dff22beca288d7a314a6da9fe3ae44843c2d22adfde17148d7b1308cee1",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/.index/create-deep-dark.pw.toml",
       "size": 410,
       "sha256": "de9412653f2650b68e272745047029435e0edd5514c0b9f98b4ab00dfa42aac8",
@@ -10610,6 +10652,13 @@
       "path": "mods/.index/epic-samurais.pw.toml",
       "size": 550,
       "sha256": "b23113cf0050e0a139c226e7513144f33211b731f14bb0c9d62a26a9b5f3ae1e",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/essential.pw.toml",
+      "size": 565,
+      "sha256": "f2aac7eafee3e8298791ee9d05f28efe1882005827e7bbc5f4e2458e6613c544",
       "category": "managed",
       "required": true
     },
@@ -12031,6 +12080,13 @@
       "path": "mods/createcafe-1.4.3.jar",
       "size": 390889,
       "sha256": "ee8b0f78812d6a97aab0c1416ee599a538ebeac8456b1e494d06a48fbe9eff14",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/createdeco-2.1.3.jar",
+      "size": 3328498,
+      "sha256": "edacf1ad0bd6b9f1667d711650dc0cde604356d91caca7ca1ec428c2f9400c6e",
       "category": "managed",
       "required": true
     },
