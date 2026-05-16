@@ -6,18 +6,18 @@
     "title": "Aerocratia"
   },
   "release": {
-    "id": "aerocratia-0.0.6",
-    "version": "0.0.6",
-    "publishedAt": "2026-05-15T19:59:26.012Z"
+    "id": "aerocratia-0.0.7",
+    "version": "0.0.7",
+    "publishedAt": "2026-05-16T13:04:26.269Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "aerocratia-0.0.6.zip",
-      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.6/aerocratia-0.0.6.zip",
-      "sha256": "a9b42686186ef9f54bbfe1f9e30a4f6037eb5d19a287aa128ef25a82f809b7c0",
-      "sizeBytes": 639450558
+      "fileName": "aerocratia-0.0.7.zip",
+      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.7/aerocratia-0.0.7.zip",
+      "sha256": "bb6d78066b19392e72dff1c6bb474a1f866974cfb1d16a63dd063d3e289922a1",
+      "sizeBytes": 639492212
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
@@ -10957,6 +10957,13 @@
       "required": true
     },
     {
+      "path": "mods/.index/lan-server-properties.pw.toml",
+      "size": 623,
+      "sha256": "63a8b1176893d4bcecf73f9f9c650aabebd32aef787d9fa1b9f06e6ae8a62232",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/.index/leaky.pw.toml",
       "size": 396,
       "sha256": "57fa0bb009f880f534da898f003f1c00058755aff3aefb0cce5fdc896ed1f976",
@@ -12619,6 +12626,13 @@
       "path": "mods/lambdynamiclights-4.8.8+1.21.1.jar",
       "size": 2017417,
       "sha256": "5c41d55ad9306f8d0a8c1b0174d71a3e333026b08adb6883653cd91ab6c5bea0",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/lanserverproperties-1.13.2-neoforge.jar",
+      "size": 44799,
+      "sha256": "071d882002d7f5348d7385e9f0ff8592e4a2433de24731c02c07d2cd41eededd",
       "category": "managed",
       "required": true
     },
