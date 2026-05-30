@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-21T16:38:55.837Z",
+  "updatedAt": "2026-05-30T15:45:41.437Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -142,6 +142,58 @@
           "speedMultiplier": 0.5
         }
       },
+      "draft": false,
+      "featured": false
+    },
+    {
+      "id": "Military",
+      "slug": "Military",
+      "title": "Military",
+      "summary": "Military",
+      "shortSummary": "Military",
+      "modHighlights": [
+        "(MTS/IV) IAV parts pack",
+        "(MTS/IV) VEB Automobilwerke Schwikau",
+        "ashvehicle",
+        "Chovy's Apocalypse Mod",
+        "CreativeCore",
+        "Doomsday Decoration",
+        "EnhancedVisuals",
+        "Explosion Overhaul: A new level of destruction",
+        "Fracture Point",
+        "Immersive Engineering",
+        "Immersive Vehicles (formerly MTS)",
+        "Immersive Weathering",
+        "Just Enough Guns",
+        "Keerdm's Zombie Apocalypse Essentials",
+        "Kotlinforforge",
+        "LesRaisins Tactical Equipments",
+        "LesRaisinsArmor",
+        "LostCities",
+        "MCSP",
+        "Mo' Than Enough Guns",
+        "Point Blank",
+        "SecurityCraft",
+        "Simple Traps",
+        "Superb Warfare",
+        "Survival Instinct",
+        "Timeless & Classics Guns: Zero",
+        "Vintage Vehicle Pack"
+      ],
+      "minecraftVersion": "1.21.1",
+      "loaderType": "forge",
+      "loaderVersion": "47.4.10",
+      "latestReleaseId": "Military-0.0.1",
+      "releaseVersion": "0.0.1",
+      "releaseChannel": "stable",
+      "artifactFormat": "zip",
+      "artifactSizeBytes": 467437370,
+      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/Military-v0.0.1/Military-0.0.1.zip",
+      "manifestUrl": "./packs/Military/manifest.json",
+      "iconUrl": null,
+      "heroImageUrl": null,
+      "thumbnailUrl": null,
+      "logoUrl": null,
       "draft": false,
       "featured": false
     }
