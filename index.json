@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-02T22:54:01.388Z",
+  "updatedAt": "2026-06-02T23:11:54.268Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -45,12 +45,12 @@
       "minecraftVersion": "1.21.11",
       "loaderType": "fabric",
       "loaderVersion": "0.19.1",
-      "latestReleaseId": "vanilla-vibe-0.0.5",
-      "releaseVersion": "0.0.5",
+      "latestReleaseId": "vanilla-vibe-0.0.6",
+      "releaseVersion": "0.0.6",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
-      "artifactSizeBytes": 362071061,
-      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/vanilla-vibe-v0.0.5/vanilla-vibe-0.0.5.zip",
+      "artifactSizeBytes": 513463458,
+      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/vanilla-vibe-v0.0.6/vanilla-vibe-0.0.6.zip",
       "manifestUrl": "./packs/vanilla-vibe/manifest.json",
       "iconUrl": null,
       "heroImageUrl": null,
@@ -180,7 +180,7 @@
         "Timeless & Classics Guns: Zero",
         "Vintage Vehicle Pack"
       ],
-      "minecraftVersion": "1.21.1",
+      "minecraftVersion": "1.20.1",
       "loaderType": "forge",
       "loaderVersion": "47.4.10",
       "latestReleaseId": "Military-0.0.5",
@@ -195,7 +195,18 @@
       "thumbnailUrl": "./packs/Military/hero-thumbnail.png",
       "logoUrl": "./packs/Military/logo.png",
       "draft": false,
-      "featured": false
+      "featured": false,
+      "homeDecorations": {
+        "left": {
+          "imageUrl": "./packs/Military/decoration-left.png",
+          "animation": "float",
+          "top": "270px",
+          "offset": "-28px",
+          "width": "460px",
+          "delaySeconds": 0,
+          "speedMultiplier": 0.1
+        }
+      }
     }
   ]
 }
