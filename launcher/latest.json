@@ -1,36 +1,36 @@
 {
-  "version": "0.1.15",
-  "title": "Toxium Launcher 0.1.15",
-  "notes": "Toxium Launcher 0.1.15 release.",
-  "publishedAt": "2026-06-02T18:39:00.362Z",
-  "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.15",
-  "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15",
+  "version": "0.1.16",
+  "title": "Toxium Launcher 0.1.16",
+  "notes": "Toxium Launcher 0.1.16 release.",
+  "publishedAt": "2026-06-02T20:30:37.943Z",
+  "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.16",
+  "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16",
   "required": false,
   "platforms": {
     "windows-x86_64": {
-      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/download/launcher-v0.1.15/ToxiumLauncher_0.1.15_x64-setup.exe",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15",
-      "sizeBytes": 18690186
+      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/download/launcher-v0.1.16/ToxiumLauncher_0.1.16_x64-setup.exe",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16",
+      "sizeBytes": 18724072
     },
     "windows-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16"
     },
     "macos-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16"
     },
     "macos-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16"
     },
     "linux-x86_64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16"
     },
     "linux-arm64": {
-      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15",
-      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15"
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16"
     }
   },
   "runtimeSources": {
@@ -85,13 +85,22 @@
   },
   "releases": [
     {
+      "version": "0.1.16",
+      "title": "Toxium Launcher 0.1.16",
+      "notes": "Toxium Launcher 0.1.16 release.",
+      "publishedAt": "2026-06-02T20:30:37.943Z",
+      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.16",
+      "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.16",
+      "required": false
+    },
+    {
       "version": "0.1.15",
       "title": "Toxium Launcher 0.1.15",
-      "notes": "Toxium Launcher 0.1.15 release.",
+      "notes": "Багфиксы и улучшение обновление сборок",
       "publishedAt": "2026-06-02T18:39:00.362Z",
-      "downloadUrl": "https://github.com/TOxIT/toxium-launcher/releases/tag/launcher-v0.1.15",
+      "downloadUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15",
       "releaseUrl": "https://github.com/toxit/toxium-launcher/releases/tag/launcher-v0.1.15",
-      "required": false
+      "required": true
     },
     {
       "version": "0.1.14",
