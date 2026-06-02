@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-30T15:45:41.437Z",
+  "updatedAt": "2026-06-02T20:25:52.639Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -112,7 +112,7 @@
       ],
       "minecraftVersion": "1.21.1",
       "loaderType": "neoforge",
-      "loaderVersion": "47.4.10",
+      "loaderVersion": "21.1.228",
       "latestReleaseId": "aerocratia-0.0.8",
       "releaseVersion": "0.0.8",
       "releaseChannel": "stable",
@@ -148,9 +148,9 @@
     {
       "id": "Military",
       "slug": "Military",
-      "title": "Military",
-      "summary": "Military",
-      "shortSummary": "Military",
+      "title": "Poligon",
+      "summary": "Cборка превращает Minecraft в **атмосферное военное выживание** с упором на реализм, технику, оружие и постоянное ощущение опасности.\nЗдесь недостаточно просто построить дом и добыть ресурсы — вам придется **укреплять базу, готовить снаряжение, искать транспорт, продумывать оборону и выживать в мире, где каждая вылазка может стать последней**.\n\n## Основная идея\n\nСборка построена вокруг концепции **post-apocalypse / military survival**.\nИгрок оказывается в суровом мире, где важны не только ресурсы, но и подготовка: оружие, боеприпасы, транспорт, инженерные решения и защита территории.\n\nВместо магии и легкой автоматизации акцент сделан на более приземленном опыте:\n**тяжелая инженерия, машины, огнестрельное оружие, ловушки, укрепления, погодные эффекты и опасные столкновения**.\n\n## Что вас ждет\n\n* **Огнестрельное оружие и боевые системы** для перестрелок и защиты базы.\n* **Военная и гражданская техника**, которая делает передвижение важной частью выживания.\n* **Инженерия и производство** для развития базы и создания инфраструктуры.\n* **Ловушки, укрепления и системы безопасности** для обороны от угроз.\n* **Более живая и мрачная атмосфера** благодаря погоде, визуальным эффектам и улучшениям окружения.\n* **Элементы зомби-апокалипсиса**, усиливающие чувство опасности.\n\n## Кому подойдет сборка\n\nЭта сборка подойдет тем, кто хочет получить от Minecraft не классическое ванильное приключение, а более напряженный и атмосферный опыт:\n\n> выживание, техника, оружие, база, рейды за ресурсами и постоянная необходимость быть готовым к опасности.\n\nЗдесь хорошо укрепленная база — не просто украшение, а настоящая необходимость.\nА каждый выезд за ресурсами может превратиться в рискованную операцию, если не подготовиться заранее.\n\n## Итог\n\nЭто сборка про **выживание, войну, технику и контроль территории**.\nОна делает мир Minecraft более суровым, опасным и насыщенным, сохраняя при этом свободу песочницы: вы сами решаете, как выживать, где строиться, чем вооружаться и как защищать свое место в этом мире.",
+      "shortSummary": "Военное выживание в опасном мире: оружие, техника, инженерия, укрепление базы и атмосфера постапокалипсиса.",
       "modHighlights": [
         "(MTS/IV) IAV parts pack",
         "(MTS/IV) VEB Automobilwerke Schwikau",
@@ -180,20 +180,20 @@
         "Timeless & Classics Guns: Zero",
         "Vintage Vehicle Pack"
       ],
-      "minecraftVersion": "1.20.1",
+      "minecraftVersion": "1.21.1",
       "loaderType": "forge",
       "loaderVersion": "47.4.10",
-      "latestReleaseId": "Military-0.0.1",
-      "releaseVersion": "0.0.1",
+      "latestReleaseId": "Military-0.0.4",
+      "releaseVersion": "0.0.4",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
-      "artifactSizeBytes": 467437370,
-      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/Military-v0.0.1/Military-0.0.1.zip",
+      "artifactSizeBytes": 511194020,
+      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/Military-v0.0.4/Military-0.0.4.zip",
       "manifestUrl": "./packs/Military/manifest.json",
       "iconUrl": null,
-      "heroImageUrl": null,
-      "thumbnailUrl": null,
-      "logoUrl": null,
+      "heroImageUrl": "./packs/Military/hero.png",
+      "thumbnailUrl": "./packs/Military/hero-thumbnail.png",
+      "logoUrl": "./packs/Military/logo.png",
       "draft": false,
       "featured": false
     }
