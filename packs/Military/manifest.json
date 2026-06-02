@@ -22,7 +22,7 @@
     "requiresLauncherVersion": ">=0.1.0"
   },
   "minecraft": {
-    "version": "1.21.1"
+    "version": "1.20.1"
   },
   "loader": {
     "type": "forge",
@@ -34,13 +34,13 @@
   },
   "loaderPreparation": {
     "strategy": "custom-metadata-pipeline",
-    "versionJsonPath": "metadata/forge-1.21.1-47.4.10/version.json",
+    "versionJsonPath": "metadata/forge-1.20.1-47.4.10/version.json",
     "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
-    "argumentsProfile": "forge-1.21.1"
+    "argumentsProfile": "forge-1.20.1"
   },
   "launchPreparation": {
     "metadataFiles": [
-      "metadata/forge-1.21.1-47.4.10/version.json"
+      "metadata/forge-1.20.1-47.4.10/version.json"
     ],
     "librariesDir": "libraries",
     "assetsDir": "assets",
@@ -51,7 +51,7 @@
     ],
     "recommendedGameArgs": [
       "--version",
-      "forge-1.21.1-47.4.10"
+      "forge-1.20.1-47.4.10"
     ]
   },
   "preserveRules": {
