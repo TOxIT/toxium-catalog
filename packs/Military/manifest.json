@@ -6,23 +6,23 @@
     "title": "Poligon"
   },
   "release": {
-    "id": "Military-0.0.4",
-    "version": "0.0.4",
-    "publishedAt": "2026-06-02T20:25:52.639Z"
+    "id": "Military-0.0.5",
+    "version": "0.0.5",
+    "publishedAt": "2026-06-02T22:54:01.388Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "Military-0.0.4.zip",
-      "url": "https://github.com/TOxIT/toxium-packs/releases/download/Military-v0.0.4/Military-0.0.4.zip",
-      "sha256": "65539581f1da44424f740b28a6ecf43a6f6fa645ec4dbfaa99a828765e07a2ef",
-      "sizeBytes": 511194020
+      "fileName": "Military-0.0.5.zip",
+      "url": "https://github.com/TOxIT/toxium-packs/releases/download/Military-v0.0.5/Military-0.0.5.zip",
+      "sha256": "578b0e9ed53172d5e3914e97f1a6b5178108f339de335d96e9e617fb6e243aba",
+      "sizeBytes": 513463538
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
   "minecraft": {
-    "version": "1.20.1"
+    "version": "1.21.1"
   },
   "loader": {
     "type": "forge",
@@ -34,13 +34,13 @@
   },
   "loaderPreparation": {
     "strategy": "custom-metadata-pipeline",
-    "versionJsonPath": "metadata/forge-1.20.1-47.4.10/version.json",
+    "versionJsonPath": "metadata/forge-1.21.1-47.4.10/version.json",
     "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
-    "argumentsProfile": "forge-1.20.1"
+    "argumentsProfile": "forge-1.21.1"
   },
   "launchPreparation": {
     "metadataFiles": [
-      "metadata/forge-1.20.1-47.4.10/version.json"
+      "metadata/forge-1.21.1-47.4.10/version.json"
     ],
     "librariesDir": "libraries",
     "assetsDir": "assets",
@@ -51,7 +51,7 @@
     ],
     "recommendedGameArgs": [
       "--version",
-      "forge-1.20.1-47.4.10"
+      "forge-1.21.1-47.4.10"
     ]
   },
   "preserveRules": {
@@ -613,7 +613,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2541,
-      "sha256": "117f910e5f2115f87de90b23ed9d2f089a12caabff48051f9a6eaa90d751ee9f",
+      "sha256": "818b9d3cbbbd70f1da5edc88633ab62b97ddf90f58ac21b8e99a7881c6081edf",
       "category": "managed",
       "required": true
     },
@@ -647,8 +647,8 @@
     },
     {
       "path": "kubejs/.gitignore",
-      "size": 36,
-      "sha256": "4f91befe8b7a1c7cde60804046820c59f00c9b25c48c9ecea9368f9f3a351635",
+      "size": 34,
+      "sha256": "9b288357183a9625fd34cb6910079efcfe1a8a81ad7d0114da7590d0789cfa91",
       "category": "managed",
       "required": true
     },
@@ -670,6 +670,13 @@
       "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/red_flag.json.bak",
       "size": 108,
       "sha256": "31957364d6ed19efbd97f38ca5cf6765ed28b9eb629a0a5831870718d596e689",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/sounds.json.bak",
+      "size": 2277,
+      "sha256": "f57b08e58a2e052b550050be2b65f7efde4e2027d42c4b71f1f6c5fa9aa09c4f",
       "category": "managed",
       "required": true
     },
@@ -3761,9 +3768,79 @@
       "required": true
     },
     {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.27",
+      "size": 18150,
+      "sha256": "9eeeed4cfe300c58c91aba51267ae9a2145113c545681f490471b65d68f8f0f5",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.28",
+      "size": 18301,
+      "sha256": "8242f4807ba6e652a384b23201b75fdad953b241df3fc9f5a38f5b4fc4cf1e84",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.29",
+      "size": 18998,
+      "sha256": "bf8110d94dec686902b0312bc78ebc3947e4cdfb92d9cb50bb3acb2882a580c7",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.3",
       "size": 3449,
       "sha256": "9a36543e7b59f1fa32838ca0b58e013905b2a68f1db8135265ece6f61544f480",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.30",
+      "size": 19637,
+      "sha256": "d4c5564772e9ac488b54068624de2612bce2430d6163fef2011d30aed7545dfd",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.31",
+      "size": 19738,
+      "sha256": "15f7bcec1889627adf1d264f3b60f9bec18d6318ae550f6fb684fd890aff1991",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.32",
+      "size": 19657,
+      "sha256": "39f052cb27df42e2ac6ae744b784bc1b0a6f6f20de4ab12a8b12289fbfc8ee07",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.33",
+      "size": 20017,
+      "sha256": "3566d89ba8a971a8355b0e81239debbbf90a43da206f6bac9b7984c3edbcad26",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.34",
+      "size": 20778,
+      "sha256": "1b683333d1bf5a39904837fb70cd70d8b58949577616561533f206642c7884c3",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.35",
+      "size": 20785,
+      "sha256": "45ca0cafa02a402455460b71d2dff282c941865ad892256d48866e7d5804ca9d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_airdrops.js.bak.36",
+      "size": 20839,
+      "sha256": "e23b072bed1d02fea974f0efc5d27074e1b601bf2fb94ed4c91c4bbc8bd7460b",
       "category": "managed",
       "required": true
     },
@@ -4468,9 +4545,86 @@
       "required": true
     },
     {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.84",
+      "size": 55539,
+      "sha256": "14de5812b30089090615a87db1003d58b15f8b04a609f6137c2c0bc6e375431b",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.85",
+      "size": 55591,
+      "sha256": "cc0c59a5e02d1450d9c92724706b768f7ee5db22ab0dd97facee818cea0e080c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.86",
+      "size": 56481,
+      "sha256": "5ff27df5006bbf1a0d8b2af2c30467d1bda047b8508c400bd394e2b7932421d5",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.87",
+      "size": 56667,
+      "sha256": "2a50caf739712f65ebba5cb5d4b542855d55dc83e99e46a85ebf2a18a390e859",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.88",
+      "size": 56790,
+      "sha256": "3977337267053cb1d1b4a4582d543461395a19a56d437210518379b2ffaacf26",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.89",
+      "size": 56891,
+      "sha256": "1013f0f354cafd8efb9c1ce3c2cfdb586b161156d6ee0ca9889b1e1b91e1ce17",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.9",
       "size": 16528,
       "sha256": "b19a4d764fa2ae41e7c8527d0c708921c19627394b0eed067e2d473b8151eba6",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.90",
+      "size": 57104,
+      "sha256": "0fbcff72ed66826f1d1a4f4b0ed7aaf72ed113c935947c47f21dedf10c424753",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.91",
+      "size": 57231,
+      "sha256": "ccb4cb8852f3d166bf5d1653b3eff237a48d57ff68380c484ffdd7d3e5f16774",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.92",
+      "size": 57364,
+      "sha256": "9c2c8d6c913c97b4e07a1b04258b9ca94c6f008bb5023c470bbec81353fbb6ec",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.93",
+      "size": 57497,
+      "sha256": "0261c0190045749f501c41abb0d96abc4d5116a635491dd47810582e30829f00",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_commands.js.bak.94",
+      "size": 57996,
+      "sha256": "ef7d8e3f398ee17489359c27ce47364eece0a46fc703762e3b8320bf4446feed",
       "category": "managed",
       "required": true
     },
@@ -4590,6 +4744,13 @@
       "path": "kubejs/.gpttool/backups/server_scripts/raid_config.js.bak.23",
       "size": 9542,
       "sha256": "f65db5406e44fd297d380a3e5f7856a8e88e658995e3f5fd2d814a8c22db5d0d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_config.js.bak.24",
+      "size": 9435,
+      "sha256": "8d5c8e1d55cbc847dabdafc3f52ac99d3f7ab4df71231d00afc55994de8af1c5",
       "category": "managed",
       "required": true
     },
@@ -5574,6 +5735,20 @@
       "required": true
     },
     {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_economy.js.bak.56",
+      "size": 17851,
+      "sha256": "ea923d5f462b749a6b1cc24766bca4f7f106fa935c238c9be88a5ece161638fa",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_economy.js.bak.57",
+      "size": 17937,
+      "sha256": "86951802b07ab1bc62956416909b6550e591e89aebbd7c9559cf821c3749eebc",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/.gpttool/backups/server_scripts/raid_economy.js.bak.6",
       "size": 7583,
       "sha256": "3636f029369dc37640f8302960856aa9029cd153e28ae30f5c74d91d7d31910b",
@@ -5871,6 +6046,76 @@
       "path": "kubejs/.gpttool/backups/server_scripts/raid_loot_chests.js.bak.1",
       "size": 15836,
       "sha256": "8534e2ba2342bf4ef6286e7b77a6c7c96dba64bcc62277e5d5a1f15bc3f863bd",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak",
+      "size": 4136,
+      "sha256": "4e6478800146f32085851aa6836188536c90196bc9afb7ec830912158b7f0eaf",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak.1",
+      "size": 4200,
+      "sha256": "51f332d8780dcf6384627f4679543efa559c89cce4392b585620ab886f00d5dd",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak.2",
+      "size": 4201,
+      "sha256": "50c96d0d82b2b7b14fdc8e95907d5ce3b0d93a48c8833c9e4318276bfcbfbfa3",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak.3",
+      "size": 5993,
+      "sha256": "3059a35689ad7f14e729e519e552aaae688825695c92ea1b638dc53189d57edd",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak.4",
+      "size": 5886,
+      "sha256": "8933cb75479c3c765d1ccd5662e3b46a2110f51b76f75246dd9125e5e0d4e328",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak.5",
+      "size": 5933,
+      "sha256": "11ffb92021cd0613ed1a43c30e9eaad000d899dd76fd46a65de13b124e4a8521",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak.6",
+      "size": 5903,
+      "sha256": "0d851bf1d2d58e92b4ff131f8077ee80b08cca21444ff5b923d08319c9ea009d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak.7",
+      "size": 5905,
+      "sha256": "8faffc778eb3ae9ffb84a30a3dae43ab462bf8374649c460275fe1ca118e680e",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak.8",
+      "size": 6967,
+      "sha256": "6a3b75da8bdc60576bc370bee2c70b41b4dbe36f6761dc81f279c60c1738b515",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_music.js.bak.9",
+      "size": 7018,
+      "sha256": "35e648b2a4a1302cc67d2c59de58321509e7afb40cc7b0e67f23d276a2e293d3",
       "category": "managed",
       "required": true
     },
@@ -6753,6 +6998,20 @@
       "path": "kubejs/.gpttool/backups/server_scripts/raid_setup.js.bak.165",
       "size": 44349,
       "sha256": "e898b6eda646fcebddb01eb4d8c12169968242530c965831bb0f1a9ba5d29fe2",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_setup.js.bak.166",
+      "size": 45475,
+      "sha256": "08524527eb3cdc0c9a0ce44d515148a4291cc09b5c8403c553fa7e75f9c634fb",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_setup.js.bak.167",
+      "size": 45606,
+      "sha256": "184e73236f72b6360fe35710438944c03dc494f3f7b5da5520905257f8d5351e",
       "category": "managed",
       "required": true
     },
@@ -8480,8 +8739,8 @@
     },
     {
       "path": "kubejs/.gpttool/history.json",
-      "size": 293826,
-      "sha256": "9e9ab1288a30e6f88b54ea1572ae50074058bba6d45e7bbdf29a9c84c6bcfc1f",
+      "size": 303749,
+      "sha256": "5e0610d674bec505b5a364cf6affbb553cc85f95587bb8266496717102e05cfd",
       "category": "managed",
       "required": true
     },
@@ -8529,8 +8788,8 @@
     },
     {
       "path": "kubejs/.idea/workspace.xml",
-      "size": 19891,
-      "sha256": "9c74540ea9d0929f056fb9dc795e5c1c42216d8ff8bd7e1b3029d7d5c6adbe05",
+      "size": 20323,
+      "sha256": "ca607f47795a9cd170e970b9d5b87001ab26b3349baebe7cc4cf99c546fbb9dd",
       "category": "managed",
       "required": true
     },
@@ -8578,8 +8837,8 @@
     },
     {
       "path": "kubejs/assets/kubejs/sounds.json",
-      "size": 2277,
-      "sha256": "f57b08e58a2e052b550050be2b65f7efde4e2027d42c4b71f1f6c5fa9aa09c4f",
+      "size": 2563,
+      "sha256": "a98d7573a0e7a8cb27d49a5009fdf45614497b23127bf5a05f5d34a7bbe2762a",
       "category": "managed",
       "required": true
     },
@@ -8594,6 +8853,20 @@
       "path": "kubejs/assets/kubejs/sounds/raid/airdrop_warning.ogg",
       "size": 29609,
       "sha256": "0d53f1b2311d74ce6b433f81054a6fc02ec8152e35f2e63618db60faa164ed37",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/assets/kubejs/sounds/raid/background_1.ogg",
+      "size": 1712703,
+      "sha256": "c112e7e91a0bd261fbc0f604d211eee30d511c8b908f0d3dba568a71bcda535c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/assets/kubejs/sounds/raid/background_2.ogg",
+      "size": 327149,
+      "sha256": "28b8a7f4876594cfe1a1be0f6c403a2e64ef84694327b78717b3dee1f87813be",
       "category": "managed",
       "required": true
     },
@@ -8634,8 +8907,8 @@
     },
     {
       "path": "kubejs/assets/kubejs/sounds/raid/match_start.ogg",
-      "size": 20204,
-      "sha256": "443ec25bb7ee9ef6c1614df5421d7eb8bc39f31aa14e9f2ecadb0608aa3c6571",
+      "size": 75194,
+      "sha256": "44d059977eea63a9d4218caad479a3274fa80cf52a68fc919b7738662766e1b3",
       "category": "managed",
       "required": true
     },
@@ -8732,8 +9005,8 @@
     },
     {
       "path": "kubejs/client_scripts/raid_setup_gui.js",
-      "size": 25241,
-      "sha256": "7f28163de1e9d559e7768bb11d00f55075103c9978bca591002a7d30936fabd7",
+      "size": 25155,
+      "sha256": "78e0a2dea6b3e2f14bce46f64416bc7ffcc56b9645d838481f37bb65e183c8f8",
       "category": "managed",
       "required": true
     },
@@ -8822,6 +9095,13 @@
       "required": true
     },
     {
+      "path": "kubejs/data/kubejs/loot_tables/raid/airdrops/test.json",
+      "size": 288,
+      "sha256": "433607d7c4c394774b8fff786193c13026a961f9c7d9e5ab019b3ddc4a1e5e69",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/gpttool.py",
       "size": 25358,
       "sha256": "52a995fcacd0331eb3171c0e5cf1a5202a9f98b0a3403471ee8c6116c2a6a72a",
@@ -8839,6 +9119,13 @@
       "path": "kubejs/raid_admin_guide.md",
       "size": 6223,
       "sha256": "5cd4975b82fafced4e343ee20938fd09a02ee38b56025741e7522c5d3853929e",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/raid_music_guide.md",
+      "size": 5362,
+      "sha256": "241cff07b97bf06b559a702169357ebc514194b4b9699531c164d5386611d316",
       "category": "managed",
       "required": true
     },
@@ -8935,8 +9222,8 @@
     },
     {
       "path": "kubejs/server_scripts/raid_airdrops.js",
-      "size": 18150,
-      "sha256": "9eeeed4cfe300c58c91aba51267ae9a2145113c545681f490471b65d68f8f0f5",
+      "size": 20893,
+      "sha256": "b5190f35aca4fe9463cc82052118c691b960c97423a3b24fe8c64cefce6217ee",
       "category": "managed",
       "required": true
     },
@@ -8963,15 +9250,15 @@
     },
     {
       "path": "kubejs/server_scripts/raid_commands.js",
-      "size": 55539,
-      "sha256": "14de5812b30089090615a87db1003d58b15f8b04a609f6137c2c0bc6e375431b",
+      "size": 58535,
+      "sha256": "6c2b35203997c26c69bdf6c9ce5e6a336d916cd34bf2445587585236d090f209",
       "category": "managed",
       "required": true
     },
     {
       "path": "kubejs/server_scripts/raid_config.js",
-      "size": 9435,
-      "sha256": "8d5c8e1d55cbc847dabdafc3f52ac99d3f7ab4df71231d00afc55994de8af1c5",
+      "size": 9436,
+      "sha256": "cf856fa5c7ca8e9f7d8bd041bf52a1a221b5db54dc5559f4fb2b3dd4ccf5b984",
       "category": "managed",
       "required": true
     },
@@ -8991,8 +9278,8 @@
     },
     {
       "path": "kubejs/server_scripts/raid_economy.js",
-      "size": 17851,
-      "sha256": "ea923d5f462b749a6b1cc24766bca4f7f106fa935c238c9be88a5ece161638fa",
+      "size": 17991,
+      "sha256": "44afb029c68c16071c5a6b5d151dc516c6f7788d9d1dd68c0a9e797304378b68",
       "category": "managed",
       "required": true
     },
@@ -9046,6 +9333,20 @@
       "required": true
     },
     {
+      "path": "kubejs/server_scripts/raid_music.js",
+      "size": 6998,
+      "sha256": "eefc00e1c68dd930e3fa3f4253bde412f26b23311bb5e8a4f4de3021e7ba9b77",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/server_scripts/raid_pause_inventory.js",
+      "size": 10904,
+      "sha256": "dae4df4ea75de4b5a4488ff351e8c86d9ac88816724e437d70171556023e04f0",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/server_scripts/raid_protection.js",
       "size": 9772,
       "sha256": "405f69a4d7c9d69fa8d63fd709c4e52d764bb6cf25ac315838bdef7046fb29e7",
@@ -9068,8 +9369,8 @@
     },
     {
       "path": "kubejs/server_scripts/raid_setup.js",
-      "size": 44392,
-      "sha256": "a1ef7057746d2de5873186db1db0b87c4ef4fa34e88ebd2f13eea94fe4275e31",
+      "size": 46158,
+      "sha256": "f11c80fa152d93bc476a05e6e8581d6cd76b42825b8d5800bf9dca06c89d60de",
       "category": "managed",
       "required": true
     },
@@ -33002,7 +33303,7 @@
     {
       "path": "usercache.json",
       "size": 106,
-      "sha256": "b2a8a65e64be39b2493446cc234bfa825c7551820ef85d806b55005061f91b50",
+      "sha256": "ec2d05296e453aa757e9c16b04a5e5c89de48e9286ae393955d80e3a4d05ccf3",
       "category": "managed",
       "required": true
     },
