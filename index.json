@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-12T13:23:23.607Z",
+  "updatedAt": "2026-06-12T13:26:56.323Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -183,19 +183,17 @@
       "minecraftVersion": "1.20.1",
       "loaderType": "forge",
       "loaderVersion": "47.4.10",
-      "latestReleaseId": "Military-0.0.5",
-      "releaseVersion": "0.0.5",
+      "latestReleaseId": "Military-0.0.7",
+      "releaseVersion": "0.0.7",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
-      "artifactSizeBytes": 513463538,
-      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/Military-v0.0.5/Military-0.0.5.zip",
+      "artifactSizeBytes": 589835852,
+      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/Military-v0.0.7/Military-0.0.7.zip",
       "manifestUrl": "./packs/Military/manifest.json",
       "iconUrl": null,
       "heroImageUrl": "./packs/Military/hero.png",
       "thumbnailUrl": "./packs/Military/hero-thumbnail.png",
       "logoUrl": "./packs/Military/logo.png",
-      "draft": false,
-      "featured": false,
       "homeDecorations": {
         "left": {
           "imageUrl": "./packs/Military/decoration-left.png",
@@ -206,7 +204,9 @@
           "delaySeconds": 0,
           "speedMultiplier": 0.1
         }
-      }
+      },
+      "draft": false,
+      "featured": false
     }
   ]
 }
