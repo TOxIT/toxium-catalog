@@ -6,23 +6,23 @@
     "title": "Poligon"
   },
   "release": {
-    "id": "Military-0.0.5",
-    "version": "0.0.5",
-    "publishedAt": "2026-06-02T22:54:01.388Z"
+    "id": "Military-0.0.7",
+    "version": "0.0.7",
+    "publishedAt": "2026-06-12T13:26:56.323Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "Military-0.0.5.zip",
-      "url": "https://github.com/TOxIT/toxium-packs/releases/download/Military-v0.0.5/Military-0.0.5.zip",
-      "sha256": "578b0e9ed53172d5e3914e97f1a6b5178108f339de335d96e9e617fb6e243aba",
-      "sizeBytes": 513463538
+      "fileName": "Military-0.0.7.zip",
+      "url": "https://github.com/TOxIT/toxium-packs/releases/download/Military-v0.0.7/Military-0.0.7.zip",
+      "sha256": "dd42ed8d9f2c4c042b83f5bd3f5fc0ff55187560ee00a76306faa9f815886e02",
+      "sizeBytes": 589835852
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
   "minecraft": {
-    "version": "1.21.1"
+    "version": "1.20.1"
   },
   "loader": {
     "type": "forge",
@@ -34,13 +34,13 @@
   },
   "loaderPreparation": {
     "strategy": "custom-metadata-pipeline",
-    "versionJsonPath": "metadata/forge-1.21.1-47.4.10/version.json",
+    "versionJsonPath": "metadata/forge-1.20.1-47.4.10/version.json",
     "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
-    "argumentsProfile": "forge-1.21.1"
+    "argumentsProfile": "forge-1.20.1"
   },
   "launchPreparation": {
     "metadataFiles": [
-      "metadata/forge-1.21.1-47.4.10/version.json"
+      "metadata/forge-1.20.1-47.4.10/version.json"
     ],
     "librariesDir": "libraries",
     "assetsDir": "assets",
@@ -51,7 +51,7 @@
     ],
     "recommendedGameArgs": [
       "--version",
-      "forge-1.21.1-47.4.10"
+      "forge-1.20.1-47.4.10"
     ]
   },
   "preserveRules": {
@@ -78,6 +78,20 @@
     }
   },
   "files": [
+    {
+      "path": "config/cameraoverhaul.toml",
+      "size": 10566,
+      "sha256": "f06739b335abb550670dc6454d6d9abb0225b58c96f338be16a4ef735d3bc0ee",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/chunky/config.json",
+      "size": 146,
+      "sha256": "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8",
+      "category": "managed",
+      "required": true
+    },
     {
       "path": "config/create-client.toml",
       "size": 4397,
@@ -114,9 +128,37 @@
       "required": true
     },
     {
+      "path": "config/DistantHorizons.toml",
+      "size": 32930,
+      "sha256": "387ffbb0ec93f5d0ee9a45e873da99426e41378f3c450d719a0d6eebc0c551f1",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "config/dyairdrop.toml",
       "size": 1733,
       "sha256": "3e84e2f9e6d69a5a3060637feaf1b1e4a776919dff05f7187c7616751e3e20c2",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/embeddium-fingerprint.json",
+      "size": 427,
+      "sha256": "532f144b62163e3b783ea78659aadb1c00e622805105fa0e0ca73b35b416a023",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/embeddium-mixins.properties",
+      "size": 269,
+      "sha256": "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/embeddium-options.json",
+      "size": 852,
+      "sha256": "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d",
       "category": "managed",
       "required": true
     },
@@ -177,6 +219,118 @@
       "required": true
     },
     {
+      "path": "config/fancymenu/custom_gui_screens.txt",
+      "size": 51,
+      "sha256": "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/customizablemenus.txt",
+      "size": 26,
+      "sha256": "535db450a125a856472e38d6c9cd7ed94961e83a9c19fcaab25c6b6ccb515c60",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+      "size": 197,
+      "sha256": "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/legacy_checklist.txt",
+      "size": 42,
+      "sha256": "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/options.txt",
+      "size": 4398,
+      "sha256": "66c5830aa3cb934bcf6d304a3b174d35c1e76beb26b5f64f820fa21bf305007b",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/ui_themes/cherry_blossom.json",
+      "size": 9349,
+      "sha256": "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/ui_themes/cozy_campfire.json",
+      "size": 9347,
+      "sha256": "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/ui_themes/dark_high_contrast.json",
+      "size": 9359,
+      "sha256": "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/ui_themes/dark.json",
+      "size": 9329,
+      "sha256": "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/ui_themes/light_high_contrast.json",
+      "size": 9361,
+      "sha256": "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/ui_themes/light.json",
+      "size": 9331,
+      "sha256": "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/ui_themes/pumpkin_soup.json",
+      "size": 9345,
+      "sha256": "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/ui_themes/purple_void.json",
+      "size": 9343,
+      "sha256": "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/ui_themes/spooky_season.json",
+      "size": 9347,
+      "sha256": "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/user_variables.db",
+      "size": 23,
+      "sha256": "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/ferritecore-mixin.toml",
+      "size": 1516,
+      "sha256": "c164439c632aa7c95c07edec5cfef74b8e2d5671a8445a781deeb4de7ad0c8b6",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "config/flywheel-client.toml",
       "size": 623,
       "sha256": "597af0c342157102124aa3ab50e5a4bab627bc9e20577ad73f618e7b141e5cff",
@@ -222,6 +376,13 @@
       "path": "config/hud_texts_3.2.json",
       "size": 4283,
       "sha256": "1ba35900ee8a8b06044ed4b14660856e01b45f5295a0e65d3fb42c2cb74e8746",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/immediatelyfast.json",
+      "size": 1060,
+      "sha256": "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa",
       "category": "managed",
       "required": true
     },
@@ -373,6 +534,34 @@
       "required": true
     },
     {
+      "path": "config/konkrete/locals/de_de.local",
+      "size": 369,
+      "sha256": "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/konkrete/locals/en_us.local",
+      "size": 426,
+      "sha256": "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/konkrete/locals/pl_pl.local",
+      "size": 313,
+      "sha256": "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/konkrete/locals/pt_br.local",
+      "size": 322,
+      "sha256": "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "config/lostcities/common.toml",
       "size": 696,
       "sha256": "b17413b54a21962cf8b52080e1304a22921a026b006bbe1d40cda875fd20c741",
@@ -520,6 +709,20 @@
       "required": true
     },
     {
+      "path": "config/modernfix-common.toml",
+      "size": 107,
+      "sha256": "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "size": 6484,
+      "sha256": "1975612247c7155a22e50e152c9ea5c8b29fc17645691e90467dc2d8f20a0feb",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "config/moonlight-client.toml",
       "size": 1027,
       "sha256": "47297d47ca3fa4525d1adbc7234b9b0dc2ee490b87216fe6002e34ff69acac08",
@@ -548,6 +751,384 @@
       "required": true
     },
     {
+      "path": "config/oculus.properties",
+      "size": 279,
+      "sha256": "2a9459cbf97179d05e74ca5da18f8a1c951ce83eaebb0402c6e617dab3c6cc1b",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/parcool-client.toml",
+      "size": 9187,
+      "sha256": "b7dd143a8d63e440a7edc15e8b3544aabd54a273bc024ee8e23bec7f57ddf6bc",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/de_de.json",
+      "size": 8510,
+      "sha256": "1fe30625fb96f11e1513d848a04bc4fbad707f4ad0ba61849a388a9e7a33ca9d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/es_es.json",
+      "size": 9115,
+      "sha256": "bcd62f8b59b77ed388231cbd6cd479f58aa82309788ba2a26410cb21e514adfa",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/fr_fr.json",
+      "size": 9154,
+      "sha256": "6c2e91b1a964e5dd4511702fd554ac8094c4f862ab4679b7dbd54af18c128db0",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/he_il.json",
+      "size": 9290,
+      "sha256": "81af917b226159198f9a76cb9caa4ffa5ba108684106d0a7d7a46a0e756f4a29",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/ja_jp.json",
+      "size": 9467,
+      "sha256": "0db355eb21a7795e9e57bb94ae925a28efdbdec49b0704476dcf9c9dc2ed5566",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/ko_kr.json",
+      "size": 9208,
+      "sha256": "8e0d47316caee0b490f6bedabb5532da30567094b6438deead1f3f0f85e66346",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/pl_pl.json",
+      "size": 8890,
+      "sha256": "62a43c9f3d46b1e1630b1988ee07413139da25a57dc49265b8cc9450cbae0cfb",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/pt_br.json",
+      "size": 9046,
+      "sha256": "b0e75ebd3798bdbe416ffb3ea3ac0bda766e3bcf92864821bab5a1f34e434a18",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/ru_ru.json",
+      "size": 11446,
+      "sha256": "d968868df22341f8b07a1b35c2dbbeaee2c14a866037a00fdd6a0521b9d0e01b",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/timestamp",
+      "size": 13,
+      "sha256": "4ff9c580c5ed235a523161eb4764a61cd90f33f102b4611d277bd06f01eb48f1",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/tr_tr.json",
+      "size": 1545,
+      "sha256": "737689d0d384a71a45e6e7a96977ab36cba9f417f3ca43863cdcf0215779754d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/tt_ru.json",
+      "size": 11312,
+      "sha256": "4437e99ad9a5a3c95a7522a149c97d83ed5755228e1a2ce6478cc6c447351157",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/uk_ua.json",
+      "size": 10828,
+      "sha256": "3348f1728d61f8a274f99a73d03a6dbd3b43fa47662cce41035a8cad6cb36b60",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/vi_vn.json",
+      "size": 10102,
+      "sha256": "9fc7b9669868da19f237629ff536155135e17e6c3a42f978bec98fb514aa0c25",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/zh_cn.json",
+      "size": 8123,
+      "sha256": "b92d52b8ffbc46de6da360f5a785bc920cfc3c3885de6f373257110fc3ebc94c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/zh_tw.json",
+      "size": 8119,
+      "sha256": "14870f7731fe7381871e17a10d3cb962a041f31ae613cf6872e9debd20775a8c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/client.toml",
+      "size": 1223,
+      "sha256": "6546169469b15ce703d85ec14d2060c2f25a61d6d533ee9906320952ca708a3d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/meta_cache.json",
+      "size": 655,
+      "sha256": "e9c2ab8bd0d722df2683ebfabf3ca11afb6cc4fbd4c52838bd83dceb72a72b2c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/config.toml",
+      "size": 3605,
+      "sha256": "929e9b7a70d36c690ea830b3204ea0d4e8fdf696bb18353157b7d5bb57a6ac0c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/de_de.toml",
+      "size": 2187,
+      "sha256": "29fab82d4a3280d63e9df7a0f02473b0098f3b5312979ea61aaf8f4b187eaa19",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/es_es.toml",
+      "size": 2123,
+      "sha256": "f434de429907bd810d018ba0db4584eb63f3a1dfbd8fa0d374ca8342416a0017",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/fr_fr.toml",
+      "size": 2099,
+      "sha256": "59931182a23c8691011180014ab5cdf8d676a64d129b55175a8521e24d67ffb7",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/he_il.toml",
+      "size": 2228,
+      "sha256": "fa6fded3bbb26f21f9e7ef521370c6d4ce368529cbe927eee741467e75e04817",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/ja_jp.toml",
+      "size": 2508,
+      "sha256": "1f83c01943a55663177bdb991a7b1bcef23450f2996467f70f51ca4b8c72dd0b",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/ko_kr.toml",
+      "size": 2356,
+      "sha256": "df06537abcd1e218d48357beec47441cc43c3dcf2c318bfd22b921244d81fa0d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/pl_pl.toml",
+      "size": 2040,
+      "sha256": "06196ef2e05c14f360d561e08ac5ebf9ef89272161b6ce382c312bece82196af",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/pt_br.toml",
+      "size": 2035,
+      "sha256": "a3931d10e96140e381350850744c702cc9d7c1a4aac264dd996e2a21a8144aee",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/ru_ru.toml",
+      "size": 2531,
+      "sha256": "c0c45c94a604050a478cbb63a77ab1167122a5b52f53564da1165243cfacf643",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/timestamp",
+      "size": 13,
+      "sha256": "be8b2b77e6c85d87572bb207551019484e61a47d4ec547eb532de99b809e147f",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/tr_tr.toml",
+      "size": 2125,
+      "sha256": "15ff4d54e5e592ca5d4ea70af061bfb8f820dabc878eb583b21367c441a78807",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/tt_ru.toml",
+      "size": 2913,
+      "sha256": "4381a87ef626fa46045c8322e8431d902eb8bb9ff4f4fbbbc546e65a17975844",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/uk_ua.toml",
+      "size": 2730,
+      "sha256": "1f9cafc386ca07036f9dc4cb84175fe0d222111db44a74dd9043981dbe02a102",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/vi_vn.toml",
+      "size": 2258,
+      "sha256": "cc8fb926bba76906efd205dd5b2f4a582956998bc95b7e26a5d14f2af43cd1d9",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/zh_cn.toml",
+      "size": 1882,
+      "sha256": "503c383b6921681dbc7c2896cea946ded969d4d62ab2f439bd7ffb33f1d24310",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/zh_tw.toml",
+      "size": 1879,
+      "sha256": "cb5ad0855fe3bf0a298de8d02e6e91d76c9c4e3a21ab206297c71b745eb1cfc7",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/de_de.toml",
+      "size": 2175,
+      "sha256": "9fc73031a7de8225670bf43c35b545be21c665bc9fb501b7005e4633b3ab0a88",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/en_us.toml",
+      "size": 1892,
+      "sha256": "a3ffc8d6709904df88d81d4fddbf7c54185faf1595519a13288f78be8d287ced",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/es_es.toml",
+      "size": 2111,
+      "sha256": "2cfd2e058a09fbd0fc2d6bb7d5eda62f1f322b103be3d33a835e39dea463c1b3",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/fr_fr.toml",
+      "size": 2087,
+      "sha256": "e8974fccbb16c616728967bf1e45eedfdfb849b12a6f1b91b398d1da3ffea988",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/he_il.toml",
+      "size": 2216,
+      "sha256": "c499b39e46b90cba9bd875b15f119d8948a6ec45782e6482f03ffae1bdbb5856",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/ja_jp.toml",
+      "size": 2496,
+      "sha256": "664fb25e829713ca1e18c53ebcb8a4f88daf991c3fc8037e433463c1b9005513",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/ko_kr.toml",
+      "size": 2344,
+      "sha256": "68bb146f89fe3c6ba23c688e51cdb7f5415294230966ff185afebe90d8b422ac",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/pl_pl.toml",
+      "size": 2028,
+      "sha256": "904c5cffcfa2a5f142e397154447b4b138b5c50516cd2858412c4f254177f733",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/pt_br.toml",
+      "size": 2023,
+      "sha256": "d7849d3e40e584131d615b67d2c3abaaf63ed0d77dc7646818fc4341cf83eefb",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/ru_ru.toml",
+      "size": 2519,
+      "sha256": "433c2ac6f698e6e5ab8011db239c242b23edc00248c1f0bd5ea74e5fd34d5506",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/tr_tr.toml",
+      "size": 2113,
+      "sha256": "86b4cce6dcb6b150dbce6311f3337e51a743d87a6f7edb2f0d88e1490e982446",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/tt_ru.toml",
+      "size": 2901,
+      "sha256": "c6f05167951ab06e56aa8d881782e7892cdd3f5eed5d9823dea5610cba4e7b76",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/uk_ua.toml",
+      "size": 2718,
+      "sha256": "532b19f1f11994022cd7a51cd655a24fdae99fa91c31b1cd5c80f1546abac55a",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/vi_vn.toml",
+      "size": 2246,
+      "sha256": "61be1df040e997228d9ab523089ec836df18b4c7d73ddfb5d2ea8c46dba74efa",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/zh_cn.toml",
+      "size": 1870,
+      "sha256": "53f32195245cbe77c14678e8f7110922dd19bcbb90cfd5c5e9742696da1a6220",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/languages/zh_tw.toml",
+      "size": 1867,
+      "sha256": "3bd383cba134a2baffe26afcf93866259e2b4b1338887cf77495efbcbf0d78d5",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/plasmovoice/server/voice_mutes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "config/pointblank-common.toml",
       "size": 3336,
       "sha256": "89503d4f072611f232c2eeaf85b79122572f85c7f6f95d8d009e71db1da1ea23",
@@ -569,9 +1150,191 @@
       "required": true
     },
     {
+      "path": "config/pv-addon-groups/groups.json",
+      "size": 1948,
+      "sha256": "e859b1913b96e26b14a5602ec557ef8e01978669ffdded8c8d9a84addbdd3abb",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/groups.toml",
+      "size": 142,
+      "sha256": "fe1f708f7cc7154b10ad60eb38ed205ad7cff5e17f47c45ac06a12d4b9e4ca31",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/es_es.toml",
+      "size": 3589,
+      "sha256": "37df092137357c05f1244961b3f55f6f1a7d10e17fcdba98628714e6d3429aab",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/ko_kr.toml",
+      "size": 4216,
+      "sha256": "30aa8bed8d8c6c2a7c94d920820ea8aa32662921e01a530e9c8682db497641e2",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/pl_pl.toml",
+      "size": 3085,
+      "sha256": "b7fc7e0b16e6a04cc21980285834e6f3f81b2c0ebd177c0ca2c8d7beda1ed6ff",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/pt_br.toml",
+      "size": 3467,
+      "sha256": "50f0c350638d28c93f512adeb8510e67a9dc91b235d106fa0141bb6d7aee95fb",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/ru_ru.toml",
+      "size": 5640,
+      "sha256": "b6b6c1ab3fde0aa2ceb03b397b203cdc3167610b1115e9d9e15955943f857360",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/timestamp",
+      "size": 13,
+      "sha256": "64651f3b3265174d68203d282a983cdc2618fae2eb5a3be33bbc25c2e514fd58",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/tt_ru.toml",
+      "size": 5368,
+      "sha256": "f1c0e466b90bf1c6d881eff76d02ff871edf50f75b6eda8d31e918d924c78606",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/vi_vn.toml",
+      "size": 4742,
+      "sha256": "fdcf16810dba9e1d8d10b212c6826343797f037e47dbbd42680e6e731ed61353",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/zh_cn.toml",
+      "size": 3310,
+      "sha256": "aa3b587e23061f63bfbb722e6772625ddccf2ee67047558005215399472c23e8",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/.crowdin/zh_tw.toml",
+      "size": 3249,
+      "sha256": "79fe5df663324312cb2216f4f7022690ac2c3dfda745c9e4057cb604d50e5451",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/en_us.toml",
+      "size": 4135,
+      "sha256": "ec6f31960fbac665f7093d0b9bfd9cfae3d078f2c5b6d9169390389885239087",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/es_es.toml",
+      "size": 3594,
+      "sha256": "a55c28a450547673064584206f19fa7831f2936c38ad9bc15e7640088d7356fd",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/ko_kr.toml",
+      "size": 4221,
+      "sha256": "c9a1d924511d059ca86607837fe97d5541a9d7ddc297bd10276209609c35c262",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/pl_pl.toml",
+      "size": 3091,
+      "sha256": "8303ebe8913ed51403cb453798610995ba02b2ed5037ea5695e9f9790ae156ab",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/pt_br.toml",
+      "size": 3472,
+      "sha256": "6f01e73d33226bb00cb2751a7157897b4c6d2ee1e69caa5c182f4fa7070ccc2f",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/ru_ru.toml",
+      "size": 5645,
+      "sha256": "24fac2f4d0690de1e3d7288769bc92f5ea49818bcdf89f1aa002fe7d94688e3d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/tt_ru.toml",
+      "size": 5367,
+      "sha256": "d24ca6db68c5b5e6d9b7bb36e89d6ccb10b1e2374818bfa255efefb79b7e2d2c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/vi_vn.toml",
+      "size": 4749,
+      "sha256": "7b79b899dd8fd615377714ade69ddd8922c7ea024faba0fa82e77bd2d2735e07",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/zh_cn.toml",
+      "size": 3309,
+      "sha256": "9179769479851895e4ae5c4258ca9733e753931053dbd701655a753b58b832b3",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/pv-addon-groups/languages/zh_tw.toml",
+      "size": 3248,
+      "sha256": "69364e2a4a53d687bc595458ef4a0469ada6072a1f424039157ea286615ef999",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "config/securitycraft-client.toml",
       "size": 1552,
       "sha256": "d4c6dce4d488153852ae794ba4a7639a5b26553249ff7c58199ace93752df6f0",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/sound_physics_remastered/occlusion.properties",
+      "size": 4831,
+      "sha256": "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/sound_physics_remastered/reflectivity.properties",
+      "size": 4713,
+      "sha256": "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/sound_physics_remastered/sound_rates.properties",
+      "size": 101713,
+      "sha256": "d26b0ec619933d1213f6eccbeb2fdd5764b5362b1cab5db4c63502d16b3bd41c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/sound_physics_remastered/soundphysics.properties",
+      "size": 5104,
+      "sha256": "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d",
       "category": "managed",
       "required": true
     },
@@ -604,6 +1367,20 @@
       "required": true
     },
     {
+      "path": "config/timeclock/client.json",
+      "size": 504,
+      "sha256": "f3e99a536945580bb68ffc79aa0dc280314535ab0eb7bf099d39614f0aecd02b",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/timeclock/server.json",
+      "size": 363,
+      "sha256": "889a8b2d287bb84923a3d8ed9b7253c7335da74d26f32ec27c1833587dca4262",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "config/warborn-armor.toml",
       "size": 352,
       "sha256": "1452312e9a8d7f18d3255a37049c7e562c00aed9f32dbcd229be35c36894a997",
@@ -613,7 +1390,7 @@
     {
       "path": "config/worldedit/worldedit.properties",
       "size": 2541,
-      "sha256": "818b9d3cbbbd70f1da5edc88633ab62b97ddf90f58ac21b8e99a7881c6081edf",
+      "sha256": "dbbd991cdc050b35f3afca0e4ffebe888b1ca362858bf8eea947ea479a73214a",
       "category": "managed",
       "required": true
     },
@@ -632,9 +1409,30 @@
       "required": true
     },
     {
+      "path": "fancymenu_data/buddy/buddy_leveling_NjJkNWQ5MWItZGEwYi00NzBkLWJkYmEtYzFkMjc2N2QwZTRmLTE3ODEyNzAzOTQ4Mjk.json",
+      "size": 1619,
+      "sha256": "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "fancymenu_data/buddy/buddy_save_NjJkNWQ5MWItZGEwYi00NzBkLWJkYmEtYzFkMjc2N2QwZTRmLTE3ODEyNzAzOTQ4Mjk.json",
+      "size": 380,
+      "sha256": "26cf4b0e16e9ef6c9ec71afc5bb258b769d7d9bda9f15b5d1df114909e632a51",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "fancymenu_data/last_world.fmdata",
+      "size": 66,
+      "sha256": "21b9907f842fec38df4b19c8e3de5e27887512ca30f022b9f0f0849dde0542c3",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "hotbar.nbt",
-      "size": 3854,
-      "sha256": "682bff196c8ec5f757c791537607702e873efd446de8d6d14cae6cba7eaa7146",
+      "size": 3478,
+      "sha256": "4c58d157d50dbe4914d48ae6582d9f765c75e746ecf2e60303d382d0e5b6bcf2",
       "category": "managed",
       "required": true
     },
@@ -670,6 +1468,90 @@
       "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/red_flag.json.bak",
       "size": 108,
       "sha256": "31957364d6ed19efbd97f38ca5cf6765ed28b9eb629a0a5831870718d596e689",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak",
+      "size": 110,
+      "sha256": "3d851ec1c35c1159ce32cb0480147554aeaa4635a3279db4bf779c2b21749e5e",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.1",
+      "size": 108,
+      "sha256": "bdb8da9ac01bcc3781a6efb82349cf4622d8a383a2a936bbae80c8c9ffbf6cf2",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.10",
+      "size": 10318,
+      "sha256": "b3f8919440d3ccdaefc61d59d4290c2947c1cf5b82f9b7e3a3387de2ce3c76b0",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.11",
+      "size": 10318,
+      "sha256": "b3f8919440d3ccdaefc61d59d4290c2947c1cf5b82f9b7e3a3387de2ce3c76b0",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.2",
+      "size": 107,
+      "sha256": "52eafd1626e77e83a30ced841c02b9fa9b556438cdf365672ec2b8a875938042",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.3",
+      "size": 107,
+      "sha256": "52eafd1626e77e83a30ced841c02b9fa9b556438cdf365672ec2b8a875938042",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.4",
+      "size": 5345,
+      "sha256": "cf5dd329bf1a7711edc542fce5b2316fd30b232ac6ce5fe1c6758a85c5f6d754",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.5",
+      "size": 5353,
+      "sha256": "ff3e516c5187603b54f4cffdba1d05a9c308ee90ba9a7a238f4b5981349519e3",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.6",
+      "size": 5353,
+      "sha256": "955999f8a2da54869dd8167a9f29582037fbe22f18a0e3aee2138a93899627e2",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.7",
+      "size": 8284,
+      "sha256": "1b88a8e9cd35a5272c62dccf713da37131de1e53413bdad1aa650347fb252aec",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.8",
+      "size": 9757,
+      "sha256": "4bf90483f1e8c0359a7b44555cdf7f20703de2f34d20305847d4bfd5c3a548b9",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/assets/kubejs/models/item/team_radio.json.bak.9",
+      "size": 10318,
+      "sha256": "b3f8919440d3ccdaefc61d59d4290c2947c1cf5b82f9b7e3a3387de2ce3c76b0",
       "category": "managed",
       "required": true
     },
@@ -1087,9 +1969,58 @@
       "required": true
     },
     {
+      "path": "kubejs/.gpttool/backups/client_scripts/raid_setup_gui.js.bak.134",
+      "size": 25155,
+      "sha256": "78e0a2dea6b3e2f14bce46f64416bc7ffcc56b9645d838481f37bb65e183c8f8",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/client_scripts/raid_setup_gui.js.bak.135",
+      "size": 26164,
+      "sha256": "28f6ccdd41fb3c5024ed97eed91199237a16feeee038e4cc019fc3497cd3259f",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/client_scripts/raid_setup_gui.js.bak.136",
+      "size": 26749,
+      "sha256": "2032499304506b1aefa062ad9ad3f190e5c4bf838cc88c5eb21fe521327fb989",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/client_scripts/raid_setup_gui.js.bak.137",
+      "size": 28840,
+      "sha256": "7958c6f3a585c869630c4d1a5d9d41358050df6b0e2563db30d78d05a997088d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/client_scripts/raid_setup_gui.js.bak.138",
+      "size": 28840,
+      "sha256": "41b1a134f678ce30b95b07cb4d8871dc0da6d6749dad32cbc4b89839d3ec67d3",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/client_scripts/raid_setup_gui.js.bak.139",
+      "size": 28900,
+      "sha256": "ce254abdcd6544974594459b4a59f617d71f7b06d6aba3031ed97c4c63600e4a",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/.gpttool/backups/client_scripts/raid_setup_gui.js.bak.14",
       "size": 3900,
       "sha256": "d506e8e97d31eec84acbe5ab174ca0c45109080b72c73ccd5dedd2f8d9788137",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/client_scripts/raid_setup_gui.js.bak.140",
+      "size": 28900,
+      "sha256": "ce254abdcd6544974594459b4a59f617d71f7b06d6aba3031ed97c4c63600e4a",
       "category": "managed",
       "required": true
     },
@@ -3943,6 +4874,62 @@
       "required": true
     },
     {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.10",
+      "size": 14997,
+      "sha256": "6c0dcb9af0df15d98260b1a10d85076adc6125989a15ecfa80580877fec9cb59",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.11",
+      "size": 15501,
+      "sha256": "05ff3f4bb3bfb47e44d0ff46d39bc392f458cc3bdfb60ebd5ece4eec9b577bde",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.12",
+      "size": 15812,
+      "sha256": "83600316632e51df56095a1239592f03cbef3acedcf94fca7d1517263c7607a8",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.13",
+      "size": 15868,
+      "sha256": "6eb472edc56f4095f063431881b0190f3f9a6bbda7b0e4fae3015f079007df67",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.14",
+      "size": 16069,
+      "sha256": "a4978219be8898a68ca03ec774d2c803979d5e463f025883bdaf6e91e742c0dd",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.15",
+      "size": 16013,
+      "sha256": "42b36f98672cf54dd5bcd51ad2d4d67c3f5f99a863c48ddf1c2edfd517849021",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.16",
+      "size": 16710,
+      "sha256": "0952e5b305c6e66528ca41ced3b9b91a5291f56b0c1c76898d9f2ad20b3aa40b",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.17",
+      "size": 16776,
+      "sha256": "684643ec56ef3c164306a6e73b48c6b27e3da6b17085e4ee4ca4b1cfe2e10e8b",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.2",
       "size": 10248,
       "sha256": "9c9a03e9efbed4c3a14515ff2791617d1e324c593a57fe36cad099a0099af45a",
@@ -3960,6 +4947,41 @@
       "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.4",
       "size": 13824,
       "sha256": "8f90ffa0cc876219e52377a9a34eaf0b4dd9169a740806c929d41ed5d3d20e84",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.5",
+      "size": 13923,
+      "sha256": "bf478f13ffbb3dc5474098ab8bdd9c8270537c79c0a067c151df9fd27f3d36a2",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.6",
+      "size": 13981,
+      "sha256": "87db8eb0946bf05cf488a9cf18d4d8dd6d18f638f3b6c5178d9e0b0894369bd9",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.7",
+      "size": 14376,
+      "sha256": "1d6b3890635d7029d76d0a33652eb9314f51ab08962b21fe8234810229a3f9d1",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.8",
+      "size": 14414,
+      "sha256": "69944954ca7a6dc8cec119ba9e38e49cca1e092d6ec3b14f0cab9f5928f89197",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_chat.js.bak.9",
+      "size": 15124,
+      "sha256": "709ad9b5fc10a5ff7e9f95594768d57dd1586037c411b5c59c45b4c5eb71d399",
       "category": "managed",
       "required": true
     },
@@ -4751,6 +5773,13 @@
       "path": "kubejs/.gpttool/backups/server_scripts/raid_config.js.bak.24",
       "size": 9435,
       "sha256": "8d5c8e1d55cbc847dabdafc3f52ac99d3f7ab4df71231d00afc55994de8af1c5",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_config.js.bak.25",
+      "size": 9436,
+      "sha256": "cf856fa5c7ca8e9f7d8bd041bf52a1a221b5db54dc5559f4fb2b3dd4ccf5b984",
       "category": "managed",
       "required": true
     },
@@ -6312,6 +7341,13 @@
       "path": "kubejs/.gpttool/backups/server_scripts/raid_protection.js.bak.9",
       "size": 8860,
       "sha256": "e7dfedb188bacb814b863553388c6cc5cfaa69e80314abe1d5e0406eaec4b31c",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/server_scripts/raid_radio.js.bak",
+      "size": 1448,
+      "sha256": "1afcbf43404ee2cb6cf3e0dd2f87b905f06da7f97d2f2af6c8830d72618023ef",
       "category": "managed",
       "required": true
     },
@@ -8703,6 +9739,41 @@
       "required": true
     },
     {
+      "path": "kubejs/.gpttool/backups/startup_scripts/raid_items.js.bak.2",
+      "size": 1201,
+      "sha256": "8578d4a10dd65e2bb4d3ef5f9e77c2e8d10ec1a443b2f186bcd5e8e46103afc8",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/startup_scripts/raid_items.js.bak.3",
+      "size": 1216,
+      "sha256": "4a6db37833394f70f7de0a173c8bee3abeb2e531a80cd3f47262f4fe60ec9240",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/startup_scripts/raid_items.js.bak.4",
+      "size": 1215,
+      "sha256": "1ab9cf9567513b9e255ebf653a8683be5c5757393b6b2d9003dc3b293472f809",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/startup_scripts/raid_items.js.bak.5",
+      "size": 1198,
+      "sha256": "abfa908aa1b65627702d0780b15028549ec709b8c3f5006992976276cb6ad920",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "kubejs/.gpttool/backups/startup_scripts/raid_items.js.bak.6",
+      "size": 1198,
+      "sha256": "abfa908aa1b65627702d0780b15028549ec709b8c3f5006992976276cb6ad920",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/.gpttool/backups/startup_scripts/raid_setup_gui_registry.js.bak",
       "size": 82,
       "sha256": "403d3e2a254cf7cba2bce7c2c64fe3fd253b76c505fcf3c7231cfbd9597d096a",
@@ -8731,6 +9802,13 @@
       "required": true
     },
     {
+      "path": "kubejs/.gpttool/backups/startup_scripts/raid_setup_gui_registry.js.bak.4",
+      "size": 185,
+      "sha256": "c2ba9ecf57a1e72ef9b89f01e60b40e541c288e964c3e5941ab561dd0ee2d036",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/.gpttool/gpttool.py",
       "size": 25358,
       "sha256": "52a995fcacd0331eb3171c0e5cf1a5202a9f98b0a3403471ee8c6116c2a6a72a",
@@ -8739,8 +9817,8 @@
     },
     {
       "path": "kubejs/.gpttool/history.json",
-      "size": 303749,
-      "sha256": "5e0610d674bec505b5a364cf6affbb553cc85f95587bb8266496717102e05cfd",
+      "size": 314748,
+      "sha256": "b0df530e3acbc844d3b49aab2ce8f462c46acd66bebc15b1062e479aa23054ed",
       "category": "managed",
       "required": true
     },
@@ -8788,8 +9866,8 @@
     },
     {
       "path": "kubejs/.idea/workspace.xml",
-      "size": 20323,
-      "sha256": "ca607f47795a9cd170e970b9d5b87001ab26b3349baebe7cc4cf99c546fbb9dd",
+      "size": 20290,
+      "sha256": "aaa50dfe51ee9f433ad3949e684b0fcb7718c06ba18cbeae8fe55db91f90228c",
       "category": "managed",
       "required": true
     },
@@ -8830,8 +9908,8 @@
     },
     {
       "path": "kubejs/assets/kubejs/models/item/team_radio.json",
-      "size": 110,
-      "sha256": "3d851ec1c35c1159ce32cb0480147554aeaa4635a3279db4bf779c2b21749e5e",
+      "size": 10317,
+      "sha256": "8787ea29e228b0f4e76eba276869e843f57ad68de449a49d1ad04418967a27d7",
       "category": "managed",
       "required": true
     },
@@ -8990,6 +10068,13 @@
       "required": true
     },
     {
+      "path": "kubejs/assets/kubejs/textures/item/team_radio.png",
+      "size": 372,
+      "sha256": "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/client_scripts/example.js",
       "size": 66,
       "sha256": "57718461299ca72a321f97801b96df7db0ae43a44bbe4f43801ba0f7e0420f43",
@@ -9005,8 +10090,8 @@
     },
     {
       "path": "kubejs/client_scripts/raid_setup_gui.js",
-      "size": 25155,
-      "sha256": "78e0a2dea6b3e2f14bce46f64416bc7ffcc56b9645d838481f37bb65e183c8f8",
+      "size": 29107,
+      "sha256": "329b6643ada02140d53c5816722b3a3aedf6d6f21cbac40aa692aa9a2740c54c",
       "category": "managed",
       "required": true
     },
@@ -9242,9 +10327,16 @@
       "required": true
     },
     {
+      "path": "kubejs/server_scripts/raid_chat_self_echo.js",
+      "size": 2301,
+      "sha256": "88989d86e5e371d042f9f53baf950120a593103b43e92f85a24d8204a058d9c0",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/server_scripts/raid_chat.js",
-      "size": 13923,
-      "sha256": "bf478f13ffbb3dc5474098ab8bdd9c8270537c79c0a067c151df9fd27f3d36a2",
+      "size": 16998,
+      "sha256": "c4814e3b7356a61fa86ab4be872c9a40477c1b10515a288085c2d4c0a9be90e3",
       "category": "managed",
       "required": true
     },
@@ -9257,8 +10349,8 @@
     },
     {
       "path": "kubejs/server_scripts/raid_config.js",
-      "size": 9436,
-      "sha256": "cf856fa5c7ca8e9f7d8bd041bf52a1a221b5db54dc5559f4fb2b3dd4ccf5b984",
+      "size": 10220,
+      "sha256": "6812ede96ad9b535c5bee0214eef26fcc1fc49844ef26d9eb95c600dd2481467",
       "category": "managed",
       "required": true
     },
@@ -9354,6 +10446,13 @@
       "required": true
     },
     {
+      "path": "kubejs/server_scripts/raid_radio.js",
+      "size": 1546,
+      "sha256": "37b4024c68b6d09da56200f77b5a91b764b6c4498c8bb3b64fd5e1672ec32bb4",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/server_scripts/raid_recipes.js",
       "size": 456,
       "sha256": "c153a509f4cae5c3adb3099e15668466fd2e668cfa4064e92dcbacc1e8efb4af",
@@ -9431,6 +10530,13 @@
       "required": true
     },
     {
+      "path": "kubejs/server_scripts/raid_voice_groups.js",
+      "size": 3047,
+      "sha256": "4a1b5735f0fd91e606dabb00574da89fee7453837bbcd78d0ad19776c13869ba",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "kubejs/startup_scripts/example.js",
       "size": 67,
       "sha256": "075120c14b494e57d191928f3f6325e6192b14da687e323cdace44035b84a054",
@@ -9439,15 +10545,15 @@
     },
     {
       "path": "kubejs/startup_scripts/raid_items.js",
-      "size": 1201,
-      "sha256": "8578d4a10dd65e2bb4d3ef5f9e77c2e8d10ec1a443b2f186bcd5e8e46103afc8",
+      "size": 1198,
+      "sha256": "abfa908aa1b65627702d0780b15028549ec709b8c3f5006992976276cb6ad920",
       "category": "managed",
       "required": true
     },
     {
       "path": "kubejs/startup_scripts/raid_setup_gui_registry.js",
-      "size": 185,
-      "sha256": "c2ba9ecf57a1e72ef9b89f01e60b40e541c288e964c3e5941ab561dd0ee2d036",
+      "size": 212,
+      "sha256": "6083250899559034c554596df7d83cf7a15397ea0c76f9fa33cc20e83a58bcd5",
       "category": "managed",
       "required": true
     },
@@ -9466,9 +10572,30 @@
       "required": true
     },
     {
+      "path": "mods/.index/bodycamoverlay.pw.toml",
+      "size": 541,
+      "sha256": "231114bf33753341e0f2f49685c97fa9eb8fb251c20aa7b5b8a39e7f547ab6b7",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/cameraoverhaul.pw.toml",
+      "size": 648,
+      "sha256": "e72b00237f6bcfa9f26e34ea3c0c4b026f895e31d57b98bbcd82d6ba9373fea1",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/.index/chovys-apocalypse.pw.toml",
       "size": 387,
       "sha256": "cb9f213b7fbde5ccdb9b7e5291a238ca74ec94a2e8cbeb323d0ace38a32b4335",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/chunky.pw.toml",
+      "size": 551,
+      "sha256": "245d4298be92e224b49a0539a429dc1dc51df03bc120e83427b54bf1aeb86ef8",
       "category": "managed",
       "required": true
     },
@@ -9508,9 +10635,23 @@
       "required": true
     },
     {
+      "path": "mods/.index/distanthorizons.pw.toml",
+      "size": 588,
+      "sha256": "298855397ed9c97542c7b719c2b5ed7527e15fd8d1f1df06320160b2a0860c72",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/.index/doomsday-decoration.pw.toml",
       "size": 403,
       "sha256": "439cbf280571d6daa9ac5f548f9080406c0aedfb5766f0c8cd39426a723af0c7",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/embeddium.pw.toml",
+      "size": 554,
+      "sha256": "fb9966ab0500f2692632a924db1e7c4500a740ecec3cd6d4957acc4b5d2bd15b",
       "category": "managed",
       "required": true
     },
@@ -9525,6 +10666,20 @@
       "path": "mods/.index/explosion-overhaul-a-new-level-of-destruction.pw.toml",
       "size": 422,
       "sha256": "21f9e9beb3ed15db6087eabbd0012ff59c8b07e99429a65c86038ffab97e6110",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/fancymenu.pw.toml",
+      "size": 383,
+      "sha256": "c2e3358060fed88ebc656837366c1923ceb058aee7366c58b45616f8d4105cbf",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/ferrite-core.pw.toml",
+      "size": 556,
+      "sha256": "b2c9813c936a2ee8a4ef1d54e761889aa425befec99448df8fd91f5518e3d9ad",
       "category": "managed",
       "required": true
     },
@@ -9571,6 +10726,13 @@
       "required": true
     },
     {
+      "path": "mods/.index/immediatelyfast.pw.toml",
+      "size": 604,
+      "sha256": "0e522885fc22aaa24beb1da34e38b4750a0421043b4c1581f636faae86bca357",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/.index/immersive-engineering.pw.toml",
       "size": 402,
       "sha256": "a4e9fd1e7f636f7e97250f4db3c60c51bd6ae7c785d56d6552a6da8c37910156",
@@ -9595,6 +10757,13 @@
       "path": "mods/.index/keerdm-zombie-apocalypse-essentials.pw.toml",
       "size": 430,
       "sha256": "084a918b0b27194db76cfb3eabf7e66fe79a2f8836dd53c9d0316f4f9ba26e98",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/konkrete.pw.toml",
+      "size": 394,
+      "sha256": "1028311d24b5d7e2a99185ec472cc38f6caf1ef03730c662f7f0439bbfd23cd5",
       "category": "managed",
       "required": true
     },
@@ -9634,6 +10803,13 @@
       "required": true
     },
     {
+      "path": "mods/.index/melody.pw.toml",
+      "size": 414,
+      "sha256": "d71ff346e8e505542d33f3034b385c5fb4fa315d25d68c73119828defe0861b4",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/.index/minecraft-transport-simulator.pw.toml",
       "size": 393,
       "sha256": "511fcb81b9c1332caf7dfe5b58754bcf6f27b90f92677741c51787fbbe6ff64b",
@@ -9644,6 +10820,48 @@
       "path": "mods/.index/mo-than-enough-guns.pw.toml",
       "size": 557,
       "sha256": "0e33900ecc1b334e552300268b160e2148a18a92cfa1ad9fbfa3862e8b97fe65",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/modernfix.pw.toml",
+      "size": 554,
+      "sha256": "d1f93a9057c3b01d09f4a58143aa8c7232d0647030c81a0f9980d2167b46e1d5",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/oculus.pw.toml",
+      "size": 541,
+      "sha256": "2b255e1e2c3e04b414afea0d399a04b3eb32a8cb64b4308c8a9ae8efe21d5ff3",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/parcool.pw.toml",
+      "size": 531,
+      "sha256": "beaed81ef1b218c2a714276c0bb812af565106c5a267f5c754183292c5868e6d",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/plasmo-voice.pw.toml",
+      "size": 559,
+      "sha256": "b45a3c719389d93b5fe63d8f06d08da8c7fb708f43af31f25905270f31b4b8b4",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/pv-addon-groups.pw.toml",
+      "size": 938,
+      "sha256": "d4ca9dbd8fa356979c37f038470455fe3792da6217ee635cd856f71fe0b91f90",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/radiant-gear.pw.toml",
+      "size": 583,
+      "sha256": "dc3e44918e6275c1b493c63e09127b3b0473bff1a62fb093e2f65a4ddd9c8d50",
       "category": "managed",
       "required": true
     },
@@ -9690,6 +10908,13 @@
       "required": true
     },
     {
+      "path": "mods/.index/sound-physics-remastered.pw.toml",
+      "size": 587,
+      "sha256": "a46d2153440d477d0a5c1c7d78ca04530867fbdb0640986998cb4e4903f60d79",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/.index/superb-warfare.pw.toml",
       "size": 406,
       "sha256": "4af025925feb564d238fd905ab45e6ef5b747e639c1a7b05da078d836b90b36c",
@@ -9704,9 +10929,23 @@
       "required": true
     },
     {
+      "path": "mods/.index/tacz-plus-timeless-and-classics-feature-addon.pw.toml",
+      "size": 431,
+      "sha256": "b9c91cb482959438b3e53e6e243529910a3697da8d047be0e236ebc4a5829b0d",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/.index/the-lost-cities.pw.toml",
       "size": 380,
       "sha256": "f47ebba6dc4d07d5129e91a95975586843f3662c571f4968a0a9ed1348d4305e",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/time-stop-clock-mod.pw.toml",
+      "size": 405,
+      "sha256": "8c47cfde9dcbd3a2e482db2d8cbf068ec7292b3a1a107c084f6c2e545094caba",
       "category": "managed",
       "required": true
     },
@@ -9760,9 +10999,30 @@
       "required": true
     },
     {
+      "path": "mods/bodycammod-1.20.1-1.0.0.jar",
+      "size": 42865,
+      "sha256": "2308ea0abaff7b7f056ebe05698c1f98cd833545274d865e9960277202fe0f68",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/CameraOverhaul-v2.1.1-forge+mc[1.20-1.20.5].jar",
+      "size": 139793,
+      "sha256": "af4f381a19c7ce39e019025955c2a9767b8b5c0d8b826d2975e60d9da466e492",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/chovys_apocalypse_mod-1.9.jar",
       "size": 706357,
       "sha256": "c7ed56e6ee521e4d8432943b2409b3c407adf5b57db11a444c5e0ea4427572a1",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/Chunky-1.3.146.jar",
+      "size": 341451,
+      "sha256": "996a3c9b53e6c0e0850fb9e78d3546d2c37a1b789ddaf529b17e4fe62ab23141",
       "category": "managed",
       "required": true
     },
@@ -9802,6 +11062,13 @@
       "required": true
     },
     {
+      "path": "mods/DistantHorizons-3.0.3-b-1.20.1-fabric-forge.jar",
+      "size": 29467253,
+      "sha256": "591c07d649dde7669b1e8d9a53e89a8bc3aa0b9b7e4d768c2209017b02193356",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/doomsday_decoration-1.1.3-forge-1.20.1.jar",
       "size": 9658884,
       "sha256": "2572f9e0ce97cce8ff6f3f207ad164e3da8cb8b45f6658705943af176f39cc63",
@@ -9816,6 +11083,13 @@
       "required": true
     },
     {
+      "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "size": 1320675,
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/EnhancedVisuals_FORGE_v1.8.29_mc1.20.1.jar",
       "size": 4728085,
       "sha256": "355816d5a2fae14fe98089a359af5192477d78ccbbccf175d5dfc1a9552cbb73",
@@ -9826,6 +11100,20 @@
       "path": "mods/Explosion-Overhaul-0.2.3.0-forge-.jar",
       "size": 84444256,
       "sha256": "feac2ed262604f01e74609acdeba83c9b0bbe2b602ba0da40196fb1041f2c64f",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/fancymenu_forge_3.9.3_MC_1.20.1.jar",
+      "size": 25625609,
+      "sha256": "048a0cd7c15d8e4a0fda2022b6404e44718cd2c7f34b8f4fde7e1ca7e698bc9a",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/ferritecore-6.0.1-forge.jar",
+      "size": 123034,
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
       "category": "managed",
       "required": true
     },
@@ -9872,6 +11160,13 @@
       "required": true
     },
     {
+      "path": "mods/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+      "size": 538992,
+      "sha256": "da781a31b2c8d8a845ed48c89b6463f1df3f2c655de10d8d4f5bed8123ff68a8",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/Immersive Vehicles-1.20.1-24.0.0.jar",
       "size": 6254897,
       "sha256": "274c68a6b6cf9bd5fd97af8358ce2d58fed2a49685f20079d744e8b74800277b",
@@ -9903,6 +11198,13 @@
       "path": "mods/Keerdm Zombie Apocalypse Essentials (TACZ) 1.42.jar",
       "size": 258713,
       "sha256": "1b9db7636db3a1bcfb015d19c6d44b663e454f05e12e472d128c60f2b5214d3e",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "size": 625185,
+      "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b",
       "category": "managed",
       "required": true
     },
@@ -9956,6 +11258,20 @@
       "required": true
     },
     {
+      "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "size": 37178,
+      "sha256": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/modernfix-forge-5.27.50+mc1.20.1.jar",
+      "size": 979326,
+      "sha256": "2547ce60f9e8d14050854f44c65461a298f3fe5c36bffa81298852ae793e0196",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/moonlight-1.20-2.16.32-forge.jar",
       "size": 1393038,
       "sha256": "abe6ef01c6d950789f55ee06b3767aa636655d41cd55f7ca2af3a34e8752d155",
@@ -9963,9 +11279,44 @@
       "required": true
     },
     {
+      "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+      "size": 2851119,
+      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/ParCool-1.20.1-3.4.3.3.jar",
+      "size": 1154052,
+      "sha256": "2ddef8752b5a1428035b95f29e62c81e33b80d37851681e1b928d8a01615c6e7",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/plasmovoice-forge-1.20.1-2.1.9.jar",
+      "size": 12235357,
+      "sha256": "947558a733f7a0b86b5fd41ad1eb64cc515a17b821ae9bc0a031e160ccbab4c6",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/pointblank-forge-1.20.1-1.11.1.jar",
       "size": 17452885,
       "sha256": "df6f6f1773c62e8fdfe6f15e4be87c44dbbbb26335b9c6153482ca1b81ac4f61",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/pv-addon-groups-1.1.1.jar",
+      "size": 164468,
+      "sha256": "35f303b4ac2dc73b6f67d3502eaee2b8702d021ed3f865525f747ba502cad770",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/radiantgear-forge-2.2.0+1.20.1.jar",
+      "size": 47170,
+      "sha256": "2a6c7e0825c69bd38dc1bb1ce8a8d6b097cac835e16e46afaa0f207fb819bb96",
       "category": "managed",
       "required": true
     },
@@ -9980,6 +11331,13 @@
       "path": "mods/simple_traps-0.0.2-forge-1.20.1.jar",
       "size": 2277633,
       "sha256": "d06ad519b331fecba678d4ee28b1a10266a0ab7817b5af7582f581303d2b17d6",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "size": 206984,
+      "sha256": "1d7a0d4cdbdee61532dd23ddbc2833292e945d8ec2d20f3271af86b02b0fc108",
       "category": "managed",
       "required": true
     },
@@ -10005,6 +11363,20 @@
       "required": true
     },
     {
+      "path": "mods/taczplus-1.1.1-forge-1.20.1.jar",
+      "size": 929545,
+      "sha256": "81deca421d721ce42c509fafb4473b5e8f4e069bed23708e7e69692b7ae8c4d7",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/timeclock-4.5.0-hotfix-forge-1.20.1.jar",
+      "size": 1061194,
+      "sha256": "6a7102a8a7954059a46e433acf8bc87a150350ef918ca0b67fe70f6f454e7832",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "mods/VEB-1.1.11-1.20.1.jar",
       "size": 66073559,
       "sha256": "efcd65679fde840335fedf3fc04a0535063ab9f56d2dfbaa32621f4d19274511",
@@ -10026,9 +11398,37 @@
       "required": true
     },
     {
+      "path": "resourcepacks/Stay True x §7Better§bOres§93D§0.zip",
+      "size": 544125,
+      "sha256": "22dbea0b2c502ed85dc231c21527e216ffca0261df27c8ff267191114a5cb046",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "rhino.local.properties",
       "size": 141,
       "sha256": "47276d20b0b8cd887e75d24996bc273bde07e7db48657aa52e6897f7e6968daa",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "shaderpacks/Body Camera Shader - V1.6.0.zip.txt",
+      "size": 135,
+      "sha256": "716b7eb75e348b073be5d42719232b664d936448a35f562a3dae582118f136ad",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "shaderpacks/MakeUp-UltraFast-9.5b.zip",
+      "size": 398836,
+      "sha256": "26961a8caaa0b4862eb39c5d55e0fa25a21e57659385415d48bad18d8265d1ef",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "shaderpacks/MakeUp-UltraFast-9.5b.zip.txt",
+      "size": 66,
+      "sha256": "1e6e2372e25056fbfed9b469627e282646548cdf235d6e52e220c37d4291522e",
       "category": "managed",
       "required": true
     },
@@ -33303,7 +34703,7 @@
     {
       "path": "usercache.json",
       "size": 106,
-      "sha256": "ec2d05296e453aa757e9c16b04a5e5c89de48e9286ae393955d80e3a4d05ccf3",
+      "sha256": "d2708abc067d35e8ed65f95840a75b3bfd8d484b767a8608806630c5f180dada",
       "category": "managed",
       "required": true
     },
