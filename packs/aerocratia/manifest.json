@@ -6,18 +6,18 @@
     "title": "Aerocratia"
   },
   "release": {
-    "id": "aerocratia-0.0.9",
-    "version": "0.0.9",
-    "publishedAt": "2026-08-10T22:36:49.218Z"
+    "id": "aerocratia-0.0.10",
+    "version": "0.0.10",
+    "publishedAt": "2026-08-11T18:08:29.162Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "aerocratia-0.0.9.zip",
-      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.9/aerocratia-0.0.9.zip",
-      "sha256": "829a20fe81bfdb3ede5335e2b816afbdc709fc4e4952730f8632ab3f74e0e9f2",
-      "sizeBytes": 791842251
+      "fileName": "aerocratia-0.0.10.zip",
+      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.10/aerocratia-0.0.10.zip",
+      "sha256": "fb3883fcfadb00e2a8c81eb8020c5f1eb7e6b0195494ffa701e88efd24d89a26",
+      "sizeBytes": 790869460
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
@@ -102,70 +102,42 @@
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlock.class",
       "size": 63584,
-      "sha256": "e0a1201c47cb61ad74e1f7d2c2aec2fee8074566c9112196b1e1a486ca4e5f47",
+      "sha256": "52083c5ccc0187594ead64543b7b65da0cd7a089f482b1470dfd21254af2dfc8",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/belt/BeltBlockEntity.class",
       "size": 37995,
-      "sha256": "f7ab5ea830ba8f6b8e2e3b32271fb768bc73fc3f25f64134bcea2f1bd8558c07",
+      "sha256": "350d1f0ed42a361c0795109fc7cece7a75be88d8b3fc4cb88228c3ee9cd8c6fe",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelBlock.class",
       "size": 16080,
-      "sha256": "1e6ce968ecd52fbbb55e0a1ccabfb90f06535e74b6cb02e6e1c9785c6e4b59ea",
+      "sha256": "fdc4c58fbd30b6fe36dfeff1664d4d1290fc8b153f483e0460fb23cde9be571a",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/kinetics/crusher/CrushingWheelControllerBlock.class",
       "size": 18643,
-      "sha256": "8f426bc5a7344cae4ce5378967f75fe5eebd9e3b7d310f97cc341f8af4b9e885",
+      "sha256": "7300f1de04814109cdd05211268806b298aebed2447cb980c89b738e905372d0",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlock.class",
       "size": 25414,
-      "sha256": "8a828795672ce3faa9d0d550352d90fb3dabe8c94694960bb81004e1f4fd08cb",
+      "sha256": "d7287e278c9dd1482a6339caae2bcefa5bd9a3f7663d58577ffb5e1c04cf54ee",
       "category": "managed",
       "required": true
     },
     {
       "path": ".mixin.out/class/com/simibubi/create/content/trains/display/FlapDisplayBlockEntity.class",
       "size": 18672,
-      "sha256": "212cacb8fe6da6b6d594d26d9a64cc793f4808edd672ada2ba83c55f314b8870",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": ".mixin.out/class/net/irisshaders/iris/shaderpack/option/menu/OptionMenuContainer.class",
-      "size": 16317,
-      "sha256": "ab1ecb126c4d84816bca3cde95d14683d98e405fa4c8c5a93d7bd65e34f5c33b",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": ".mixin.out/class/net/irisshaders/iris/shaderpack/option/menu/OptionMenuElement.class",
-      "size": 10119,
-      "sha256": "02fec553cae26e62aaa40f86a16ce1406924048798c4230b62ee9f6f63ecad06",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": ".mixin.out/class/net/irisshaders/iris/shaderpack/properties/ShaderProperties.class",
-      "size": 50824,
-      "sha256": "4eac348b9da84d21b3b440412ef8c42f163acf4228a2309a06f77adc0de4b142",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": ".mixin.out/class/net/minecraft/nbt/CompoundTag.class",
-      "size": 26920,
-      "sha256": "d2f736a659b57f5af9954cf8c720895f3c55d18c50b6c035f3e8ddbd6cabc544",
+      "sha256": "e29266dfa728d321a1470c99d288743931dcb005baab657905c0c0bd65eae0c6",
       "category": "managed",
       "required": true
     },
@@ -747,6 +719,20 @@
       "path": "config/boatiview-client.toml",
       "size": 384,
       "sha256": "0f77a8f879355f4115a894acb56161a164d826ce8af335f0522cdd0f8d0d9a52",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/borderlesswindow-client.toml",
+      "size": 985,
+      "sha256": "89996d5c6dfb1d45219a18ecc58599addfae6c5dcdc04357a8e8f345d7a4ab81",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/borderlesswindow.json",
+      "size": 403,
+      "sha256": "11ba9ba177efa05ff015b4ec982a69f7c8921468904d3110d11e02414ad4259f",
       "category": "managed",
       "required": true
     },
@@ -2103,8 +2089,8 @@
     },
     {
       "path": "config/epicfight-client.toml",
-      "size": 390912,
-      "sha256": "5a3e038a1a95ed59fbf1e850cac6accd25ec08892cafb1aa720e106b13a6efed",
+      "size": 418088,
+      "sha256": "90db1c911e05278ad83b8f72085d5067fb84cf9035f87d79c481de860567fc5b",
       "category": "managed",
       "required": true
     },
@@ -2160,140 +2146,91 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 290,
-      "sha256": "beb267f7ae4aeb77b5f1667b3e184787e70756c927300e0af33e28345d5a93a0",
+      "sha256": "0e53c7ee1b7c769abc6a83f63d680984c053515cd91c9295934be400a9c45875",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/bg.png",
-      "size": 1240201,
-      "sha256": "46f4460e57bdf43ab8e23156c1ed488ab9e95bbd672e890977820b09a2811b98",
+      "path": "config/fancymenu/assets/asset_11.png",
+      "size": 65846,
+      "sha256": "45f1d28c6daf5cb95a5fe77d54c9633b8d2733308f5bd16714ac94bdecf86e9d",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/bgcp.png",
-      "size": 1036249,
-      "sha256": "b0a25db4048d1f55dd5f2dcf3bc08e5534ade0e175b5bb6527c778d3c385bd12",
+      "path": "config/fancymenu/assets/asset19.png",
+      "size": 51879,
+      "sha256": "5fb6776dba7aac609afa498a938ffaa71e97f1955448ab6380d92f97681b7ecd",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/discord.png",
-      "size": 2395,
-      "sha256": "b54d6b16720647fa248a480897a51b0c307d9c9d47a75f36960d4ce4900a55d1",
+      "path": "config/fancymenu/assets/bg3.png",
+      "size": 1930298,
+      "sha256": "1e629f5570b4a8ca7a6feef305e9c3223331f4824210f3de0346e40f42689541",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/icon16x16.png",
-      "size": 840,
-      "sha256": "b584fc4f6446b9da6baef1f441c147ef160741b3b87a32ca6db846b64b69660b",
+      "path": "config/fancymenu/assets/image.png",
+      "size": 4766084,
+      "sha256": "8c59334f012a8db9634553399e1651e707579ca66fb41bd03a2f040917199659",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/icon32x32.icns",
-      "size": 3340,
-      "sha256": "37d1d82d8b8f925445158fea82120793404b0b11cd048bd59015aa6faa5e2578",
+      "path": "config/fancymenu/assets/the_endventure_web.png",
+      "size": 699535,
+      "sha256": "e293cbb3f5cbc26c48b98bbbbec7799fe3b329c670822cf2e4c8e2f7602989a5",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/icon32x32.png",
-      "size": 2240,
-      "sha256": "29e2be7ee924a1ebc741aeacc7e4854aedb5663efa14dad00d3adf2f73cd67ed",
+      "path": "config/fancymenu/assets/the_endventure002.png",
+      "size": 718004,
+      "sha256": "ca39588338edeb6bb0a27b82e18eece80e541b0a9ffe0403b90f6c43168e9352",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/m.png",
-      "size": 6971,
-      "sha256": "50623652aa38ac9f1170dd8395fb9ec159cf1b169d4b7f46fb6f119858c35757",
+      "path": "config/fancymenu/assets/xasset_13.png",
+      "size": 30443,
+      "sha256": "5ebefa60ad770f6cdb7c2f47f37d0abf5028f228f109872bb56726998eae11fd",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/mh.png",
-      "size": 7654,
-      "sha256": "f7ce93d746530810f7ab5333d910a8392317102a7f55627d030aef6464b91461",
+      "path": "config/fancymenu/assets/xasset_14.png",
+      "size": 27029,
+      "sha256": "b9e291945d2a7de977f0960761af25f5bd65ac093ee19f57d36cac9459b17dc0",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/mp.png",
-      "size": 8642,
-      "sha256": "e00790a55c0623bfbf8f9555a3cc9daff82f592b629a3cc92d2d25c01b76a4c1",
+      "path": "config/fancymenu/assets/xasset_15.png",
+      "size": 29818,
+      "sha256": "2dab3081568329045cfecdb1d7a7964a4803bd4636ad3ce65121e8f4846e9e98",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/mph.png",
-      "size": 9405,
-      "sha256": "c2dc565c60cb0a5981681b43f2273d17ff7111bbd86e18ff4c301568b9c8d1ac",
+      "path": "config/fancymenu/assets/xasset_16.png",
+      "size": 26716,
+      "sha256": "b5c5ae25dbda98f98ecdc87bb482727795f5247af8a553d831575c6053a48c35",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/o.png",
-      "size": 5081,
-      "sha256": "9abba91347d5dd11ff9324f372065c4572e0119fc8f9cfe0d4e560f3b98fd641",
+      "path": "config/fancymenu/assets/xasset_17.png",
+      "size": 28890,
+      "sha256": "e112f141f6f4eecabf138b91c95daac62264733cbb9f8e235be8f225dd82c60a",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/assets/oh.png",
-      "size": 5408,
-      "sha256": "bece77e93387c2e5cbcfa0af4399d1d36a29059bedad2f6adad9afc15c4c5765",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "config/fancymenu/assets/patreonlarge.png",
-      "size": 2506,
-      "sha256": "835fd5083fde8529d338bfc3902ca07589fe6322f08b72ed00eba1adddd3a3ee",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "config/fancymenu/assets/q.png",
-      "size": 5578,
-      "sha256": "eb7f9e284983973dd37941ad0b55b99cfbe6e51114a389c4fd306b1fb79722a5",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "config/fancymenu/assets/qh.png",
-      "size": 5774,
-      "sha256": "856993f23b6c1201a6337507dfe199f9b1aae557d04f5ed4108a55a596d9af17",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "config/fancymenu/assets/r.png",
-      "size": 9031,
-      "sha256": "76df72a08e22b2b076e6683f40718ec6f62dfe60372cd4a06c42814f7ccbc2f2",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "config/fancymenu/assets/rh.png",
-      "size": 9764,
-      "sha256": "9c2e7037fb11b03966d2cb4b7dadaca87f64112c320cad453d660458456db123",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "config/fancymenu/assets/s.png",
-      "size": 8541,
-      "sha256": "8ab7d1a220399ddb4fb4d86e63efd53c742a46c7ac79b868e2abd92d689ad9f8",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "config/fancymenu/assets/sh.png",
-      "size": 9242,
-      "sha256": "9329ef630331bd3e1e09df6ac4a460264379e96b61ab04fe1c88827c0a54a9f1",
+      "path": "config/fancymenu/assets/xasset_18.png",
+      "size": 25526,
+      "sha256": "5f11ed62891385fb46cc93b1f15cee57beade1d5ea7c0bbad692f14469cf938f",
       "category": "managed",
       "required": true
     },
@@ -2312,16 +2249,23 @@
       "required": true
     },
     {
-      "path": "config/fancymenu/customization/all_of_create.txt",
-      "size": 58981,
-      "sha256": "b0b0d0f5e3ab0994cb8a2b9e6bb08bb3ec1bfd051e3e5c30e7aa6fd871fe59d2",
+      "path": "config/fancymenu/customization/drippy_loading_overlay_layout.txt",
+      "size": 7269,
+      "sha256": "04e6b64da9e2e39618edc960cc3fe4060e5203c5b9d4130ca35ba0af59616220",
       "category": "managed",
       "required": true
     },
     {
-      "path": "config/fancymenu/customization/drippy_loading_overlay_layout.txt",
-      "size": 3119,
-      "sha256": "d53f1a226e33850cbae288408d34b569cb8faca2e7f3ce26401bedb5824c9a0f",
+      "path": "config/fancymenu/customization/title_screen_layout.txt",
+      "size": 61034,
+      "sha256": "c367e481548194da945c878cedb3a9b1197ce5e7e89c9a31e9a02d356dc8bd32",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "config/fancymenu/dragger_metas.json",
+      "size": 103,
+      "sha256": "e18fc82dd243122f05d95528b0bcf8b66afd13d77e8bb3ded080e97c1381bcc7",
       "category": "managed",
       "required": true
     },
@@ -2341,8 +2285,8 @@
     },
     {
       "path": "config/fancymenu/options.txt",
-      "size": 4528,
-      "sha256": "5c840180c2b1584b4949edee74bd6df671e297fad96f9d61847ab64a9a4e3d1a",
+      "size": 4400,
+      "sha256": "695847ccb3579195eee4d38fe9fa69ab7d574d899ca9b81e01281e8197a9ada1",
       "category": "managed",
       "required": true
     },
@@ -2859,8 +2803,8 @@
     },
     {
       "path": "config/iris.properties",
-      "size": 335,
-      "sha256": "da01527fae75f0f97dd903323625b53f0ffdd00d556fa9a2d8baa908c76503a1",
+      "size": 336,
+      "sha256": "913cac6a3fc43ae063a40ae3f6d1ae320c385f75d43e7f5da6fb0c988a67bde5",
       "category": "managed",
       "required": true
     },
@@ -3350,7 +3294,7 @@
     {
       "path": "config/packetfixer.properties",
       "size": 487,
-      "sha256": "381cdced1d93ca90dd0a758d302ec638537ce1451ebd50e9bbf13c74bf5dead2",
+      "sha256": "ef7075fa47b32a80f18d353c0a9bfb3665e39d3e8574e9757b3cc422c394c93e",
       "category": "managed",
       "required": true
     },
@@ -3888,8 +3832,8 @@
     },
     {
       "path": "config/sodium-options.json",
-      "size": 762,
-      "sha256": "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f",
+      "size": 761,
+      "sha256": "ef3242a314c4311b64b88ce016acea790d42a35f7c81f0a02934841e64efcda1",
       "category": "managed",
       "required": true
     },
@@ -8439,7 +8383,7 @@
     {
       "path": "dynamic-resource-pack-cache/hash.txt",
       "size": 64,
-      "sha256": "5e3406f63ef70ade818b4c5678246c43e5c8a7772be5e10338d1d51d717d2eb7",
+      "sha256": "7a6701da0ffa241e5cfa525ca57cba22ab332e1831b85577f1f7f256f0a92af2",
       "category": "managed",
       "required": true
     },
@@ -8983,7 +8927,21 @@
       "required": true
     },
     {
+      "path": "fancymenu_data/action_favorites.json",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "managed",
+      "required": true
+    },
+    {
       "path": "fancymenu_data/buddy/buddy_leveling_ODllY2RkMjQtYzNjMi00MzY2LWJlNzQtZWU3YmY3MTIxYWQ3LTE3NzgzMjc4OTAzNTk.json",
+      "size": 1619,
+      "sha256": "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "fancymenu_data/buddy/buddy_leveling_ZmJmZmVmNGUtNTNiMC00NWJmLTljYWYtY2FkMzcwODA0ZjRlLTE3ODY0Njc4MDU5NDE.json",
       "size": 1619,
       "sha256": "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50",
       "category": "managed",
@@ -8993,6 +8951,13 @@
       "path": "fancymenu_data/buddy/buddy_save_ODllY2RkMjQtYzNjMi00MzY2LWJlNzQtZWU3YmY3MTIxYWQ3LTE3NzgzMjc4OTAzNTk.json",
       "size": 380,
       "sha256": "26cf4b0e16e9ef6c9ec71afc5bb258b769d7d9bda9f15b5d1df114909e632a51",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "fancymenu_data/buddy/buddy_save_ZmJmZmVmNGUtNTNiMC00NWJmLTljYWYtY2FkMzcwODA0ZjRlLTE3ODY0Njc4MDU5NDE.json",
+      "size": 380,
+      "sha256": "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202",
       "category": "managed",
       "required": true
     },
@@ -9007,13 +8972,6 @@
       "path": "icon.png",
       "size": 3018,
       "sha256": "3cde42509167686109c935d054b60bcf9fdfbf30def7af3d7274fcb56790131e",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "minecraft.zip",
-      "size": 5122692,
-      "sha256": "1397e7a5203e2e33932c326eb726d65bd383741568173e03853cdf4c5c37930b",
       "category": "managed",
       "required": true
     },
@@ -9231,6 +9189,13 @@
       "path": "mods/.index/chunk-activity-tracker.pw.toml",
       "size": 561,
       "sha256": "2ab958e7484dbd03fb9f416634a3aa68e67e3b244f0f23add8c19b31b7fe7aef",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/.index/chunky.pw.toml",
+      "size": 616,
+      "sha256": "ef2323b87d1ba4d03d0ee1ab800d06ba6490f45a1b84ecd341f9e3b5bc5e16bf",
       "category": "managed",
       "required": true
     },
@@ -10929,13 +10894,6 @@
       "required": true
     },
     {
-      "path": "mods/accessories-neoforge-1.1.0-beta.53+1.21.1.jar",
-      "size": 1078697,
-      "sha256": "10017a3da78ea63e9ece27a1ca32f8cf490362f348778cf8cb759e7282f3beb0",
-      "category": "managed",
-      "required": true
-    },
-    {
       "path": "mods/aeroclaims-0.9.3.jar",
       "size": 207202,
       "sha256": "0c42edd6b4c80dc4bfb06636373e087a2e0a392f9d1f1bdec68b4ccc9904efe1",
@@ -11062,13 +11020,6 @@
       "required": true
     },
     {
-      "path": "mods/BHMenu-NeoForge-1.21-2.4.4.jar",
-      "size": 163914,
-      "sha256": "96be3f854d120b5c7d1046509b1a904092a687416848e7e5b713e59e1368efa1",
-      "category": "managed",
-      "required": true
-    },
-    {
       "path": "mods/bits_n_bobs-0.0.44.jar",
       "size": 1613264,
       "sha256": "6d8268d82cc6e38dd13f5247b28f37b7a35d66cb476c6e0632f4e9ba5570f5d8",
@@ -11086,13 +11037,6 @@
       "path": "mods/bits-and-bobs-1.21.1-1.0.6.jar",
       "size": 5335624,
       "sha256": "72aed74fbcf4b3a19e151e900f40af67f9a3ac8bd656cf370d95073459ceb4fc",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "mods/bl_accessories_layer-1.2.2-neoforge+1.21.1.jar",
-      "size": 55944,
-      "sha256": "6794ceb24322bce6288b65f19bdac765e8954eb4527fdf52d9154fb18449a11e",
       "category": "managed",
       "required": true
     },
@@ -11128,6 +11072,13 @@
       "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
       "size": 328813,
       "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/borderlesswindow-1.5.1.jar",
+      "size": 71362,
+      "sha256": "09f4a3325d56ce63a6d94b0795b0fb3111f1aed8d0f0adb02311f36edf21cf4b",
       "category": "managed",
       "required": true
     },
@@ -11170,6 +11121,13 @@
       "path": "mods/chunkactivitytracker-neoforge-1.0.1-1.21.1.jar",
       "size": 385815,
       "sha256": "4b0dc7252b626c80be0fb9e3e72ea3b461f33cdc66d6c08bad320a4ed4b864e3",
+      "category": "managed",
+      "required": true
+    },
+    {
+      "path": "mods/Chunky-NeoForge-1.4.23.jar",
+      "size": 340572,
+      "sha256": "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274",
       "category": "managed",
       "required": true
     },
@@ -12287,13 +12245,6 @@
       "required": true
     },
     {
-      "path": "mods/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
-      "size": 1221583,
-      "sha256": "de6ed336bd80154b7241a7b3276694befc1c94550add8bcdfe7f82e5172fd13d",
-      "category": "managed",
-      "required": true
-    },
-    {
       "path": "mods/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
       "size": 46623,
       "sha256": "2979a8a3f44e5d5df4f9f6315d18c220f3debf736bb8a2c2740acdfb13bd820f",
@@ -12820,8 +12771,8 @@
     },
     {
       "path": "options.txt",
-      "size": 18154,
-      "sha256": "20cc31fee12138012a0b7f1909e0169cd6c6364fc0581ac8f386c93e2f4a0236",
+      "size": 18094,
+      "sha256": "1e63915beaa2a5d2bdca82612fb8ee8b07f08f8f23f298b50c5284af4a000647",
       "category": "bootstrap",
       "required": true
     },
