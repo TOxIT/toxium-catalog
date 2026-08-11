@@ -24,6 +24,11 @@
   "minecraft": {
     "version": "1.21.1"
   },
+  "server": {
+    "address": "109.172.86.233",
+    "port": 25565,
+    "name": "Aerocratia"
+  },
   "loader": {
     "type": "neoforge",
     "version": "21.1.247"
