@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T12:24:53.067Z",
+  "updatedAt": "2026-09-26T14:50:47.026Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -45,7 +45,7 @@
       "minecraftVersion": "1.21.11",
       "loaderType": "fabric",
       "loaderVersion": "0.19.1",
-      "latestReleaseId": "vanilla-vibe-0.0.7",
+      "latestReleaseId": "vanilla-vibe-0.0.7-hf1",
       "releaseVersion": "0.0.7",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
@@ -68,7 +68,8 @@
         }
       },
       "draft": false,
-      "featured": true
+      "featured": true,
+      "hotfixRevision": 1
     },
     {
       "id": "aerocratia",
@@ -183,7 +184,7 @@
       "minecraftVersion": "1.20.1",
       "loaderType": "forge",
       "loaderVersion": "47.4.10",
-      "latestReleaseId": "Military-0.0.8",
+      "latestReleaseId": "Military-0.0.8-hf1",
       "releaseVersion": "0.0.8",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
@@ -206,7 +207,8 @@
         }
       },
       "draft": false,
-      "featured": false
+      "featured": false,
+      "hotfixRevision": 1
     }
   ]
 }
