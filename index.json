@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T19:24:28.230Z",
+  "updatedAt": "2026-10-17T09:21:01.374Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -113,8 +113,8 @@
       ],
       "minecraftVersion": "1.21.1",
       "loaderType": "neoforge",
-      "loaderVersion": "21.1.250",
-      "latestReleaseId": "aerocratia-0.0.12",
+      "loaderVersion": "21.1.247",
+      "latestReleaseId": "aerocratia-0.0.12-hf2",
       "releaseVersion": "0.0.12",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
@@ -144,7 +144,8 @@
         }
       },
       "draft": false,
-      "featured": false
+      "featured": false,
+      "hotfixRevision": 2
     },
     {
       "id": "Military",
