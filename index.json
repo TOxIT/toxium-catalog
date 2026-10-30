@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T18:24:55.395Z",
+  "updatedAt": "2026-10-30T18:40:21.691Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -254,12 +254,12 @@
       "minecraftVersion": "1.20.1",
       "loaderType": "forge",
       "loaderVersion": "47.4.22",
-      "latestReleaseId": "ready-or-not-0.0.1",
-      "releaseVersion": "0.0.1",
+      "latestReleaseId": "ready-or-not-0.0.2",
+      "releaseVersion": "0.0.2",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
-      "artifactSizeBytes": 1412371315,
-      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/ready-or-not-v0.0.1/ready-or-not-0.0.1.zip",
+      "artifactSizeBytes": 729477055,
+      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/ready-or-not-v0.0.2/ready-or-not-0.0.2.zip",
       "manifestUrl": "./packs/ready-or-not/manifest.json",
       "iconUrl": null,
       "heroImageUrl": null,
