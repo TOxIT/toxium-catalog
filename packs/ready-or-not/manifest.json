@@ -6,18 +6,18 @@
     "title": "Ready or not"
   },
   "release": {
-    "id": "ready-or-not-0.0.1",
-    "version": "0.0.1",
-    "publishedAt": "2026-10-30T18:24:55.395Z"
+    "id": "ready-or-not-0.0.2",
+    "version": "0.0.2",
+    "publishedAt": "2026-10-30T18:40:21.691Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "ready-or-not-0.0.1.zip",
-      "url": "https://github.com/TOxIT/toxium-packs/releases/download/ready-or-not-v0.0.1/ready-or-not-0.0.1.zip",
-      "sha256": "43df65157d73b88d548848f148d5790f1004b64a3c8163079c3e5a1d8b728434",
-      "sizeBytes": 1412371315
+      "fileName": "ready-or-not-0.0.2.zip",
+      "url": "https://github.com/TOxIT/toxium-packs/releases/download/ready-or-not-v0.0.2/ready-or-not-0.0.2.zip",
+      "sha256": "6f80e075f561a932b9fda5e888f6cf01fc472b81c51189999c0ee6095b096413",
+      "sizeBytes": 729477055
     },
     "requiresLauncherVersion": ">=0.1.0"
   },
@@ -9351,20 +9351,6 @@
       "path": "lightspeed-cache/1.20.1/resourceLists/yuushya2.3.0-yuushya-1.20.1-forge-2.3.0.ser",
       "size": 1366920,
       "sha256": "0b38f61e0ff98d1adc7cb86ab224c6c0852aebdaece786c539d97894816564e6",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "minecraft.part1.rar",
-      "size": 519045120,
-      "sha256": "1942b72eee0ef45a18295e813b5e103abe5cfe60264c4037348ef3668d8e3ccf",
-      "category": "managed",
-      "required": true
-    },
-    {
-      "path": "minecraft.part2.rar",
-      "size": 164105897,
-      "sha256": "ded4852a22275e2c19bdc0bf89a69e20ac3ecd1dcfa38aea80e460d12860eece",
       "category": "managed",
       "required": true
     },
