@@ -26,7 +26,7 @@
   },
   "loader": {
     "type": "neoforge",
-    "version": "21.1.247"
+    "version": "21.1.250"
   },
   "java": {
     "majorVersion": 21,
