@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T18:40:21.691Z",
+  "updatedAt": "2026-11-06T18:46:17.557Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -114,12 +114,12 @@
       "minecraftVersion": "1.21.1",
       "loaderType": "neoforge",
       "loaderVersion": "21.1.247",
-      "latestReleaseId": "aerocratia-0.0.12-hf2",
-      "releaseVersion": "0.0.12",
+      "latestReleaseId": "aerocratia-0.0.13",
+      "releaseVersion": "0.0.13",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
-      "artifactSizeBytes": 589502034,
-      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.12/aerocratia-0.0.12.zip",
+      "artifactSizeBytes": 871138605,
+      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.13/aerocratia-0.0.13.zip",
       "manifestUrl": "./packs/aerocratia/manifest.json",
       "iconUrl": null,
       "heroImageUrl": "./packs/aerocratia/hero.png",
@@ -144,8 +144,7 @@
         }
       },
       "draft": false,
-      "featured": false,
-      "hotfixRevision": 2
+      "featured": false
     },
     {
       "id": "Military",
