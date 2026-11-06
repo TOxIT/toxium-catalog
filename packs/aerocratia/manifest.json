@@ -6,16 +6,16 @@
     "title": "Aerocratia"
   },
   "release": {
-    "id": "aerocratia-0.0.14",
-    "version": "0.0.14",
-    "publishedAt": "2026-11-06T21:10:34.770Z"
+    "id": "aerocratia-0.0.15",
+    "version": "0.0.15",
+    "publishedAt": "2026-11-06T21:55:19.140Z"
   },
   "distribution": {
     "channel": "stable",
     "format": "zip",
     "artifact": {
-      "fileName": "aerocratia-0.0.14.zip",
-      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.14/aerocratia-0.0.14.zip",
+      "fileName": "aerocratia-0.0.15.zip",
+      "url": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.15/aerocratia-0.0.15.zip",
       "sha256": "108ddaa6dff8e6e406253d175dca3f72a08d0c9ab129915bd9487df8cb703047",
       "sizeBytes": 871162319
     },
