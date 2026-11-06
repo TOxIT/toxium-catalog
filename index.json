@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T18:46:17.557Z",
+  "updatedAt": "2026-11-06T21:10:34.770Z",
   "packs": [
     {
       "id": "vanilla-vibe",
@@ -113,13 +113,13 @@
       ],
       "minecraftVersion": "1.21.1",
       "loaderType": "neoforge",
-      "loaderVersion": "21.1.250",
-      "latestReleaseId": "aerocratia-0.0.13",
-      "releaseVersion": "0.0.13",
+      "loaderVersion": "21.1.247",
+      "latestReleaseId": "aerocratia-0.0.14",
+      "releaseVersion": "0.0.14",
       "releaseChannel": "stable",
       "artifactFormat": "zip",
-      "artifactSizeBytes": 871138605,
-      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.13/aerocratia-0.0.13.zip",
+      "artifactSizeBytes": 871162319,
+      "artifactUrl": "https://github.com/TOxIT/toxium-packs/releases/download/aerocratia-v0.0.14/aerocratia-0.0.14.zip",
       "manifestUrl": "./packs/aerocratia/manifest.json",
       "iconUrl": null,
       "heroImageUrl": "./packs/aerocratia/hero.png",
